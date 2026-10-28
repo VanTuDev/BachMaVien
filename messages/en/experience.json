@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "badge": "3D Experience",
+    "note": "3D renders and video based on the design",
+    "eyebrow": "Tour It Before You Go",
+    "srTitle": "Bách Mã Viên 3D experience:",
+    "titleA": "Walk Through Bách Mã Viên",
+    "titleB": "Before You Arrive",
+    "lead": "Stroll the red-brick cowboy street, step into the saloon, then wander through the stables and riding ring, all from your screen. Drag to look around, zoom into every detail, or watch the two-minute nineteen-second walkthrough.",
+    "ctaPrimary": "Explore the 3D Scenes",
+    "ctaSecondary": "Watch the Demo Video",
+    "metrics": {
+      "stops": { "value": "{count}", "label": "Stops" },
+      "views": { "value": "{count}", "label": "3D views" },
+      "video": { "value": "2:19", "label": "Minutes of demo video" }
+    }
+  },
+  "explorer": {
+    "eyebrow": "3D Scenes",
+    "title": "Walk the Cowboy Street With Your Own Eyes",
+    "description": "Pick a stop on the route, drag to move around the scene, and zoom in until you can see the grain of the timber. Every stop opens full screen.",
+    "stageLabel": "3D scene viewer",
+    "sceneStatus": "Scene {current} of {total}: {title}",
+    "stopStatus": "Stop {current} of {total}",
+    "prev": "Previous scene",
+    "next": "Next scene",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Reset view",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "autoplay": "Auto tour",
+    "pause": "Pause tour",
+    "hint": "Double-click to zoom, drag to move around",
+    "hintTouch": "Double-tap to zoom, swipe to change scene",
+    "viewsLabel": "Angle",
+    "routeLabel": "Tour route",
+    "zones": {
+      "arrival": "Arrival",
+      "town": "Cowboy Town",
+      "stable": "Stables & Arenas"
+    },
+    "links": {
+      "package": "See the related package",
+      "menu": "See the café menu"
+    },
+    "disclaimer": "Images are 3D renders based on the design; final details may differ slightly once completed."
+  },
+  "stops": {
+    "aerial": {
+      "title": "Bird's-Eye View",
+      "subtitle": "The whole ranch at a glance",
+      "text": "A red-brick street runs straight from the timber gate to the heart of the ranch, lined with plank-walled buildings, a windmill and the steel-arched riding arena, all stretching toward the distant mountains."
+    },
+    "entrance": {
+      "title": "Main Entrance",
+      "subtitle": "Step into the Wild West",
+      "text": "A rough-hewn timber gate carrying the Bách Mã Viên sign, a white picket fence, cacti and a windmill welcome you before the red-brick street into Cowboy Town."
+    },
+    "welcome": {
+      "title": "Welcome Station",
+      "subtitle": "Guest reception",
+      "text": "A plank-walled house with a deep porch, warm string lights and a service counter. Your first stop to check in and get oriented before the journey begins."
+    },
+    "archery": {
+      "title": "Bounty Hunter Archery",
+      "subtitle": "Bounty-hunter archery",
+      "text": "A two-storey building in classic saloon style, with a covered outdoor shooting lane and an indoor range divided into lanes A to F."
+    },
+    "photoZone": {
+      "title": "Cowboy Town Photo Zone",
+      "subtitle": "Cowboy Town photo spot",
+      "text": "A classic timber facade with a wagon, barrels, a coiled lasso and a cowhide rug: a Western film set where you strike your own pose."
+    },
+    "souvenirs": {
+      "title": "Souvenirs & Shopping",
+      "subtitle": "Gifts and keepsakes",
+      "text": "A timber-porch shop with large glass windows, right beside the café. A place to pick out something to take home after your visit."
+    },
+    "costume": {
+      "title": "Costume Rental",
+      "subtitle": "Cowboy outfit rental",
+      "text": "A warm fitting room with racks of leather jackets and fringed skirts, a display table of cowboy hats and a row of leather boots below. Choose an outfit before heading to the arena."
+    },
+    "cafe": {
+      "title": "Bách Mã Saloon Café",
+      "subtitle": "Saloon-style café",
+      "text": "A two-storey café with a timber balcony and large windows facing the yard. Inside, a dark wooden bar, round tables and a mezzanine make a place to rest with a coconut coffee after riding."
+    },
+    "horseClass": {
+      "title": "Horse Basics Class",
+      "subtitle": "Beginner riding lesson",
+      "text": "A covered learning arena with low timber rails and a safe sand floor, where a trainer works one-to-one on approaching, grooming and leading a horse."
+    },
+    "lasso": {
+      "title": "Lasso & Horseshoe Corner",
+      "subtitle": "Horseshoes and lasso corner",
+      "text": "The lane between the stable block and the covered arena, with horseshoe emblems on the timber wall and a cross-braced fence in the distance."
+    },
+    "stables": {
+      "title": "Stables",
+      "subtitle": "Horse stables",
+      "text": "An indoor stable row with skylights, white timber railings and a wide aisle; every horse has its own stall, with tack hung within easy reach."
+    },
+    "ridingRing": {
+      "title": "Riding Ring",
+      "subtitle": "The riding arena",
+      "text": "A broad sand arena with a timber fence and a steel-arched roof behind it, looking out to the distant mountains. Where riders train in the Cổ Cò sun."
+    }
+  },
+  "views": {
+    "scene-aerial-wide": "Wide",
+    "scene-aerial-close": "Closer",
+    "scene-entrance": "The gate",
+    "scene-welcome": "The station",
+    "scene-archery-facade": "Facade",
+    "scene-archery-lane": "Outdoor lane",
+    "scene-archery-indoor": "Indoor range",
+    "scene-photo-zone": "Photo spot",
+    "scene-souvenirs": "The shop",
+    "scene-costume": "Fitting room",
+    "scene-cafe-front": "Facade",
+    "scene-cafe-inside": "Inside",
+    "scene-horse-class": "Lesson arena",
+    "scene-lasso": "Horseshoe corner",
+    "scene-stables": "Stable row",
+    "scene-riding-ring": "The ring"
+  },
+  "video": {
+    "eyebrow": "Demo Video",
+    "title": "Two Minutes Nineteen Seconds Around Bách Mã Viên",
+    "description": "A pre-rendered walkthrough from the main entrance to the riding ring, stopping at each point along Cowboy Town. Tap a chapter to jump straight to the part you want to see.",
+    "playerLabel": "Bách Mã Viên demo video",
+    "play": "Play demo video",
+    "chaptersLabel": "Chapters",
+    "unsupported": "Your browser cannot play this video.",
+    "chapters": {
+      "entrance": "Main Entrance",
+      "welcome": "Welcome Station",
+      "archery": "Bounty Hunter Archery",
+      "photoZone": "Cowboy Town Photo Zone",
+      "souvenirs": "Souvenirs & Shopping",
+      "costume": "Costume Rental",
+      "cafe": "Bách Mã Saloon Café",
+      "horseClass": "Horse Basics Class",
+      "lasso": "Lasso & Horseshoe Corner",
+      "stables": "Stables",
+      "ridingRing": "Riding Ring"
+    },
+    "videoName": "Bách Mã Viên - 3D experience demo video",
+    "videoDescription": "A 3D walkthrough of the main entrance, Cowboy Town, the café, the riding lesson arena, the stables and the riding ring at Bách Mã Viên."
+  },
+  "cta": {
+    "eyebrow": "Ready to Step In?",
+    "title": "From the Screen to the Real Sand",
+    "text": "Choose an experience package and reserve today. Our concierge will confirm quickly.",
+    "action": "Book Your Experience"
+  }
+}

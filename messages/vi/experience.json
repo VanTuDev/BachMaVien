@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "badge": "Trải Nghiệm 3D",
+    "note": "Cảnh dựng 3D và video theo thiết kế",
+    "eyebrow": "Tham Quan Trước Khi Khởi Hành",
+    "srTitle": "Trải nghiệm 3D Bách Mã Viên:",
+    "titleA": "Dạo Bước Bách Mã Viên",
+    "titleB": "Trước Khi Đặt Chân Đến",
+    "lead": "Đi dọc phố cao bồi lát gạch đỏ, ghé quán saloon, bước vào chuồng ngựa và sân tập ngay trên màn hình. Kéo để nhìn quanh, phóng to từng chi tiết, hoặc xem video hành trình hai phút mười chín giây.",
+    "ctaPrimary": "Khám Phá Cảnh 3D",
+    "ctaSecondary": "Xem Video Demo",
+    "metrics": {
+      "stops": { "value": "{count}", "label": "Điểm dừng" },
+      "views": { "value": "{count}", "label": "Góc nhìn 3D" },
+      "video": { "value": "2:19", "label": "Phút video demo" }
+    }
+  },
+  "explorer": {
+    "eyebrow": "Khung Cảnh 3D",
+    "title": "Đi Dọc Phố Cao Bồi Bằng Chính Đôi Mắt Bạn",
+    "description": "Chọn một điểm dừng trên lộ trình, kéo để di chuyển trong ảnh, phóng to để thấy từng đường vân gỗ. Mỗi điểm đều có thể mở toàn màn hình.",
+    "stageLabel": "Trình xem cảnh 3D",
+    "sceneStatus": "Cảnh {current} / {total}: {title}",
+    "stopStatus": "Điểm dừng {current} / {total}",
+    "prev": "Cảnh trước",
+    "next": "Cảnh tiếp theo",
+    "zoomIn": "Phóng to",
+    "zoomOut": "Thu nhỏ",
+    "resetZoom": "Đặt lại khung nhìn",
+    "fullscreen": "Toàn màn hình",
+    "exitFullscreen": "Thoát toàn màn hình",
+    "autoplay": "Tự động tham quan",
+    "pause": "Tạm dừng tham quan",
+    "hint": "Nhấp đúp để phóng to, kéo để di chuyển",
+    "hintTouch": "Chạm hai lần để phóng to, vuốt để đổi cảnh",
+    "viewsLabel": "Góc nhìn",
+    "routeLabel": "Lộ trình tham quan",
+    "zones": {
+      "arrival": "Lối Vào",
+      "town": "Phố Cao Bồi",
+      "stable": "Chuồng & Sân Ngựa"
+    },
+    "links": {
+      "package": "Xem gói trải nghiệm liên quan",
+      "menu": "Xem thực đơn café"
+    },
+    "disclaimer": "Hình ảnh là bản dựng 3D theo thiết kế, chi tiết thực tế có thể khác đôi chút khi hoàn thiện."
+  },
+  "stops": {
+    "aerial": {
+      "title": "Toàn Cảnh Bách Mã Viên",
+      "subtitle": "Nhìn từ trên cao",
+      "text": "Con đường gạch đỏ chạy thẳng từ cổng gỗ vào trung tâm, hai bên là dãy nhà ván gỗ, cối xay gió và mái vòm thép của sân cưỡi ngựa, tất cả trải dài về phía dãy núi xa."
+    },
+    "entrance": {
+      "title": "Main Entrance",
+      "subtitle": "Cổng chính, bước vào miền viễn Tây",
+      "text": "Cổng gỗ thô treo tấm biển Bách Mã Viên, hàng rào cọc trắng, xương rồng và cối xay gió chào đón bạn trước con đường gạch đỏ dẫn vào phố cao bồi."
+    },
+    "welcome": {
+      "title": "Welcome Station",
+      "subtitle": "Trạm đón khách",
+      "text": "Ngôi nhà ván gỗ với mái hiên, dây đèn vàng và quầy đón khách. Đây là điểm dừng đầu tiên để làm thủ tục và nhận hướng dẫn trước khi bắt đầu hành trình."
+    },
+    "archery": {
+      "title": "Bounty Hunter Archery",
+      "subtitle": "Bắn cung thợ săn tiền thưởng",
+      "text": "Tòa nhà hai tầng mang dáng quán rượu cổ điển, kèm đường bắn ngoài trời có mái che và trường bắn trong nhà chia làn từ A đến F."
+    },
+    "photoZone": {
+      "title": "Cowboy Town Photo Zone",
+      "subtitle": "Góc chụp ảnh phố cao bồi",
+      "text": "Mặt tiền gỗ cổ điển cùng xe ngựa, thùng phuy, dây thòng lọng và tấm thảm họa tiết da bò: bối cảnh phim viễn Tây để bạn tự tạo dáng."
+    },
+    "souvenirs": {
+      "title": "Souvenirs & Shopping",
+      "subtitle": "Quà lưu niệm",
+      "text": "Cửa hàng mái hiên gỗ với cửa kính lớn, nằm sát quán café. Một điểm dừng để chọn quà mang về sau chuyến đi."
+    },
+    "costume": {
+      "title": "Costume Rental",
+      "subtitle": "Thuê trang phục cao bồi",
+      "text": "Gian trang phục ấm áp với giá treo áo da và váy tua rua, bàn trưng bày mũ cao bồi, hàng ủng da phía dưới. Chọn một bộ để hóa thân trước khi ra sân."
+    },
+    "cafe": {
+      "title": "Bách Mã Saloon Café",
+      "subtitle": "Quán café phong cách saloon",
+      "text": "Quán hai tầng với ban công gỗ và cửa kính lớn nhìn ra sân. Bên trong là quầy bar gỗ sẫm, bàn ghế tròn và gác lửng, chỗ nghỉ chân cho một ly cà phê dừa sau buổi cưỡi ngựa."
+    },
+    "horseClass": {
+      "title": "Horse Basics Class",
+      "subtitle": "Lớp nhập môn cưỡi ngựa",
+      "text": "Sân học có mái che, hàng rào gỗ thấp và nền cát an toàn, nơi huấn luyện viên kèm 1:1 hướng dẫn tiếp cận, chải bờm và dẫn ngựa."
+    },
+    "lasso": {
+      "title": "Lasso & Horseshoe Corner",
+      "subtitle": "Góc dây thòng lọng và móng ngựa",
+      "text": "Lối đi giữa dãy chuồng và sân có mái che, với biểu tượng móng ngựa trên tường gỗ và hàng rào chữ X ở phía xa."
+    },
+    "stables": {
+      "title": "Stables",
+      "subtitle": "Chuồng ngựa",
+      "text": "Dãy chuồng trong nhà với giếng trời, lan can gỗ trắng và lối đi rộng; mỗi chú ngựa có một khoang riêng, yên cương treo ngay tầm tay."
+    },
+    "ridingRing": {
+      "title": "Riding Ring",
+      "subtitle": "Sân cưỡi ngựa",
+      "text": "Sân cát rộng có hàng rào gỗ và mái vòm thép phía sau, nhìn ra dãy núi xa. Nơi các kỵ sĩ luyện tập dưới nắng Cổ Cò."
+    }
+  },
+  "views": {
+    "scene-aerial-wide": "Góc rộng",
+    "scene-aerial-close": "Góc gần",
+    "scene-entrance": "Cổng chính",
+    "scene-welcome": "Trạm đón khách",
+    "scene-archery-facade": "Mặt tiền",
+    "scene-archery-lane": "Đường bắn ngoài trời",
+    "scene-archery-indoor": "Trường bắn trong nhà",
+    "scene-photo-zone": "Góc chụp ảnh",
+    "scene-souvenirs": "Cửa hàng",
+    "scene-costume": "Gian trang phục",
+    "scene-cafe-front": "Mặt tiền",
+    "scene-cafe-inside": "Bên trong",
+    "scene-horse-class": "Sân học",
+    "scene-lasso": "Góc móng ngựa",
+    "scene-stables": "Dãy chuồng",
+    "scene-riding-ring": "Sân cưỡi"
+  },
+  "video": {
+    "eyebrow": "Video Demo",
+    "title": "Hai Phút Mười Chín Giây Dạo Quanh Bách Mã Viên",
+    "description": "Chuyến đi dựng sẵn từ cổng chính đến sân cưỡi ngựa, qua từng điểm dừng của phố cao bồi. Bấm vào một chương để nhảy thẳng tới đoạn bạn muốn xem.",
+    "playerLabel": "Video demo Bách Mã Viên",
+    "play": "Phát video demo",
+    "chaptersLabel": "Các chương",
+    "unsupported": "Trình duyệt của bạn không phát được video này.",
+    "chapters": {
+      "entrance": "Main Entrance",
+      "welcome": "Welcome Station",
+      "archery": "Bounty Hunter Archery",
+      "photoZone": "Cowboy Town Photo Zone",
+      "souvenirs": "Souvenirs & Shopping",
+      "costume": "Costume Rental",
+      "cafe": "Bách Mã Saloon Café",
+      "horseClass": "Horse Basics Class",
+      "lasso": "Lasso & Horseshoe Corner",
+      "stables": "Stables",
+      "ridingRing": "Riding Ring"
+    },
+    "videoName": "Bách Mã Viên - video demo trải nghiệm 3D",
+    "videoDescription": "Chuyến đi 3D qua cổng chính, phố cao bồi, quán café, lớp học cưỡi ngựa, chuồng ngựa và sân cưỡi tại Bách Mã Viên."
+  },
+  "cta": {
+    "eyebrow": "Sẵn Sàng Bước Vào?",
+    "title": "Từ Màn Hình Đến Sân Cát Thật",
+    "text": "Chọn gói trải nghiệm và giữ chỗ ngay hôm nay. Concierge sẽ xác nhận lại nhanh chóng.",
+    "action": "Đặt Lịch Trải Nghiệm"
+  }
+}

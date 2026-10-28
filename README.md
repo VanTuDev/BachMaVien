@@ -7,6 +7,7 @@ npm install
 npm run dev        # http://localhost:5062  (tự chuyển về /vi)
 npm run build && npm start   # production, cũng port 5062
 npm run images     # tạo lại public/images từ ../DataImage (chỉ resize, không crop)
+npm run video      # nén video demo 3D (4K HEVC) thành MP4 1080p trong public/video, cần ffmpeg
 ```
 
 Sao chép `.env.example` thành `.env.local` và điền:
@@ -19,10 +20,10 @@ Sao chép `.env.example` thành `.env.local` và điền:
 ## Cấu trúc
 
 ```
-messages/<locale>/*.json   Nội dung dịch, mỗi trang một file (common, home, about, services, menu, safety, booking, seo, images)
+messages/<locale>/*.json   Nội dung dịch, mỗi trang một file (common, home, about, services, experience, menu, safety, booking, seo, images)
 src/i18n/                  routing (danh sách ngôn ngữ), navigation (Link locale-aware), request (nạp messages)
 src/proxy.ts               Chuyển "/" và đường dẫn không prefix sang ngôn ngữ phù hợp
-src/app/[locale]/          Các trang: /, about, services, menu, safety, booking
+src/app/[locale]/          Các trang: /, about, services, experience, menu, safety, booking
 src/app/api/booking/       API nhận form đặt lịch (validate, honeypot, chuyển tiếp webhook)
 src/components/ui/         Thành phần dùng chung (Button, Photo, Section, PageHero...)
 src/components/sections/   Các khối của từng trang
@@ -37,6 +38,8 @@ scripts/                   optimize-images.mjs và images.manifest.json (kích t
 - **Đổi món / giá thực đơn**: `src/data/menu.ts` (cập nhật cả ảnh poster `menu.jpg` rồi chạy `npm run images`).
 - **Thêm ảnh**: thêm dòng vào `scripts/optimize-images.mjs`, chạy `npm run images`, thêm mô tả (alt) vào `messages/*/images.json`, dùng `<Photo name="..." sizes="..." />`.
 - **Thêm tiếng Trung / Hàn**: thêm `zh` / `ko` vào `src/i18n/routing.ts` (và `localeMeta`), sao chép `messages/en` thành `messages/zh`, dịch, thêm font CJK trong `src/lib/fonts.ts` (CSS `:lang(zh)` / `:lang(ko)` đã chuẩn bị sẵn).
+
+- **Trang Trải Nghiệm 3D (`/experience`)**: cảnh và điểm dừng khai báo trong `src/data/tour.ts` (thứ tự = lộ trình tham quan), chữ trong `messages/*/experience.json`, ảnh render 3D là các mục `scene-*` trong `scripts/optimize-images.mjs`. Mốc thời gian các chương video (`videoChapters`) cũng nằm trong `src/data/tour.ts`; thay video thì chạy `npm run video` rồi chỉnh lại các mốc này.
 
 ## Quy ước
 

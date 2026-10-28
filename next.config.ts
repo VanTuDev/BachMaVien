@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    // 85 is used by the 3D tour viewer, where visitors zoom into the renders.
+    qualities: [75, 85],
   },
   poweredByHeader: false,
   async headers() {

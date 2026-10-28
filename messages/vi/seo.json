@@ -24,5 +24,9 @@
   "booking": {
     "title": "Đặt lịch trải nghiệm cưỡi ngựa",
     "description": "Giữ chỗ trải nghiệm cưỡi ngựa tại Bách Mã Viên: chọn ngày, khung giờ, gói dịch vụ và dịch vụ đi kèm. Concierge xác nhận lại nhanh chóng."
+  },
+  "experience": {
+    "title": "Trải nghiệm 3D: tham quan Bách Mã Viên qua cảnh dựng và video",
+    "description": "Dạo quanh Bách Mã Viên trước khi đến: 12 điểm dừng với 16 góc nhìn 3D có thể phóng to, kéo xem, kèm video demo 2 phút 19 giây qua phố cao bồi, quán café, chuồng ngựa và sân cưỡi."
   }
 }

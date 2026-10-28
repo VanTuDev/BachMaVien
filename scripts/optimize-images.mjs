@@ -61,6 +61,26 @@ const jobs = [
   [path.join(data, "MENU", "Gemini_Generated_Image_ujenjnujenjnujen.png"), "drink-orange", 1100, "jpg"],
   [path.join(data, "MENU", "Gemini_Generated_Image_8u2cot8u2cot8u2c.png"), "drink-coconut-water", 1100, "jpg"],
 
+  // 3D tour scenes (renders, 3840 px wide at source; 2560 keeps detail for the zoom/pan viewer)
+  ...[
+    ["Bird’s-eye View.png", "scene-aerial-wide"],
+    ["Bird’s-eye View(1).png", "scene-aerial-close"],
+    ["Main Entrance.png", "scene-entrance"],
+    ["Welcome Station.png", "scene-welcome"],
+    ["Outdoor Bounty Hunter Archery.png", "scene-archery-facade"],
+    ["Outdoor Bounty Hunter Archery(1).png", "scene-archery-lane"],
+    ["Indoor Bounty Hunter Archery.png", "scene-archery-indoor"],
+    ["Cowboy Town Photo Zone.png", "scene-photo-zone"],
+    ["Souvenirs & Shopping.png", "scene-souvenirs"],
+    ["Costume Rental.png", "scene-costume"],
+    ["Bach Ma Café(1).png", "scene-cafe-front"],
+    ["Bach Ma Café.png", "scene-cafe-inside"],
+    ["Horse Basics Class.png", "scene-horse-class"],
+    ["Lasso & horseshoe corner.png", "scene-lasso"],
+    ["Stables.png", "scene-stables"],
+    ["Riding Ring.png", "scene-riding-ring"],
+  ].map(([file, name]) => [path.join(data, "3D Images", file), name, 2560, "jpg"]),
+
   // Wristband tickets
   [path.join(data, "VÉ", "visit the farm.jpg"), "ticket-visit-the-farm", 1181, "jpg"],
   [path.join(data, "VÉ", "cowboy package.jpg"), "ticket-cowboy", 1181, "jpg"],

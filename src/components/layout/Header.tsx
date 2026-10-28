@@ -27,7 +27,7 @@ export function Header() {
 
         <nav aria-label={t("nav.label")} className="hidden xl:block">
           <NavLinks
-            className="flex items-center gap-6 2xl:gap-9"
+            className="flex items-center gap-4 min-[1400px]:gap-6 2xl:gap-9"
             linkClassName="whitespace-nowrap py-1 type-label text-muted transition-colors hover:text-espresso"
             activeClassName="!text-chestnut underline decoration-brass decoration-2 underline-offset-[10px]"
           />

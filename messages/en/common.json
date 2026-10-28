@@ -8,6 +8,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Experiences",
+    "experience": "3D Experience",
     "menu": "Menu",
     "safety": "Safety Guide"
   },
@@ -33,6 +34,7 @@
       "home": "Home",
       "about": "About Us & Leadership Team",
       "services": "Riding Experiences & Packages",
+      "experience": "3D Experience: Scenes & Demo Video",
       "menu": "Café & Refreshments Menu",
       "safety": "Safety Guide",
       "booking": "Book a Visit"

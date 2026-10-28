@@ -8,6 +8,7 @@
     "start": "next start -p 5062",
     "lint": "eslint",
     "images": "node scripts/optimize-images.mjs",
+    "video": "node scripts/encode-video.mjs",
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit"
   },

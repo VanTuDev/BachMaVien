@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { siteConfig } from "@/data/site";
 import { localeMeta, routing, type Locale } from "@/i18n/routing";
 
-export type PageKey = "home" | "about" | "services" | "menu" | "safety" | "booking";
+export type PageKey = "home" | "about" | "services" | "experience" | "menu" | "safety" | "booking";
 
 /** Absolute URL of a page in a given language, e.g. https://site.com/en/services */
 export function localizedUrl(locale: Locale, path = "") {

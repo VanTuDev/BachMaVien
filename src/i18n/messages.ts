@@ -1,7 +1,7 @@
 import type { Locale } from "./routing";
 
 /** One JSON file per page/section keeps translations small and easy to review. */
-const namespaces = ["common", "images", "home", "about", "services", "menu", "safety", "booking", "seo"] as const;
+const namespaces = ["common", "images", "home", "about", "services", "experience", "menu", "safety", "booking", "seo"] as const;
 
 export async function loadMessages(locale: Locale) {
   const entries = await Promise.all(
@@ -19,6 +19,7 @@ export type Messages = {
   home: typeof import("../../messages/vi/home.json");
   about: typeof import("../../messages/vi/about.json");
   services: typeof import("../../messages/vi/services.json");
+  experience: typeof import("../../messages/vi/experience.json");
   menu: typeof import("../../messages/vi/menu.json");
   safety: typeof import("../../messages/vi/safety.json");
   booking: typeof import("../../messages/vi/booking.json");

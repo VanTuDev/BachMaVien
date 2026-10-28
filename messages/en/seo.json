@@ -24,5 +24,9 @@
   "booking": {
     "title": "Book a Horse Riding Experience",
     "description": "Reserve your riding experience at Bách Mã Viên: choose a date, time slot, package and extras. Our concierge confirms quickly."
+  },
+  "experience": {
+    "title": "3D experience: tour Bách Mã Viên through scenes and video",
+    "description": "Walk around Bách Mã Viên before you arrive: 12 stops and 16 zoomable, draggable 3D views, plus a 2 minute 19 second demo video through Cowboy Town, the café, the stables and the riding ring."
   }
 }

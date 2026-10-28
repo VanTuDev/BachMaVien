@@ -189,6 +189,86 @@
     "width": 1100,
     "height": 1100
   },
+  "scene-aerial-wide": {
+    "src": "/images/scene-aerial-wide.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-aerial-close": {
+    "src": "/images/scene-aerial-close.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-entrance": {
+    "src": "/images/scene-entrance.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-welcome": {
+    "src": "/images/scene-welcome.jpg",
+    "width": 2560,
+    "height": 1707
+  },
+  "scene-archery-facade": {
+    "src": "/images/scene-archery-facade.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-archery-lane": {
+    "src": "/images/scene-archery-lane.jpg",
+    "width": 2560,
+    "height": 1707
+  },
+  "scene-archery-indoor": {
+    "src": "/images/scene-archery-indoor.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-photo-zone": {
+    "src": "/images/scene-photo-zone.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-souvenirs": {
+    "src": "/images/scene-souvenirs.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-costume": {
+    "src": "/images/scene-costume.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-cafe-front": {
+    "src": "/images/scene-cafe-front.jpg",
+    "width": 2560,
+    "height": 1707
+  },
+  "scene-cafe-inside": {
+    "src": "/images/scene-cafe-inside.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-horse-class": {
+    "src": "/images/scene-horse-class.jpg",
+    "width": 2560,
+    "height": 1704
+  },
+  "scene-lasso": {
+    "src": "/images/scene-lasso.jpg",
+    "width": 2560,
+    "height": 1707
+  },
+  "scene-stables": {
+    "src": "/images/scene-stables.jpg",
+    "width": 2560,
+    "height": 1705
+  },
+  "scene-riding-ring": {
+    "src": "/images/scene-riding-ring.jpg",
+    "width": 2560,
+    "height": 1705
+  },
   "ticket-visit-the-farm": {
     "src": "/images/ticket-visit-the-farm.jpg",
     "width": 1181,
