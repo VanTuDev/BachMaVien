@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "tag": "Food and Refreshments",
+    "place": "Ranch Bar · Open {open} – {close}",
+    "titleA": "Bách Mã Café Menu",
+    "titleB": "and Western Refreshments",
+    "lead": "Enjoy our signature coconut coffee, fruit teas and ice-cold sodas by the Cổ Cò river after your time in the saddle.",
+    "bestSeller": "Best Seller",
+    "signatureName": "Bách Mã Coconut Coffee",
+    "signatureText": "Bold coffee meets a smooth, creamy coconut layer, the perfect cool-down after every ride."
+  },
+  "categories": {
+    "cafe": { "title": "Bách Mã Café", "tag": "Ranch Style" },
+    "tea": { "title": "Tea | Western Tea", "tag": "Herbal" },
+    "soda": { "title": "Soda | Wild West Fizz", "tag": "Refreshing" },
+    "juice": { "title": "Fresh Juice", "tag": "Natural" },
+    "classic": { "title": "Classic", "tag": "Familiar" }
+  },
+  "sunset": {
+    "title": "Sunset Corner on the Cổ Cò Riverbank",
+    "text": "Sip an iced coconut coffee, listen to unhurried hoofbeats and feel the cool breeze off the river.",
+    "action": "Reserve a Sunset Seat"
+  },
+  "poster": {
+    "eyebrow": "The Full Menu",
+    "title": "Bách Mã Café Menu Poster",
+    "description": "The menu as printed at the Ranch Bar. Prices are in thousand VND.",
+    "open": "Open original image"
+  },
+  "cta": {
+    "eyebrow": "After the Ride",
+    "title": "Pair Your Riding Experience With a Signature Drink",
+    "text": "The Wild West Cowboy package already includes one Bách Mã Signature drink.",
+    "action": "See the Experiences"
+  }
+}

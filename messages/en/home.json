@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "badge": "Cổ Cò River · Đà Nẵng – Hội An",
+    "note": "A cultural heritage corridor on the central coast",
+    "hours": "Open daily: {open} – {close}",
+    "eyebrow": "Equestrian Heritage Sanctuary",
+    "srTitle": "Bách Mã Viên:",
+    "titleA": "Wild West,",
+    "titleB": "Real Feel",
+    "lead": "An international-standard riding experience beside the Cổ Cò river, where the free heartbeat of the Wild West prairie meets the quiet depth of Quảng culture.",
+    "ctaPrimary": "Book an Experience",
+    "ctaSecondary": "Explore Our Packages"
+  },
+  "metrics": {
+    "ratio": {
+      "label": "Coaching Ratio",
+      "title": "1:1 Trainer",
+      "text": "Complete safety, with careful guidance through every change of pace."
+    },
+    "breed": {
+      "label": "Breed Standard",
+      "title": "Carefully Selected Horses",
+      "text": "Well-bred horses with calm temperaments and a noble build."
+    },
+    "safety": {
+      "label": "Competition-Grade Safety",
+      "title": "International Standards",
+      "text": "CE-certified protective gear and an arena surface to FEI standard."
+    },
+    "location": {
+      "label": "Prime Location",
+      "title": "The Hội An – Đà Nẵng Axis",
+      "text": "15 minutes from Hội An old town, 25 minutes from central Đà Nẵng."
+    }
+  },
+  "brand": {
+    "eyebrow": "Where It Began",
+    "title": "Bách Mã Viên: a symbol of freedom, courage and loyalty",
+    "p1": "Inspired by Bách Mã, a hundred horses running across an endless plain, Bách Mã Viên was built as an elegant refuge for souls who long for unspoiled freedom.",
+    "p2": "Every brick and every rough-cut timber is handcrafted to honor the bond between rider and horse. The stables, with their signature curved architecture, let natural light in while the breeze from the Cổ Cò river gently soothes each precious animal to rest.",
+    "stats": {
+      "horses": {
+        "value": "100+",
+        "label": "Selected Horses"
+      },
+      "area": {
+        "value": "5.2 ha",
+        "label": "Eco Prairie"
+      },
+      "standard": {
+        "value": "100%",
+        "label": "FEI-Standard Process"
+      }
+    },
+    "more": "Read the full story",
+    "imageCaptionTitle": "Signature Timber-Arch Architecture",
+    "imageCaption": "A curved timber roof wraps the stable aisle, drawing clean air in from the Cổ Cò river.",
+    "quote": "At Bách Mã Viên every stop is a new experience and every step is a story waiting to be discovered, a place where people relearn empathy from the eyes of a horse."
+  },
+  "pillars": {
+    "eyebrow": "The Experience",
+    "title": "Three Signature Pillars for Our Guests",
+    "description": "Carefully designed, from your very first lesson to wild, cinematic frames in true Wild West style.",
+    "items": {
+      "basics": {
+        "tag": "Pillar 01 · Skills",
+        "title": "Beginner Riding and Core Skills",
+        "text": "Coached one-to-one by a seasoned trainer. Learn to keep your balance, hold the reins with proper posture and understand a horse's body language.",
+        "link": "See lesson details",
+        "point1": "Duration: 45 – 60 minutes of practice",
+        "point2": "Helmet and protective vest provided"
+      },
+      "wildWest": {
+        "tag": "Pillar 02 · Culture",
+        "title": "Wild West Cowboy Style",
+        "text": "Put on a weathered leather vest, a felt hat and classic riding boots. Feel the rhythm of the ride on an international-standard arena beside the untamed river.",
+        "link": "Discover the cowboy experience",
+        "point1": "Authentic Wild West outfit and accessories",
+        "point2": "Natural outdoor horse-handling technique"
+      },
+      "photo": {
+        "tag": "Pillar 03 · Photography",
+        "title": "Cinematic Editorial Photo Tour",
+        "text": "Golden-hour light paints the Cổ Cò river. A professional crew captures cinematic frames with our well-trained horses.",
+        "link": "See the photo package",
+        "point1": "Dressing room and supporting horses included",
+        "point2": "All original high-quality photos delivered"
+      }
+    }
+  },
+  "welfare": {
+    "eyebrow": "Equine Welfare · Respect for Life",
+    "title": "We don't just train horses, we connect souls",
+    "text": "At Bách Mã Viên a horse is never just a tool for an experience. They are friends and proud partners. Our care philosophy rests on patience, understanding and respect for natural behavior.",
+    "cards": {
+      "nutrition": {
+        "label": "Nutrition Plan",
+        "text": "Selected hay with specialized mineral feed, tailored to each horse's age and condition."
+      },
+      "vet": {
+        "label": "Resident Veterinarian",
+        "text": "A full check-up every 2 weeks, monitoring heart health and a safe exercise routine."
+      }
+    },
+    "points": {
+      "communication": {
+        "title": "Communication Without Coercion",
+        "text": "Training built on positive reflexes and mutual trust between trainer and horse."
+      },
+      "grooming": {
+        "title": "Therapeutic Bathing and Grooming",
+        "text": "Guests are guided to stroke, brush the mane and feed the horses, nurturing compassion."
+      },
+      "rest": {
+        "title": "Natural Rest in the Pasture",
+        "text": "Strict limits on daily working hours keep every horse's energy and spirit at their best."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "Leadership and Training Team",
+    "title": "The People Behind the Bách Mã Viên Mission",
+    "action": "Meet the Whole Team",
+    "cards": {
+      "leadership": {
+        "tag": "Founders and Management",
+        "title": "Setting the Standard for Prairie Living",
+        "text": "Cultural tourism managers and equestrian sport specialists working toward an elegant, internationally recognized destination on the central coast.",
+        "value1": "Passion",
+        "value2": "Professionalism",
+        "value3": "Kindness"
+      },
+      "trainers": {
+        "tag": "Trainers and Horse Care",
+        "title": "Perfect Harmony Between Rider and Horse",
+        "text": "Experienced riders accompany every session, so each guest feels safe and inspired.",
+        "value1": "1:1 Coaching",
+        "value2": "International Standard",
+        "value3": "Dedication"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Begin Your Journey",
+    "title": "Ready for Your First Wild West Stride?",
+    "text": "Take time to listen to the Cổ Cò breeze and feel the free spirit of the saddle. Daily places are limited to guarantee the very best service.",
+    "cardTitle": "Book 24 Hours in Advance",
+    "cardText": "So our concierge team and head trainer can prepare everything for you.",
+    "action": "Book Now",
+    "hotline": "Hotline: {phone}",
+    "location": "Cổ Cò riverside, Đà Nẵng – Hội An"
+  },
+  "marquee": {
+    "m1": "Wild West",
+    "m2": "Real Feel",
+    "m3": "Bách Mã Viên",
+    "m4": "Equine Welfare",
+    "m5": "Cổ Cò Heritage",
+    "m6": "Cowboy Spirit"
+  },
+  "gallery": {
+    "eyebrow": "Bách Mã Viên Moments",
+    "title": "A Day on the Cổ Cò Prairie",
+    "description": "From timber-arch stables and sunset arenas to quiet moments brushing a gentle horse. Swipe to explore every frame.",
+    "region": "Bách Mã Viên photo gallery",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "pause": "Pause autoplay",
+    "play": "Start autoplay",
+    "goTo": "Go to photo {n}",
+    "slide": "Photo {current} of {total}"
+  }
+}

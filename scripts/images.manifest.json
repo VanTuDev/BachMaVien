@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "src": "/images/hero.jpg",
+    "width": 1376,
+    "height": 768
+  },
+  "safety-1": {
+    "src": "/images/safety-1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "safety-2": {
+    "src": "/images/safety-2.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "safety-3": {
+    "src": "/images/safety-3.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "safety-4": {
+    "src": "/images/safety-4.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-1": {
+    "src": "/images/stable-1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-2": {
+    "src": "/images/stable-2.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-3": {
+    "src": "/images/stable-3.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-4": {
+    "src": "/images/stable-4.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-5": {
+    "src": "/images/stable-5.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "stable-6": {
+    "src": "/images/stable-6.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-1": {
+    "src": "/images/brand-1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-2": {
+    "src": "/images/brand-2.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-3": {
+    "src": "/images/brand-3.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-4": {
+    "src": "/images/brand-4.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-overview": {
+    "src": "/images/brand-overview.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  "team-1": {
+    "src": "/images/team-1.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "team-2": {
+    "src": "/images/team-2.jpg",
+    "width": 1400,
+    "height": 1400
+  },
+  "team-banner": {
+    "src": "/images/team-banner.jpg",
+    "width": 2400,
+    "height": 1200
+  },
+  "member-uyen-phuong": {
+    "src": "/images/member-uyen-phuong.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "member-khoa-le": {
+    "src": "/images/member-khoa-le.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "member-hoang-lam": {
+    "src": "/images/member-hoang-lam.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "member-boi-ngoc": {
+    "src": "/images/member-boi-ngoc.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "member-anh-thu-ops": {
+    "src": "/images/member-anh-thu-ops.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "member-anh-thu-brand": {
+    "src": "/images/member-anh-thu-brand.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "logo": {
+    "src": "/images/logo.png",
+    "width": 900,
+    "height": 900
+  },
+  "logo-white": {
+    "src": "/images/logo-white.png",
+    "width": 900,
+    "height": 900
+  },
+  "brand-avatar": {
+    "src": "/images/brand-avatar.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  "banner-clean": {
+    "src": "/images/banner-clean.jpg",
+    "width": 2400,
+    "height": 918
+  },
+  "banner-slogan": {
+    "src": "/images/banner-slogan.jpg",
+    "width": 2400,
+    "height": 918
+  },
+  "thesis-cover": {
+    "src": "/images/thesis-cover.jpg",
+    "width": 1080,
+    "height": 1541
+  },
+  "menu-poster": {
+    "src": "/images/menu-poster.jpg",
+    "width": 1920,
+    "height": 1358
+  },
+  "drink-coconut-coffee": {
+    "src": "/images/drink-coconut-coffee.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "drink-black-coffee": {
+    "src": "/images/drink-black-coffee.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "drink-passion-tea": {
+    "src": "/images/drink-passion-tea.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "drink-mojito": {
+    "src": "/images/drink-mojito.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "drink-orange": {
+    "src": "/images/drink-orange.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "drink-coconut-water": {
+    "src": "/images/drink-coconut-water.jpg",
+    "width": 1100,
+    "height": 1100
+  },
+  "ticket-visit-the-farm": {
+    "src": "/images/ticket-visit-the-farm.jpg",
+    "width": 1181,
+    "height": 94
+  },
+  "ticket-cowboy": {
+    "src": "/images/ticket-cowboy.jpg",
+    "width": 1181,
+    "height": 94
+  },
+  "ticket-real-cowboy": {
+    "src": "/images/ticket-real-cowboy.jpg",
+    "width": 1181,
+    "height": 94
+  }
+}

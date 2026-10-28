@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "eyebrow": "Online Booking",
+    "title": "Reserve Your Prairie Experience",
+    "lead": "To keep the ranch calm and every guest safe, Bách Mã Viên limits the number of guests per time slot. Please complete the form below so our concierge team can welcome you properly."
+  },
+  "form": {
+    "legend": "Booking form",
+    "step1": "Choose a Date and Time Slot",
+    "step2": "Choose an Experience",
+    "step3": "Group Size and Extras",
+    "step4": "Your Details",
+    "date": "Experience Date",
+    "slot": "Arrival Time Slot",
+    "slots": {
+      "morning": "Fresh morning (08:00 - 10:30)",
+      "noon": "Relaxed midday with tea and cakes (10:30 - 14:00)",
+      "sunset": "Romantic sunset (16:00 - 18:00)"
+    },
+    "adults": "Adults (over 12)",
+    "adultsOptions": {
+      "1": "1 guest",
+      "2": "2 guests",
+      "3": "3 guests",
+      "4": "4 - 6 guests (private group)"
+    },
+    "children": "Children (4 - 11)",
+    "childrenOptions": {
+      "0": "0 children",
+      "1": "1 child",
+      "2": "2 children"
+    },
+    "addons": "Extras",
+    "addonCostume": "Cowboy outfit and vintage leather hat rental (+150,000 VND)",
+    "addonPickup": "Two-way pickup (Đà Nẵng / Hội An - Bách Mã Viên)",
+    "name": "Full Name",
+    "namePlaceholder": "Jane Smith",
+    "phone": "Phone / Zalo",
+    "phonePlaceholder": "+84 90x xxx xxx",
+    "email": "Email for Confirmation",
+    "emailPlaceholder": "email@example.com",
+    "notes": "Special Requests",
+    "notesHint": "Weight, riding experience, special occasion...",
+    "notesPlaceholder": "Tell us what you'd like so we can prepare the right horse for you...",
+    "submit": "Confirm My Reservation",
+    "submitting": "Sending your request...",
+    "note": "Our concierge will contact you by Zalo or phone to confirm the details of your booking.",
+    "required": "required"
+  },
+  "packages": {
+    "basics": { "name": "Horse Basics Class", "description": "A 45-minute introduction, led walk with coaching and basic rein control." },
+    "wildWest": { "name": "Wild West Cowboy", "description": "International-standard sand arena, cowboy outfit, an easy trot and 01 Signature drink." },
+    "photo": { "name": "Cinematic Photo Tour", "description": "120 minutes of art photography with trained horses, all-inclusive for a crew of up to 5." },
+    "workshop": { "name": "Stable Care Workshop", "description": "Feeding, grooming and stable life, ideal for families and young children." }
+  },
+  "errors": {
+    "required": "Please fill in this field.",
+    "date": "Please choose a date from today onward.",
+    "phone": "That phone number doesn't look right.",
+    "email": "That email address doesn't look right.",
+    "submit": "We couldn't send your request. Please try again or call our hotline {phone}."
+  },
+  "success": {
+    "title": "Your reservation request has been sent!",
+    "text": "Our reception team will contact you as soon as possible. Thank you for choosing Bách Mã Viên.",
+    "again": "Send another request"
+  },
+  "sidebar": {
+    "benefitsTitle": "Your Privileges",
+    "benefits": {
+      "coach": "A dedicated 1:1 trainer for your entire time in the saddle.",
+      "gear": "CE-certified helmet and protective boots, free in your size.",
+      "drink": "A local herbal welcome drink with crisp roasted-nut biscuits.",
+      "photo": "Free check-in photos against the rustic Wild West timber setting."
+    },
+    "policyTitle": "Rescheduling Policy",
+    "policyText": "You can change your date or time free of charge up to 12 hours before departure. In stormy weather Bách Mã Viên will happily move your booking.",
+    "locationTag": "Meeting Point on the Cổ Cò Riverside",
+    "locationTitle": "Easy to Reach",
+    "locationText": "Only 15 minutes from Hội An old town and 25 minutes from central Đà Nẵng. A space apart from the dust of the city.",
+    "hoursLabel": "Opening hours",
+    "hoursValue": "{open} – {close} daily"
+  }
+}

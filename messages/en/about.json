@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "tag": "Project Dossier · Group IB_13 · FPT University",
+    "year": "Founded 2026",
+    "titleA": "The Keepers of",
+    "titleB": "the Wild West Spirit",
+    "lead": "Born from the graduation thesis of a team of FPT University students (Group IB_13), <strong>Bách Mã Viên</strong> is shaped as a pioneering cultural eco-complex and equestrian farm on the central coast, set along the Cổ Cò river that links Đà Nẵng and the heritage town of Hội An.",
+    "stats": {
+      "feel": { "value": "100%", "label": "Real Feel" },
+      "members": { "value": "06", "label": "Founding Members" },
+      "launch": { "value": "12/2026", "label": "Launch Milestone" }
+    },
+    "manifestoLabel": "Team Manifesto",
+    "manifesto": "We are not just building a horse farm. We are reviving a proud way of life that honors freedom and the complete harmony between people and nature.",
+    "manifestoBy": "IB_13 Founding Council",
+    "manifestoPlace": "Đà Nẵng – Hội An",
+    "researchTitle": "A Field-Tested Research Project",
+    "researchText": "Equine Welfare husbandry standards and international-grade outdoor tourism services."
+  },
+  "collective": {
+    "eyebrow": "United by a Shared Standard",
+    "title": "The Leadership Collective",
+    "description": "The strength of Bách Mã Viên comes from a passion for adventure, rigorous legal thinking and the financial and operational skill of a young generation of entrepreneurs.",
+    "cards": {
+      "strategy": {
+        "tag": "Strategy and Coordination",
+        "title": "Freedom and Wild West Grit",
+        "text": "United in creating an authentic living and eco-tourism space in the Cổ Cò heritage area."
+      },
+      "operations": {
+        "tag": "Management and Execution",
+        "title": "Discipline and a Passion for Horses",
+        "text": "Applying international standards for guest safety and humane horse care."
+      }
+    }
+  },
+  "leaders": {
+    "eyebrow": "Management and Operations",
+    "title": "Founders and Executive Team",
+    "description": "Each person brings a key piece of expertise and a shared goal: building Vietnam's leading sustainable horse-riding tourism brand.",
+    "focusLabel": "Focus areas",
+    "members": {
+      "uyenPhuong": {
+        "tag": "Head of Management",
+        "role": "Project Manager",
+        "text": "Oversees the project as a whole, plans long-term development strategy and coordinates every part of the Bách Mã Viên ranch's operations.",
+        "focus1Label": "Focus",
+        "focus1": "Strategy and Organization",
+        "focus2Label": "Expertise",
+        "focus2": "Project Management"
+      },
+      "khoaLe": {
+        "tag": "Research and Development",
+        "role": "Research Manager",
+        "text": "Leads horse research and development, sets Equine Welfare standards and builds interactive outdoor education programs.",
+        "focus1Label": "Focus",
+        "focus1": "Equine Welfare and Genetics",
+        "focus2Label": "Topic",
+        "focus2": "Interactive Education"
+      },
+      "hoangLam": {
+        "tag": "Legal and Safety",
+        "role": "Legal Manager",
+        "text": "Handles legal matters, builds safety standards for adventure tourism, protects the Bách Mã Viên brand and develops strategic partnerships.",
+        "focus1Label": "Focus",
+        "focus1": "Safety and Legal Framework",
+        "focus2Label": "Standard",
+        "focus2": "Tourism Horse Riding"
+      },
+      "boiNgoc": {
+        "tag": "Finance and Pricing",
+        "role": "Finance Manager",
+        "text": "Plans the investment budget for stable infrastructure, builds the pricing model for riding packages and optimizes cash-flow resources.",
+        "focus1Label": "Focus",
+        "focus1": "Financial Planning and ROI",
+        "focus2Label": "Model",
+        "focus2": "Premium Service Packages"
+      },
+      "anhThuOps": {
+        "tag": "Service Operations",
+        "role": "Operations Manager",
+        "text": "Coordinates guest-service operations, the on-site welcome process and safe experience management at the ranch.",
+        "focus1Label": "Focus",
+        "focus1": "Guest Experience",
+        "focus2Label": "Process",
+        "focus2": "On-Site Operations"
+      },
+      "anhThuBrand": {
+        "tag": "Brand and Communications",
+        "role": "Brand Manager",
+        "text": "Positions the Bách Mã Viên brand, builds the communications strategy and premium Western visual identity, and grows partnerships.",
+        "focus1Label": "Focus",
+        "focus1": "Brand Communications",
+        "focus2Label": "Direction",
+        "focus2": "Visual Strategy"
+      }
+    }
+  },
+  "thesis": {
+    "eyebrow": "Graduation Thesis",
+    "title": "From a Student Project to a Brand",
+    "text": "Bách Mã Viên began as a business plan for an eco-complex and equestrian farm in Đà Nẵng, prepared by Group IB_13 under the guidance of FPT University lecturers and presented in December 2026.",
+    "docTitle": "Business Plan for an Eco-Complex and Equestrian Farm in Da Nang",
+    "mentorsLabel": "Mentors",
+    "mentors": "Ms. Ngô Hà Trang and Ms. Phạm Thụy Trang",
+    "preparedLabel": "Prepared by",
+    "prepared": "Group IB_13 · FPT University",
+    "dateLabel": "Date",
+    "date": "December 2026",
+    "sealTitle": "FPT University",
+    "sealText": "Graduating Class of 2026"
+  },
+  "name": {
+    "eyebrow": "The Meaning of the Name",
+    "title": "One Name, One Promise",
+    "description": "Bách Mã means one hundred horses, a symbol of strength, freedom and timeless loyalty. Viên means a garden, a space preserved with every bit of care."
+  },
+  "vision": {
+    "eyebrow": "Vision and Mission",
+    "title": "An Ambition to Define New Heritage",
+    "description": "To make noble riding culture and the free Wild West experience a distinctive artistic element, adding a premium outdoor experience to the Đà Nẵng – Hội An tourism route.",
+    "pillars": {
+      "welfare": {
+        "tag": "Humane Standard",
+        "title": "Equine Welfare",
+        "text": "A horse is a companion, not entertainment equipment. Nutrition, tropical-adapted stables and exercise time are strictly supervised by specialist veterinarians."
+      },
+      "wildWest": {
+        "tag": "Authentic to Every Sense",
+        "title": "Wild West, Real Feel",
+        "text": "Every sense is awakened: hooves drumming on sand, the scent of herb-tanned saddle leather, a crackling campfire and rustic western-style flavors."
+      },
+      "heritage": {
+        "tag": "Local Preservation",
+        "title": "Cổ Cò Riverside Heritage",
+        "text": "Respecting the natural ecosystem of the lower Cổ Cò, growing native greenery and bringing local craft artisans into the ranch's value chain."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Visitors and Partners Welcome",
+    "title": "Ready to Explore the Cổ Cò Prairie With Us?",
+    "text": "Schedule a ranch visit with our management team or discuss a strategic partnership.",
+    "action": "Book a Visit With Concierge"
+  }
+}

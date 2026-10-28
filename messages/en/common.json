@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "homeLabel": "Bách Mã Viên - back to home",
+    "tagline": "Wild West, Real Feel"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Experiences",
+    "menu": "Menu",
+    "safety": "Safety Guide"
+  },
+  "cta": {
+    "book": "Book an Experience"
+  },
+  "menu": {
+    "open": "Open navigation menu",
+    "close": "Close navigation menu"
+  },
+  "language": {
+    "label": "Choose language"
+  },
+  "a11y": {
+    "skipToContent": "Skip navigation, go to main content"
+  },
+  "footer": {
+    "about": "The free spirit of the Wild West prairie meets the calm of the Cổ Cò riverbank, linking Đà Nẵng and the ancient town of Hội An. A refined, humane and professional riding experience.",
+    "badgeWelfare": "Equine Welfare",
+    "badgeHeritage": "Cổ Cò Heritage",
+    "exploreTitle": "Explore",
+    "links": {
+      "home": "Home",
+      "about": "About Us & Leadership Team",
+      "services": "Riding Experiences & Packages",
+      "menu": "Café & Refreshments Menu",
+      "safety": "Safety Guide",
+      "booking": "Book a Visit"
+    },
+    "contactTitle": "Contact Concierge",
+    "address": "Cổ Cò riverside, between Đà Nẵng and Hội An, Quảng Nam, Vietnam",
+    "hours": "Open daily {open} - {close}",
+    "copyright": "© {year} {name}. All rights reserved · Wild West, Real Feel."
+  },
+  "notFound": {
+    "title": "We couldn't find that page",
+    "description": "The link may have changed or no longer exists. Head back to the homepage to keep exploring Bách Mã Viên.",
+    "action": "Back to Home"
+  }
+}

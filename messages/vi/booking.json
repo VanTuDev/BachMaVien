@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "eyebrow": "Hệ Thống Đặt Lịch Trực Tuyến",
+    "title": "Giữ Chỗ Trải Nghiệm Thảo Nguyên",
+    "lead": "Để đảm bảo sự tĩnh lặng và an toàn tuyệt đối, Bách Mã Viên giới hạn số lượng khách theo từng khung giờ. Vui lòng hoàn tất biểu mẫu dưới đây để bộ phận Concierge đón tiếp chu toàn nhất."
+  },
+  "form": {
+    "legend": "Biểu mẫu đặt lịch",
+    "step1": "Chọn Ngày và Khung Giờ Vàng",
+    "step2": "Chọn Gói Trải Nghiệm",
+    "step3": "Quy Mô Đoàn và Dịch Vụ Đi Kèm",
+    "step4": "Thông Tin Người Đặt",
+    "date": "Ngày Trải Nghiệm",
+    "slot": "Khung Giờ Đón Khách",
+    "slots": {
+      "morning": "Sáng mát lành (08:00 - 10:30)",
+      "noon": "Trưa nhẹ nhàng và trà bánh (10:30 - 14:00)",
+      "sunset": "Hoàng hôn lãng mạn (16:00 - 18:00)"
+    },
+    "adults": "Người Lớn (trên 12 tuổi)",
+    "adultsOptions": {
+      "1": "1 khách",
+      "2": "2 khách",
+      "3": "3 khách",
+      "4": "4 - 6 khách (nhóm riêng)"
+    },
+    "children": "Trẻ Em (4 - 11 tuổi)",
+    "childrenOptions": {
+      "0": "0 trẻ em",
+      "1": "1 trẻ em",
+      "2": "2 trẻ em"
+    },
+    "addons": "Dịch vụ đi kèm",
+    "addonCostume": "Thuê trang phục Cao Bồi và mũ da vintage (+150.000đ)",
+    "addonPickup": "Xe đón 2 chiều (Đà Nẵng / Hội An - Bách Mã Viên)",
+    "name": "Họ và Tên",
+    "namePlaceholder": "Nguyễn Văn A",
+    "phone": "Số Điện Thoại / Zalo",
+    "phonePlaceholder": "090x xxx xxx",
+    "email": "Email Nhận Xác Nhận",
+    "emailPlaceholder": "email@domain.vn",
+    "notes": "Ghi Chú Đặc Biệt",
+    "notesHint": "Cân nặng, kinh nghiệm cưỡi, dịp kỷ niệm...",
+    "notesPlaceholder": "Chia sẻ mong muốn của bạn để chúng tôi chuẩn bị ngựa phù hợp nhất...",
+    "submit": "Xác Nhận Giữ Chỗ Trải Nghiệm",
+    "submitting": "Đang gửi yêu cầu...",
+    "note": "Bộ phận Concierge sẽ liên hệ qua Zalo hoặc điện thoại để xác nhận chi tiết lịch hẹn.",
+    "required": "bắt buộc"
+  },
+  "packages": {
+    "basics": { "name": "Horse Basics và Nhập Môn", "description": "Làm quen 45 phút, dắt bộ kèm cặp, làm chủ dây cương căn bản." },
+    "wildWest": { "name": "Cao Bồi Wild West", "description": "Sân cát chuẩn quốc tế, trang phục cao bồi, tập nước kiệu nhẹ và kèm 01 đồ uống Signature." },
+    "photo": { "name": "Cinematic Photo Tour", "description": "120 phút chụp ảnh nghệ thuật cùng ngựa thuần hóa, giá trọn gói cho ekip tối đa 5 người." },
+    "workshop": { "name": "Workshop Chăm Sóc Chuồng Trại", "description": "Cho ăn, chải lông và tìm hiểu đời sống chuồng trại, phù hợp gia đình và trẻ nhỏ." }
+  },
+  "errors": {
+    "required": "Vui lòng điền thông tin này.",
+    "date": "Vui lòng chọn ngày từ hôm nay trở đi.",
+    "phone": "Số điện thoại chưa hợp lệ.",
+    "email": "Email chưa hợp lệ.",
+    "submit": "Chưa gửi được yêu cầu. Vui lòng thử lại hoặc gọi hotline {phone}."
+  },
+  "success": {
+    "title": "Yêu cầu đặt chỗ đã được gửi!",
+    "text": "Nhân viên tiếp đón sẽ liên hệ với bạn sớm nhất. Cảm ơn bạn đã lựa chọn Bách Mã Viên.",
+    "again": "Gửi một yêu cầu khác"
+  },
+  "sidebar": {
+    "benefitsTitle": "Đặc Quyền Của Bạn",
+    "benefits": {
+      "coach": "Huấn luyện viên chuyên môn 1 kèm 1 suốt thời gian trên yên.",
+      "gear": "Trang bị mũ cưỡi chuẩn CE và ủng bảo hộ miễn phí theo kích cỡ.",
+      "drink": "Welcome drink thảo mộc địa phương và bánh quy hạt nướng giòn.",
+      "photo": "Chụp ảnh check-in tự do cùng bối cảnh nhà gỗ viễn Tây mộc mạc."
+    },
+    "policyTitle": "Chính Sách Đổi Lịch",
+    "policyText": "Quý khách có thể thay đổi ngày hoặc giờ miễn phí trước 12 giờ so với thời điểm khởi hành. Trường hợp thời tiết mưa bão, Bách Mã Viên hỗ trợ dời lịch linh hoạt.",
+    "locationTag": "Điểm Hẹn Ven Sông Cổ Cò",
+    "locationTitle": "Vị Trí Dễ Tiếp Cận",
+    "locationText": "Chỉ 15 phút di chuyển từ phố cổ Hội An và 25 phút từ trung tâm thành phố Đà Nẵng. Không gian tách biệt với khói bụi đô thị.",
+    "hoursLabel": "Giờ mở cửa",
+    "hoursValue": "{open} – {close} hàng ngày"
+  }
+}

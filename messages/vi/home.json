@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "badge": "Sông Cổ Cò · Đà Nẵng – Hội An",
+    "note": "Tọa độ di sản văn hóa miền duyên hải",
+    "hours": "Đón khách: {open} – {close} mỗi ngày",
+    "eyebrow": "Equestrian Heritage Sanctuary",
+    "srTitle": "Bách Mã Viên:",
+    "titleA": "Wild West,",
+    "titleB": "Real Feel",
+    "lead": "Không gian trải nghiệm cưỡi ngựa chuẩn mực quốc tế ven sông Cổ Cò. Nơi nhịp đập tự do của thảo nguyên viễn Tây hòa cùng chiều sâu tĩnh lặng của văn hóa xứ Quảng.",
+    "ctaPrimary": "Đặt Chỗ Trải Nghiệm",
+    "ctaSecondary": "Khám Phá Các Gói Dịch Vụ"
+  },
+  "metrics": {
+    "ratio": {
+      "label": "Tỉ Lệ Kèm Cặp",
+      "title": "Huấn Luyện Viên 1:1",
+      "text": "An toàn tuyệt đối, hướng dẫn tỉ mỉ từng bước chuyển thế."
+    },
+    "breed": {
+      "label": "Tiêu Chuẩn Giống",
+      "title": "Thuần Dưỡng Chọn Lọc",
+      "text": "Chiến mã thuần chủng, tính cách điềm đạm, vóc dáng uy nghi."
+    },
+    "safety": {
+      "label": "An Toàn Thi Đấu",
+      "title": "Quy Chuẩn Quốc Tế",
+      "text": "Trang bị bảo hộ đạt chứng nhận CE, mặt sàn cát đạt chuẩn FEI."
+    },
+    "location": {
+      "label": "Vị Trí Đắc Địa",
+      "title": "Trục Hội An – Đà Nẵng",
+      "text": "15 phút từ phố cổ Hội An, 25 phút từ trung tâm Đà Nẵng."
+    }
+  },
+  "brand": {
+    "eyebrow": "Khởi Nguồn Ý Niệm",
+    "title": "Bách Mã Viên: biểu tượng tự do, quả cảm và lòng trung nghĩa",
+    "p1": "Lấy cảm hứng từ hình tượng Bách Mã, bầy ngựa trăm con tung vó giữa bình nguyên vô tận, Bách Mã Viên được kiến tạo như một chốn trú ẩn thanh lịch cho những tâm hồn khao khát tự do nguyên bản.",
+    "p2": "Từng viên gạch, từng thanh gỗ thô mộc đều được chế tác thủ công để tôn vinh sự cộng hưởng giữa người và chiến mã. Chuồng ngựa với kiến trúc vòm cung độc bản mở ra nguồn sáng tự nhiên, nơi gió sông Cổ Cò nhẹ nhàng vỗ về giấc nghỉ ngơi của từng sinh linh quý giá.",
+    "stats": {
+      "horses": {
+        "value": "100+",
+        "label": "Chiến Mã Tuyển Chọn"
+      },
+      "area": {
+        "value": "5,2 ha",
+        "label": "Thảo Nguyên Sinh Thái"
+      },
+      "standard": {
+        "value": "100%",
+        "label": "Quy Trình Chuẩn FEI"
+      }
+    },
+    "more": "Đọc tiếp câu chuyện kiến tạo",
+    "imageCaptionTitle": "Kiến Trúc Vòm Gỗ Độc Bản",
+    "imageCaption": "Hệ mái vòm gỗ ôm trọn lối đi chuồng ngựa, tạo luồng đối lưu không khí thanh sạch từ dòng Cổ Cò.",
+    "quote": "Tại Bách Mã Viên, mỗi điểm dừng là một trải nghiệm mới, mỗi bước chân là một câu chuyện đang chờ bạn khám phá, nơi con người học lại sự thấu cảm từ ánh mắt loài ngựa."
+  },
+  "pillars": {
+    "eyebrow": "Hành Trình Trải Nghiệm",
+    "title": "Ba Trụ Cột Độc Bản Dành Cho Quý Khách",
+    "description": "Được thiết kế tỉ mỉ từ bài học căn bản đầu tiên đến những góc máy điện ảnh hoang dã đậm chất miền Viễn Tây.",
+    "items": {
+      "basics": {
+        "tag": "Trụ Cột 01 · Kỹ Năng",
+        "title": "Cưỡi Ngựa Nhập Môn và Kỹ Năng Cơ Bản",
+        "text": "Được kèm cặp 1:1 bởi huấn luyện viên kỳ cựu. Học cách giữ thăng bằng, cầm cương chuẩn tư thế và thấu hiểu ngôn ngữ hình thể của ngựa.",
+        "link": "Xem chi tiết gói học",
+        "point1": "Thời lượng: 45 – 60 phút thực hành",
+        "point2": "Cung cấp đầy đủ mũ bảo hiểm và giáp bảo hộ"
+      },
+      "wildWest": {
+        "tag": "Trụ Cột 02 · Văn Hóa",
+        "title": "Phong Cách Cowboy Miền Viễn Tây",
+        "text": "Khoác lên mình áo gile da phong trần, mũ phớt và bốt cưỡi ngựa cổ điển. Trải nghiệm cảm giác sải bước trên sân cát chuẩn quốc tế bên dòng sông hoang sơ.",
+        "link": "Khám phá trải nghiệm Cowboy",
+        "point1": "Trang phục và phụ kiện viễn Tây chuẩn chỉ",
+        "point2": "Kỹ thuật điều khiển ngựa ngoài trời tự nhiên"
+      },
+      "photo": {
+        "tag": "Trụ Cột 03 · Nhiếp Ảnh",
+        "title": "Cinematic Editorial Photo Tour",
+        "text": "Khung giờ hoàng hôn nhuộm vàng khúc sông Cổ Cò. Ekip chuyên nghiệp ghi lại những khuôn hình đậm chất điện ảnh cùng những chú ngựa thuần dưỡng.",
+        "link": "Xem gói chụp ảnh",
+        "point1": "Phòng thay đồ chuẩn bị và ngựa hỗ trợ",
+        "point2": "Bàn giao toàn bộ ảnh gốc chất lượng cao"
+      }
+    }
+  },
+  "welfare": {
+    "eyebrow": "Equine Welfare · Tôn Trọng Sinh Mệnh",
+    "title": "Chúng tôi không chỉ thuần dưỡng ngựa, chúng tôi kết nối tâm hồn",
+    "text": "Tại Bách Mã Viên, ngựa không phải là công cụ phục vụ trải nghiệm đơn thuần. Chúng là những người bạn, những người cộng sự kiêu hãnh. Triết lý chăm sóc của chúng tôi dựa trên sự kiên nhẫn, thấu hiểu và tôn trọng tập tính tự nhiên.",
+    "cards": {
+      "nutrition": {
+        "label": "Chế Độ Dinh Dưỡng",
+        "text": "Cỏ khô chọn lọc kết hợp thức ăn khoáng chất chuyên biệt cho từng độ tuổi và thể trạng."
+      },
+      "vet": {
+        "label": "Bác Sĩ Thú Y Riêng",
+        "text": "Khám tổng quát định kỳ mỗi 2 tuần, theo dõi tim mạch và chế độ vận động an toàn."
+      }
+    },
+    "points": {
+      "communication": {
+        "title": "Giao Tiếp Không Roi Vọt Áp Bức",
+        "text": "Huấn luyện dựa trên phản xạ tích cực và sự tin tưởng lẫn nhau giữa huấn luyện viên và chiến mã."
+      },
+      "grooming": {
+        "title": "Tắm và Chải Lông Trị Liệu",
+        "text": "Khách tham quan được hướng dẫn trực tiếp vuốt ve, chải bờm và cho ngựa ăn để nuôi dưỡng lòng trắc ẩn."
+      },
+      "rest": {
+        "title": "Nghỉ Ngơi Tự Nhiên Ngoài Đồng Cỏ",
+        "text": "Quy định nghiêm ngặt về số giờ phục vụ mỗi ngày để đảm bảo năng lượng và tinh thần thoải mái nhất."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "Đội Ngũ Điều Hành và Huấn Luyện",
+    "title": "Những Con Người Đứng Sau Sứ Mệnh Bách Mã Viên",
+    "action": "Gặp Gỡ Đội Ngũ Toàn Diện",
+    "cards": {
+      "leadership": {
+        "tag": "Ban Sáng Lập và Điều Hành",
+        "title": "Định Chuẩn Phong Cách Sống Thảo Nguyên",
+        "text": "Tập hợp những nhà quản lý văn hóa du lịch cùng các chuyên gia thể thao cưỡi ngựa, hướng tới một điểm đến thanh lịch, đẳng cấp quốc tế trên dải đất miền Trung.",
+        "value1": "Tâm Huyết",
+        "value2": "Chuyên Nghiệp",
+        "value3": "Tử Tế"
+      },
+      "trainers": {
+        "tag": "Huấn Luyện Viên và Chăm Sóc Ngựa",
+        "title": "Sự Đồng Điệu Tuyệt Đối Giữa Người và Ngựa",
+        "text": "Các kỵ sĩ dày dạn kinh nghiệm luôn đồng hành kèm cặp, đảm bảo sự an tâm và hứng khởi cho từng vị khách.",
+        "value1": "Kèm Cặp 1:1",
+        "value2": "Chuẩn Quốc Tế",
+        "value3": "Tận Tâm"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Khởi Đầu Chuyến Du Hành Của Bạn",
+    "title": "Sẵn Sàng Cho Nhịp Chân Viễn Tây Đầu Tiên?",
+    "text": "Dành riêng thời gian để lắng nghe nhịp gió sông Cổ Cò và cảm nhận sức sống tự do trên lưng chiến mã. Số lượng chỗ trải nghiệm mỗi ngày được giới hạn để bảo đảm chất lượng phục vụ hoàn hảo nhất.",
+    "cardTitle": "Đặt Lịch Hẹn Trước 24 Giờ",
+    "cardText": "Để nhận được sự sắp xếp chu đáo từ đội ngũ Concierge và Huấn luyện viên trưởng.",
+    "action": "Đặt Lịch Ngay",
+    "hotline": "Hotline: {phone}",
+    "location": "Ven sông Cổ Cò, Đà Nẵng – Hội An"
+  },
+  "marquee": {
+    "m1": "Wild West",
+    "m2": "Real Feel",
+    "m3": "Bách Mã Viên",
+    "m4": "Equine Welfare",
+    "m5": "Di Sản Cổ Cò",
+    "m6": "Kỵ Sĩ Viễn Tây"
+  },
+  "gallery": {
+    "eyebrow": "Khoảnh Khắc Bách Mã Viên",
+    "title": "Một Ngày Trên Thảo Nguyên Cổ Cò",
+    "description": "Từ chuồng ngựa vòm gỗ, sân cưỡi hoàng hôn đến những phút chải bờm cho chú ngựa nhỏ. Kéo để khám phá từng khung hình.",
+    "region": "Thư viện ảnh Bách Mã Viên",
+    "prev": "Ảnh trước",
+    "next": "Ảnh tiếp theo",
+    "pause": "Tạm dừng tự chạy",
+    "play": "Bật tự chạy",
+    "goTo": "Đến ảnh {n}",
+    "slide": "Ảnh {current} trên {total}"
+  }
+}

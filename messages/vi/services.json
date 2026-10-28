@@ -1,0 +1,204 @@
+{
+  "hero": {
+    "tag": "Danh Mục Trải Nghiệm Kỵ Mã",
+    "place": "Ven Sông Cổ Cò · Đà Nẵng – Hội An",
+    "titleA": "Hành Trình Chinh Phục Cùng",
+    "titleB": "Những Chú Ngựa Quý Ven Sông Cổ Cò",
+    "lead": "Từ khoảnh khắc chạm tay vào bờm ngựa thuần dưỡng đến những sải bước tự tại đón hoàng hôn miền viễn Tây. Mỗi hành trình được thiết kế chuẩn mực, giao thoa giữa đẳng cấp thể thao quý tộc và sự an yên thảo nguyên.",
+    "action": "Xem Bảng So Sánh 4 Gói",
+    "pills": {
+      "welfare": {
+        "title": "Tiêu Chuẩn Equine Welfare",
+        "text": "Chăm sóc nhân văn, tôn trọng tự nhiên"
+      },
+      "coaching": {
+        "title": "Kèm Cặp 1:1 Chuyên Nghiệp",
+        "text": "Huấn luyện viên đồng hành từng nhịp chân"
+      },
+      "stable": {
+        "title": "Kiến Trúc Vòm Gỗ và Sông Cổ Cò",
+        "text": "Không gian thư giãn chuẩn Western Ranch"
+      }
+    }
+  },
+  "package": {
+    "priceUnitGuest": "/ khách",
+    "priceUnitCrew": "/ ekip",
+    "featuredBadge": "Được Yêu Thích Nhất"
+  },
+  "packages": {
+    "basics": {
+      "tag": "Gói 01 / Trải Nghiệm Nền Tảng",
+      "title": "Horse Basics Class",
+      "subtitle": "Lớp Nhập Môn Khám Phá Kỵ Thuật",
+      "text": "Được biên soạn tinh tế cho người mới bắt đầu hoặc quý khách muốn vượt qua tâm lý e ngại. Bạn sẽ được chỉ dẫn tiếp cận, chải bờm, làm quen nhịp thở và điều khiển dây cương với tâm thế an hòa trong sân cát an toàn tuyệt đối.",
+      "highlights": {
+        "duration": {
+          "title": "45 Phút",
+          "text": "15 phút tâm lý + 30 phút lên yên"
+        },
+        "method": {
+          "title": "Kèm Cặp 1:1",
+          "text": "Huấn luyện viên theo sát từng bước chân"
+        }
+      },
+      "features": {
+        "f1": "Trang bị nón bảo hiểm chuẩn quốc tế, ủng da và giáp ngực an toàn.",
+        "f2": "Kỹ năng đọc ngôn ngữ cơ thể, vuốt ve, chải bờm để xây dựng niềm tin với chú ngựa.",
+        "f3": "Thực hành đi bước căn bản (Walk) trên vòng tròn cát dưới sự dẫn dắt của huấn luyện viên."
+      },
+      "priceLabel": "Học Phí Trọn Gói",
+      "cta": "Đặt Gói Nhập Môn"
+    },
+    "wildWest": {
+      "tag": "Gói 02 / Bản Lĩnh Thảo Nguyên",
+      "title": "Cao Bồi Wild West",
+      "subtitle": "và Sân Tập Chuẩn Quốc Tế",
+      "text": "Hóa thân trọn vẹn thành kỵ sĩ viễn Tây đích thực. Khoác lên mình chiếc áo gile da nhuốm màu thảo nguyên, mũ Stetson, bandana đỏ và đôi boot cao bồi. Quý khách sải bước làm chủ tốc độ giữa sân cát rộng lớn đạt chuẩn thi đấu và đón gió sông Cổ Cò.",
+      "highlights": {
+        "outfit": {
+          "title": "Full Set Cowboy",
+          "text": "Mũ Stetson, boot da và gile"
+        },
+        "arena": {
+          "title": "Sân Cát Quốc Tế",
+          "text": "Cát êm ái bảo vệ vó ngựa"
+        }
+      },
+      "features": {
+        "f1": "Tập kỹ thuật ngồi lưng thẳng kiểu phương Tây (Western Saddle) vững chãi.",
+        "f2": "Làm quen nhịp chạy nước kiệu (Trot), chuyển hướng chữ S và dừng bước dứt khoát.",
+        "f3": "Tặng kèm 01 ly đồ uống Bách Mã Signature (cà phê dừa hoặc Western Tea giải khát)."
+      },
+      "priceLabel": "Chi Phí Trọn Gói",
+      "cta": "Đặt Gói Wild West"
+    },
+    "photo": {
+      "tag": "Gói 03 / Nhiếp Ảnh và Kỷ Niệm Thảo Nguyên",
+      "title": "Cinematic Ranch và Photo Tour Nghệ Thuật",
+      "subtitle": "",
+      "text": "Ghi dấu những bức ảnh điện ảnh cùng bầy tuấn mã thuần dưỡng giữa bối cảnh chuồng trại vòm gỗ và cảnh quan sông nước Cổ Cò thơ mộng. Bao gồm 120 phút tác nghiệp thong thả cùng ekip, huấn luyện viên hỗ trợ tạo dáng, giữ an toàn và bàn giao toàn bộ file ảnh gốc chất lượng cao.",
+      "highlights": {
+        "duration": {
+          "title": "120 Phút Tác Nghiệp",
+          "text": "Thong thả, không vội vã"
+        },
+        "crew": {
+          "title": "Ekip Tối Đa 5 Người",
+          "text": "Phù hợp nhóm bạn, gia đình, studio"
+        },
+        "horses": {
+          "title": "02 Tuấn Mã Thuần Hóa",
+          "text": "Kèm huấn luyện viên tạo dáng và giữ an toàn"
+        },
+        "room": {
+          "title": "Phòng Chuẩn Bị VIP",
+          "text": "Phòng thay đồ máy lạnh và nước uống chào mừng"
+        }
+      },
+      "features": {},
+      "priceLabel": "Giá Trọn Gói Ekip",
+      "cta": "Đặt Lịch Photo Tour"
+    },
+    "workshop": {
+      "tag": "Gói 04 / Gia Đình và Trẻ Em",
+      "title": "Workshop Chăm Sóc",
+      "subtitle": "và Đời Sống Chuồng Trại",
+      "text": "Một ngày hóa thân thành người bảo hộ chuồng trại nhỏ bé. Cả gia đình cùng hít hà mùi rơm khô dịu nhẹ, khám phá tập tính ngủ đứng diệu kỳ và trực tiếp chuẩn bị bữa ăn cỏ tươi, cà rốt ngọt cho bầy ngựa.",
+      "highlights": {
+        "feed": {
+          "title": "Chuẩn Bị Khẩu Phần và Cho Ăn Tận Tay",
+          "text": "Tự tay rửa cà rốt tươi, xới cỏ khô thơm và cho những chú ngựa hiền lành ăn."
+        },
+        "groom": {
+          "title": "Tắm Chải Lông và Học Chăm Sóc Móng",
+          "text": "Thao tác cùng bàn chải móng chuyên dụng, lược chải bờm để hiểu cách bảo vệ đôi chân kỵ mã."
+        },
+        "stable": {
+          "title": "Khám Phá Hệ Thống Chuồng Gỗ",
+          "text": "Tìm hiểu hệ sinh thái chuồng trại thông gió tự nhiên, an toàn và thân thiện."
+        }
+      },
+      "features": {},
+      "priceLabel": "Học Phí Workshop",
+      "cta": "Đăng Ký Workshop"
+    }
+  },
+  "comparison": {
+    "eyebrow": "So Sánh Minh Bạch và Tiện Ích",
+    "title": "Bảng Quyền Lợi Các Gói Trải Nghiệm",
+    "description": "Lựa chọn phù hợp nhất với nhu cầu cá nhân, gia đình hoặc đoàn thể của bạn khi đến với Bách Mã Viên.",
+    "criteria": "Tiêu Chí",
+    "book": "Đặt Gói Này",
+    "columns": {
+      "basics": "Gói Nhập Môn",
+      "wildWest": "Gói Wild West",
+      "photo": "Photo Tour",
+      "workshop": "Workshop Farm"
+    },
+    "rows": {
+      "duration": {
+        "label": "Thời Lượng",
+        "basics": "45 phút",
+        "wildWest": "60 – 90 phút",
+        "photo": "120 phút",
+        "workshop": "60 phút"
+      },
+      "coach": {
+        "label": "Huấn Luyện Viên",
+        "basics": "Kèm 1:1 cơ bản",
+        "wildWest": "Kèm 1:1 nâng cao",
+        "photo": "Hỗ trợ tạo dáng",
+        "workshop": "Hướng dẫn nhóm"
+      },
+      "gear": {
+        "label": "Trang Phục và Bảo Hộ",
+        "basics": "Nón bảo hiểm + giáp",
+        "wildWest": "Full set cao bồi",
+        "photo": "Phòng thay đồ cao cấp",
+        "workshop": "Tạp dề nông trại"
+      },
+      "technique": {
+        "label": "Kỹ Thuật",
+        "basics": "Đi bước dẫn dắt (Walk)",
+        "wildWest": "Nước kiệu (Trot) và cương",
+        "photo": "Tạo dáng tĩnh, đi chậm",
+        "workshop": "Tương tác mặt đất"
+      },
+      "drink": {
+        "label": "Đồ Uống Kèm Theo",
+        "basics": "Nước suối lạnh",
+        "wildWest": "01 món Signature",
+        "photo": "Nước giải khát chào mừng",
+        "workshop": "Nước suối lạnh"
+      },
+      "price": {
+        "label": "Chi Phí"
+      }
+    }
+  },
+  "menuTeaser": {
+    "eyebrow": "Ẩm Thực và Giải Khát Thảo Nguyên",
+    "title": "Thưởng Thức Cà Phê Dừa Bên Bờ Sông Cổ Cò",
+    "text": "Sau những giờ phút trên lưng ngựa, ghé quầy Ranch Bar với cà phê dừa, trà trái cây và soda mát lạnh, ngắm hoàng hôn xuống dòng sông.",
+    "badge": "Bán Chạy Nhất",
+    "drink": "Cà Phê Dừa Bách Mã",
+    "action": "Xem Thực Đơn"
+  },
+  "tickets": {
+    "eyebrow": "Vé Tham Quan",
+    "title": "Vòng Tay Vé Bách Mã Viên",
+    "description": "Ba loại vòng tay vé: Visit the Farm, Cowboy Package và Real Cowboy Package. Liên hệ concierge để biết quyền lợi chi tiết của từng loại."
+  },
+  "gallery": {
+    "eyebrow": "Thư Viện Ảnh Bách Mã Viên",
+    "title": "Khoảnh Khắc Đời Thường và Kiến Trúc Hoang Dã",
+    "description": "Mỗi góc nhỏ tại trang trại đều được thiết kế tỉ mỉ theo tinh thần tự do miền Tây, sẵn sàng ghi lại những khuôn hình giàu cảm xúc nhất."
+  },
+  "cta": {
+    "eyebrow": "Concierge Dịch Vụ",
+    "title": "Giữ Chỗ Trải Nghiệm Của Bạn",
+    "text": "Để đảm bảo an toàn và chất lượng hướng dẫn 1:1, Bách Mã Viên giới hạn số lượng khách mỗi khung giờ. Vui lòng đặt hẹn trước ít nhất 24 giờ.",
+    "action": "Đặt Lịch Trải Nghiệm"
+  }
+}

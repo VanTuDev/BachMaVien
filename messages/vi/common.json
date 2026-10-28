@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "homeLabel": "Bách Mã Viên - về trang chủ",
+    "tagline": "Wild West, Real Feel"
+  },
+  "nav": {
+    "label": "Điều hướng chính",
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
+    "services": "Dịch Vụ",
+    "menu": "Thực Đơn",
+    "safety": "Hướng Dẫn An Toàn"
+  },
+  "cta": {
+    "book": "Đặt Lịch Trải Nghiệm"
+  },
+  "menu": {
+    "open": "Mở menu điều hướng",
+    "close": "Đóng menu điều hướng"
+  },
+  "language": {
+    "label": "Chọn ngôn ngữ"
+  },
+  "a11y": {
+    "skipToContent": "Bỏ qua điều hướng, đến nội dung chính"
+  },
+  "footer": {
+    "about": "Hơi thở tự do thảo nguyên miền viễn Tây hòa quyện cùng phong vị an nhiên ven bờ sông Cổ Cò, kết nối Đà Nẵng và phố cổ Hội An. Trải nghiệm kỵ mã chuẩn mực, nhân văn và đẳng cấp.",
+    "badgeWelfare": "Equine Welfare",
+    "badgeHeritage": "Di Sản Cổ Cò",
+    "exploreTitle": "Khám Phá",
+    "links": {
+      "home": "Trang Chủ",
+      "about": "Về Chúng Tôi & Đội Ngũ Ban Điều Hành",
+      "services": "Dịch Vụ & Trải Nghiệm Cưỡi Ngựa",
+      "menu": "Thực Đơn Café & Giải Khát",
+      "safety": "Hướng Dẫn An Toàn",
+      "booking": "Đặt Lịch Hẹn"
+    },
+    "contactTitle": "Liên Hệ Concierge",
+    "address": "Ven sông Cổ Cò, trục kết nối Đà Nẵng - Hội An, Quảng Nam",
+    "hours": "Giờ đón khách: {open} - {close} hàng ngày",
+    "copyright": "© {year} {name}. Giữ toàn bộ bản quyền · Wild West, Real Feel."
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang bạn cần",
+    "description": "Đường dẫn có thể đã thay đổi hoặc không còn tồn tại. Hãy quay về trang chủ để tiếp tục khám phá Bách Mã Viên.",
+    "action": "Về Trang Chủ"
+  }
+}

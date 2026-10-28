@@ -1,0 +1,204 @@
+{
+  "hero": {
+    "tag": "Riding Experience Catalog",
+    "place": "Cổ Cò Riverside · Đà Nẵng – Hội An",
+    "titleA": "A Journey Alongside",
+    "titleB": "Noble Horses on the Cổ Cò River",
+    "lead": "From the first touch of a gentle horse's mane to free-spirited strides into a Wild West sunset. Every journey is crafted to a high standard, blending the class of noble equestrian sport with the calm of the prairie.",
+    "action": "Compare the 4 Packages",
+    "pills": {
+      "welfare": {
+        "title": "Equine Welfare Standard",
+        "text": "Humane care that respects nature"
+      },
+      "coaching": {
+        "title": "Professional 1:1 Coaching",
+        "text": "A trainer beside you at every step"
+      },
+      "stable": {
+        "title": "Timber-Arch Stables and the Cổ Cò River",
+        "text": "A Western Ranch place to unwind"
+      }
+    }
+  },
+  "package": {
+    "priceUnitGuest": "per guest",
+    "priceUnitCrew": "per crew",
+    "featuredBadge": "Guest Favorite"
+  },
+  "packages": {
+    "basics": {
+      "tag": "Package 01 / The Foundation",
+      "title": "Horse Basics Class",
+      "subtitle": "An Introductory Riding Class",
+      "text": "Carefully designed for beginners and anyone who wants to move past first-time nerves. You'll be guided through approaching, brushing the mane, settling into the horse's rhythm and handling the reins calmly in a completely safe sand arena.",
+      "highlights": {
+        "duration": {
+          "title": "45 Minutes",
+          "text": "15 minutes of orientation + 30 minutes in the saddle"
+        },
+        "method": {
+          "title": "1:1 Coaching",
+          "text": "A trainer beside you at every step"
+        }
+      },
+      "features": {
+        "f1": "International-standard helmet, leather boots and safety vest provided.",
+        "f2": "Learn to read body language, stroke and brush the mane to build trust with your horse.",
+        "f3": "Practice the basic walk on a sand circle, led by your trainer."
+      },
+      "priceLabel": "All-Inclusive Fee",
+      "cta": "Book the Basics Class"
+    },
+    "wildWest": {
+      "tag": "Package 02 / Prairie Spirit",
+      "title": "Wild West Cowboy",
+      "subtitle": "and International-Standard Arena",
+      "text": "Become a true Wild West rider. Put on a leather vest worn in by the prairie, a Stetson hat, a red bandana and cowboy boots. Take command of your pace across a wide competition-grade sand arena with the Cổ Cò breeze in your face.",
+      "highlights": {
+        "outfit": {
+          "title": "Full Cowboy Set",
+          "text": "Stetson hat, leather boots and vest"
+        },
+        "arena": {
+          "title": "International Sand Arena",
+          "text": "Soft sand that protects the hooves"
+        }
+      },
+      "features": {
+        "f1": "Practice a steady, upright Western saddle seat.",
+        "f2": "Get used to the trot, S-shaped turns and a clean halt.",
+        "f3": "Includes 01 Bách Mã Signature drink (coconut coffee or a refreshing Western Tea)."
+      },
+      "priceLabel": "All-Inclusive Price",
+      "cta": "Book the Wild West"
+    },
+    "photo": {
+      "tag": "Package 03 / Photography and Memories",
+      "title": "Cinematic Ranch and Art Photo Tour",
+      "subtitle": "",
+      "text": "Capture cinematic photos with our well-trained horses against the timber-arch stables and the scenic Cổ Cò riverscape. Includes 120 unhurried minutes with your crew, a trainer to help with posing and safety, and all original high-quality files delivered.",
+      "highlights": {
+        "duration": {
+          "title": "120 Minutes of Shooting",
+          "text": "Unhurried, never rushed"
+        },
+        "crew": {
+          "title": "Crew of Up to 5",
+          "text": "Ideal for friends, families and studios"
+        },
+        "horses": {
+          "title": "02 Well-Trained Horses",
+          "text": "With a trainer for posing and safety"
+        },
+        "room": {
+          "title": "VIP Prep Room",
+          "text": "Air-conditioned changing room and welcome drinks"
+        }
+      },
+      "features": {},
+      "priceLabel": "All-Inclusive Crew Price",
+      "cta": "Book the Photo Tour"
+    },
+    "workshop": {
+      "tag": "Package 04 / Families and Kids",
+      "title": "Stable Care Workshop",
+      "subtitle": "and Daily Life on the Ranch",
+      "text": "Spend a day as a young stable guardian. The whole family breathes in the gentle scent of dry straw, discovers how horses sleep standing up and prepares fresh grass and sweet carrots for the herd.",
+      "highlights": {
+        "feed": {
+          "title": "Prepare Meals and Hand-Feed",
+          "text": "Wash fresh carrots, fluff fragrant hay and feed the gentle horses yourself."
+        },
+        "groom": {
+          "title": "Bathing, Grooming and Hoof Care",
+          "text": "Work with a hoof brush and mane comb to learn how a horse's legs are protected."
+        },
+        "stable": {
+          "title": "Explore the Timber Stables",
+          "text": "Learn how naturally ventilated stables stay safe and friendly for the horses."
+        }
+      },
+      "features": {},
+      "priceLabel": "Workshop Fee",
+      "cta": "Join the Workshop"
+    }
+  },
+  "comparison": {
+    "eyebrow": "Transparent Comparison",
+    "title": "What Each Package Includes",
+    "description": "Pick what suits you, your family or your group best when you visit Bách Mã Viên.",
+    "criteria": "Criteria",
+    "book": "Book This",
+    "columns": {
+      "basics": "Basics Class",
+      "wildWest": "Wild West",
+      "photo": "Photo Tour",
+      "workshop": "Farm Workshop"
+    },
+    "rows": {
+      "duration": {
+        "label": "Duration",
+        "basics": "45 minutes",
+        "wildWest": "60 – 90 minutes",
+        "photo": "120 minutes",
+        "workshop": "60 minutes"
+      },
+      "coach": {
+        "label": "Trainer",
+        "basics": "Basic 1:1",
+        "wildWest": "Advanced 1:1",
+        "photo": "Posing support",
+        "workshop": "Group guide"
+      },
+      "gear": {
+        "label": "Outfit and Protection",
+        "basics": "Helmet + vest",
+        "wildWest": "Full cowboy set",
+        "photo": "Premium changing room",
+        "workshop": "Farm apron"
+      },
+      "technique": {
+        "label": "Technique",
+        "basics": "Led walk",
+        "wildWest": "Trot and reins",
+        "photo": "Still poses, slow walk",
+        "workshop": "Ground interaction"
+      },
+      "drink": {
+        "label": "Included Drink",
+        "basics": "Chilled bottled water",
+        "wildWest": "01 Signature item",
+        "photo": "Welcome refreshment",
+        "workshop": "Chilled bottled water"
+      },
+      "price": {
+        "label": "Price"
+      }
+    }
+  },
+  "menuTeaser": {
+    "eyebrow": "Food and Refreshments",
+    "title": "Enjoy Coconut Coffee by the Cổ Cò River",
+    "text": "After your time in the saddle, stop by the Ranch Bar for coconut coffee, fruit teas and iced sodas while the sun sets over the river.",
+    "badge": "Best Seller",
+    "drink": "Bách Mã Coconut Coffee",
+    "action": "View the Menu"
+  },
+  "tickets": {
+    "eyebrow": "Entry Tickets",
+    "title": "Bách Mã Viên Wristband Tickets",
+    "description": "Three wristband tickets: Visit the Farm, Cowboy Package and Real Cowboy Package. Contact our concierge for the full benefits of each."
+  },
+  "gallery": {
+    "eyebrow": "Bách Mã Viên Gallery",
+    "title": "Everyday Moments and Wild Architecture",
+    "description": "Every corner of the ranch is designed with the free spirit of the West in mind, ready to capture your most emotional frames."
+  },
+  "cta": {
+    "eyebrow": "Concierge Service",
+    "title": "Reserve Your Experience",
+    "text": "To keep everyone safe and every lesson truly one-to-one, Bách Mã Viên limits guests per time slot. Please book at least 24 hours in advance.",
+    "action": "Book an Experience"
+  }
+}
