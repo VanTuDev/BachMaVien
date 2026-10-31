@@ -10,9 +10,18 @@
     "ctaPrimary": "Khám Phá Cảnh 3D",
     "ctaSecondary": "Xem Video Demo",
     "metrics": {
-      "stops": { "value": "{count}", "label": "Điểm dừng" },
-      "views": { "value": "{count}", "label": "Góc nhìn 3D" },
-      "video": { "value": "2:19", "label": "Phút video demo" }
+      "stops": {
+        "value": "{count}",
+        "label": "Điểm dừng"
+      },
+      "views": {
+        "value": "{count}",
+        "label": "Góc nhìn 3D"
+      },
+      "video": {
+        "value": "2:19",
+        "label": "Phút video demo"
+      }
     }
   },
   "explorer": {
@@ -41,7 +50,7 @@
       "stable": "Chuồng & Sân Ngựa"
     },
     "links": {
-      "package": "Xem gói trải nghiệm liên quan",
+      "package": "Xem giá vé",
       "menu": "Xem thực đơn café"
     },
     "disclaimer": "Hình ảnh là bản dựng 3D theo thiết kế, chi tiết thực tế có thể khác đôi chút khi hoàn thiện."
@@ -153,7 +162,7 @@
   "cta": {
     "eyebrow": "Sẵn Sàng Bước Vào?",
     "title": "Từ Màn Hình Đến Sân Cát Thật",
-    "text": "Chọn gói trải nghiệm và giữ chỗ ngay hôm nay. Concierge sẽ xác nhận lại nhanh chóng.",
+    "text": "Chọn vé và giữ chỗ ngay hôm nay.",
     "action": "Đặt Lịch Trải Nghiệm"
   }
 }

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { validateBooking } from "@/lib/booking";
+import { ticketTotal, validateBooking } from "@/lib/booking";
 
 /**
  * Receives booking requests from the form.
@@ -28,7 +28,7 @@ export async function POST(request: Request) {
   }
 
   const locale = (body as { locale?: unknown }).locale === "en" ? "en" : "vi";
-  const payload = { ...result.data, locale, submittedAt: new Date().toISOString() };
+  const payload = { ...result.data, total: ticketTotal(result.data.tickets), locale, submittedAt: new Date().toISOString() };
   const webhook = process.env.BOOKING_WEBHOOK_URL;
 
   if (!webhook) {

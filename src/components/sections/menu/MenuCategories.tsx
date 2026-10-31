@@ -1,8 +1,6 @@
-import { Star, Sunset } from "lucide-react";
+import { Star } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { menuCategories } from "@/data/menu";
-import { bookingHref } from "@/data/navigation";
-import { ButtonLink } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
 import { Photo } from "@/components/ui/Photo";
 import { Price } from "@/components/ui/Price";
@@ -65,21 +63,6 @@ export function MenuCategories() {
             </article>
           </li>
         ))}
-
-        <li>
-          <aside className="flex h-full flex-col items-start justify-between gap-6 rounded-sm bg-espresso p-8 text-cream">
-            <div className="flex flex-col gap-4">
-              <span className="grid size-12 place-items-center rounded-full bg-brass/15 text-brass">
-                <Sunset aria-hidden className="size-6" />
-              </span>
-              <h3 className="type-headline-sm">{t("sunset.title")}</h3>
-              <p className="text-sand/80">{t("sunset.text")}</p>
-            </div>
-            <ButtonLink href={bookingHref} variant="brass">
-              {t("sunset.action")}
-            </ButtonLink>
-          </aside>
-        </li>
       </ul>
     </Section>
   );

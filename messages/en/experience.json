@@ -10,9 +10,18 @@
     "ctaPrimary": "Explore the 3D Scenes",
     "ctaSecondary": "Watch the Demo Video",
     "metrics": {
-      "stops": { "value": "{count}", "label": "Stops" },
-      "views": { "value": "{count}", "label": "3D views" },
-      "video": { "value": "2:19", "label": "Minutes of demo video" }
+      "stops": {
+        "value": "{count}",
+        "label": "Stops"
+      },
+      "views": {
+        "value": "{count}",
+        "label": "3D views"
+      },
+      "video": {
+        "value": "2:19",
+        "label": "Minutes of demo video"
+      }
     }
   },
   "explorer": {
@@ -41,7 +50,7 @@
       "stable": "Stables & Arenas"
     },
     "links": {
-      "package": "See the related package",
+      "package": "See ticket prices",
       "menu": "See the café menu"
     },
     "disclaimer": "Images are 3D renders based on the design; final details may differ slightly once completed."
@@ -153,7 +162,7 @@
   "cta": {
     "eyebrow": "Ready to Step In?",
     "title": "From the Screen to the Real Sand",
-    "text": "Choose an experience package and reserve today. Our concierge will confirm quickly.",
+    "text": "Choose your tickets and book today.",
     "action": "Book Your Experience"
   }
 }

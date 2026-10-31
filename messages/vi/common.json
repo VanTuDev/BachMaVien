@@ -7,13 +7,12 @@
     "label": "Điều hướng chính",
     "home": "Trang Chủ",
     "about": "Về Chúng Tôi",
-    "services": "Dịch Vụ",
+    "services": "Vé và Dịch Vụ",
     "experience": "Trải Nghiệm 3D",
-    "menu": "Thực Đơn",
-    "safety": "Hướng Dẫn An Toàn"
+    "menu": "Thực Đơn"
   },
   "cta": {
-    "book": "Đặt Lịch Trải Nghiệm"
+    "book": "Đặt Vé"
   },
   "menu": {
     "open": "Mở menu điều hướng",
@@ -26,22 +25,19 @@
     "skipToContent": "Bỏ qua điều hướng, đến nội dung chính"
   },
   "footer": {
-    "about": "Hơi thở tự do thảo nguyên miền viễn Tây hòa quyện cùng phong vị an nhiên ven bờ sông Cổ Cò, kết nối Đà Nẵng và phố cổ Hội An. Trải nghiệm kỵ mã chuẩn mực, nhân văn và đẳng cấp.",
-    "badgeWelfare": "Equine Welfare",
-    "badgeHeritage": "Di Sản Cổ Cò",
+    "about": "Trải nghiệm cưỡi ngựa phong cách cao bồi bên sông Cổ Cò, giữa Đà Nẵng và Hội An.",
     "exploreTitle": "Khám Phá",
     "links": {
       "home": "Trang Chủ",
-      "about": "Về Chúng Tôi & Đội Ngũ Ban Điều Hành",
-      "services": "Dịch Vụ & Trải Nghiệm Cưỡi Ngựa",
-      "experience": "Trải Nghiệm 3D: Cảnh Quan & Video Demo",
-      "menu": "Thực Đơn Café & Giải Khát",
-      "safety": "Hướng Dẫn An Toàn",
-      "booking": "Đặt Lịch Hẹn"
+      "about": "Về Chúng Tôi",
+      "services": "Vé và Dịch Vụ",
+      "experience": "Trải Nghiệm 3D",
+      "menu": "Thực Đơn",
+      "booking": "Đặt Vé"
     },
-    "contactTitle": "Liên Hệ Concierge",
-    "address": "Ven sông Cổ Cò, trục kết nối Đà Nẵng - Hội An, Quảng Nam",
-    "hours": "Giờ đón khách: {open} - {close} hàng ngày",
+    "contactTitle": "Liên Hệ",
+    "address": "Ven sông Cổ Cò, Đà Nẵng – Hội An",
+    "hours": "{open} – {close}, Thứ Ba đến Chủ Nhật (nghỉ thứ Hai)",
     "copyright": "© {year} {name}. Giữ toàn bộ bản quyền · Wild West, Real Feel."
   },
   "notFound": {

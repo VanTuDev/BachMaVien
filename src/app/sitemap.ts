@@ -9,7 +9,6 @@ const pages: { key: PageKey; path: string; priority: number }[] = [
   { key: "experience", path: "/experience", priority: 0.8 },
   { key: "about", path: "/about", priority: 0.7 },
   { key: "menu", path: "/menu", priority: 0.7 },
-  { key: "safety", path: "/safety", priority: 0.7 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

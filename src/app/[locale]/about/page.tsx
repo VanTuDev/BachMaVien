@@ -1,12 +1,7 @@
 import { notFound } from "next/navigation";
 import { hasLocale, useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { AboutCollective } from "@/components/sections/about/AboutCollective";
-import { AboutHero } from "@/components/sections/about/AboutHero";
-import { AboutLeaders } from "@/components/sections/about/AboutLeaders";
-import { AboutName } from "@/components/sections/about/AboutName";
-import { AboutThesis } from "@/components/sections/about/AboutThesis";
-import { AboutVision } from "@/components/sections/about/AboutVision";
+import { AboutHero, AboutName, AboutTeam } from "@/components/sections/about/AboutSections";
 import { PageCta } from "@/components/ui/PageCta";
 import { bookingHref } from "@/data/navigation";
 import { routing } from "@/i18n/routing";
@@ -20,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/about">)
 
 function AboutCta() {
   const t = useTranslations("about.cta");
-  return <PageCta eyebrow={t("eyebrow")} title={t("title")} text={t("text")} action={t("action")} href={bookingHref} />;
+  return <PageCta title={t("title")} action={t("action")} href={bookingHref} />;
 }
 
 export default async function AboutPage({ params }: PageProps<"/[locale]/about">) {
@@ -31,11 +26,8 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
   return (
     <>
       <AboutHero />
-      <AboutCollective />
-      <AboutLeaders />
-      <AboutThesis />
       <AboutName />
-      <AboutVision />
+      <AboutTeam />
       <AboutCta />
     </>
   );

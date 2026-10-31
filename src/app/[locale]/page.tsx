@@ -2,13 +2,11 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 import { CtaBand } from "@/components/sections/CtaBand";
+import { Extras } from "@/components/sections/Extras";
+import { Tickets } from "@/components/sections/Tickets";
 import { HomeGallery } from "@/components/sections/home/HomeGallery";
-import { HomeMarquee } from "@/components/sections/home/HomeMarquee";
-import { HomeBrand } from "@/components/sections/home/HomeBrand";
 import { HomeHero } from "@/components/sections/home/HomeHero";
-import { HomePillars } from "@/components/sections/home/HomePillars";
-import { HomeTeam } from "@/components/sections/home/HomeTeam";
-import { HomeWelfare } from "@/components/sections/home/HomeWelfare";
+import { HomeAbout, HomeExperience, HomeServices } from "@/components/sections/home/HomeSections";
 import { routing } from "@/i18n/routing";
 import { buildMetadata } from "@/lib/seo";
 
@@ -26,12 +24,12 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <HomeHero />
-      <HomeMarquee />
-      <HomeBrand />
-      <HomePillars />
+      <HomeAbout />
+      <HomeServices />
+      <Tickets />
+      <HomeExperience />
       <HomeGallery />
-      <HomeWelfare />
-      <HomeTeam />
+      <Extras />
       <CtaBand />
     </>
   );

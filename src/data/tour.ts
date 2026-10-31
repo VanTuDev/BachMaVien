@@ -35,14 +35,14 @@ export const tourStops: readonly TourStop[] = [
   { key: "entrance", zone: "arrival", views: ["scene-entrance"] },
   { key: "welcome", zone: "arrival", views: ["scene-welcome"] },
   { key: "archery", zone: "town", views: ["scene-archery-facade", "scene-archery-lane", "scene-archery-indoor"] },
-  { key: "photoZone", zone: "town", views: ["scene-photo-zone"], link: { kind: "package", href: "/services#photo-tour" } },
+  { key: "photoZone", zone: "town", views: ["scene-photo-zone"], link: { kind: "package", href: "/services#tickets" } },
   { key: "souvenirs", zone: "town", views: ["scene-souvenirs"] },
-  { key: "costume", zone: "town", views: ["scene-costume"], link: { kind: "package", href: "/services#wild-west" } },
+  { key: "costume", zone: "town", views: ["scene-costume"], link: { kind: "package", href: "/services#tickets" } },
   { key: "cafe", zone: "town", views: ["scene-cafe-front", "scene-cafe-inside"], link: { kind: "menu", href: "/menu" } },
-  { key: "horseClass", zone: "stable", views: ["scene-horse-class"], link: { kind: "package", href: "/services#horse-basics" } },
+  { key: "horseClass", zone: "stable", views: ["scene-horse-class"], link: { kind: "package", href: "/services#tickets" } },
   { key: "lasso", zone: "stable", views: ["scene-lasso"] },
-  { key: "stables", zone: "stable", views: ["scene-stables"], link: { kind: "package", href: "/services#workshop" } },
-  { key: "ridingRing", zone: "stable", views: ["scene-riding-ring"], link: { kind: "package", href: "/services#wild-west" } },
+  { key: "stables", zone: "stable", views: ["scene-stables"], link: { kind: "package", href: "/services#tickets" } },
+  { key: "ridingRing", zone: "stable", views: ["scene-riding-ring"], link: { kind: "package", href: "/services#tickets" } },
 ];
 
 export const tourViewCount = tourStops.reduce((sum, stop) => sum + stop.views.length, 0);

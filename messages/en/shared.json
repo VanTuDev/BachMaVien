@@ -1,0 +1,62 @@
+{
+  "tickets": {
+    "eyebrow": "Tickets",
+    "title": "3 Ticket Packages",
+    "note": "Estimated prices, per person. Every activity is included in the ticket.",
+    "perPerson": "/ person",
+    "book": "Book tickets",
+    "popular": "Most popular",
+    "names": {
+      "visit": "Visit the Farm",
+      "cowboy": "Cowboy Package",
+      "realCowboy": "Real Cowboy Package"
+    },
+    "include": {
+      "guide": "Guided tour of the ranch (no horse riding)",
+      "drink": "1 drink at Bach Ma Saloon Café",
+      "intro": "Short “Meet the Horses” intro class",
+      "wagon": "Wagon ride around the ranch (1 lap)",
+      "lasso": "Horseshoe tossing and rope-tying lesson",
+      "costume": "Cowboy costume rental",
+      "ride30": "30-minute horse ride, private 1-on-1 instructor (age 5+)",
+      "ride40": "40-minute horse ride, private 1-on-1 instructor (age 5+)",
+      "archery": "“Bounty Hunter” archery, 30 minutes"
+    }
+  },
+  "zones": {
+    "welcome": "Welcome Station",
+    "intro": "Horse Basics Class",
+    "stables": "Stables",
+    "ring": "Riding Ring",
+    "wagon": "Wagon Ride",
+    "archery": "Bounty Hunter Archery",
+    "lasso": "Lasso and Horseshoe Corner",
+    "costume": "Costume Rental and Changing Room",
+    "cafe": "Bach Ma Saloon Café",
+    "souvenirs": "Souvenirs and Shopping",
+    "photo": "Cowboy Town Photo Zone",
+    "parking": "Parking Lot"
+  },
+  "hours": {
+    "title": "Opening hours",
+    "open": "Open",
+    "openValue": "{open} – {close}, Tuesday to Sunday",
+    "closed": "Closed on Mondays",
+    "cafe": "Café and play area",
+    "cafeValue": "{open} – {close}",
+    "riding": "Horse riding"
+  },
+  "rental": {
+    "eyebrow": "For hire",
+    "title": "Photo space rental",
+    "text": "The Cowboy Town zone is available for photo and video shoots. Message us for a quote.",
+    "zalo": "Message on Zalo",
+    "call": "Call now"
+  },
+  "cafe": {
+    "eyebrow": "Café and souvenirs",
+    "title": "Bach Ma Café",
+    "text": "Extra drinks at the counter, plus souvenirs in the shopping area.",
+    "action": "View the menu"
+  }
+}

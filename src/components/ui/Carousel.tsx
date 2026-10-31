@@ -89,6 +89,7 @@ export function Carousel({ slides, labels, className }: Props) {
                   alt={slide.alt}
                   sizes="(min-width: 1280px) 384px, (min-width: 1024px) 32vw, (min-width: 640px) 48vw, 80vw"
                   draggable={false}
+                  loading="eager"
                   className="block h-auto w-full"
                 />
               </div>

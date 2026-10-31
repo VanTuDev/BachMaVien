@@ -1,49 +1,56 @@
-import { CalendarClock, Camera, Coffee, HardHat, MapPin, UserCheck, type LucideIcon } from "lucide-react";
+import { CalendarOff, Clock, MapPin, MessageCircle, Phone, Route, TicketCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { siteConfig } from "@/data/site";
 
-const benefits: { key: "coach" | "gear" | "drink" | "photo"; Icon: LucideIcon }[] = [
-  { key: "coach", Icon: UserCheck },
-  { key: "gear", Icon: HardHat },
-  { key: "drink", Icon: Coffee },
-  { key: "photo", Icon: Camera },
-];
-
 export function BookingSidebar() {
   const t = useTranslations("booking.sidebar");
+  const hours = useTranslations("shared.hours");
+  const { open, close, ridingMorning, ridingAfternoon } = siteConfig.hours;
 
   return (
     <aside className="flex flex-col gap-6">
-      <div className="flex flex-col gap-6 rounded-sm bg-espresso p-8 text-cream">
-        <h2 className="type-headline-sm">{t("benefitsTitle")}</h2>
-        <ul className="flex flex-col gap-4">
-          {benefits.map(({ key, Icon }) => (
-            <li key={key} className="flex items-start gap-3 text-sm text-sand/85">
-              <Icon aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
-              <span>{t(`benefits.${key}`)}</span>
-            </li>
-          ))}
+      <div className="flex flex-col gap-5 rounded-sm bg-espresso p-7 text-cream">
+        <p className="flex items-start gap-3 text-sm text-sand/90">
+          <TicketCheck aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
+          {t("limited")}
+        </p>
+        <ul className="flex flex-col gap-4 border-t border-sand/20 pt-5 text-sm">
+          <li className="flex items-start gap-3">
+            <Clock aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
+            {hours("openValue", { open, close })}
+          </li>
+          <li className="flex items-start gap-3">
+            <Route aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
+            <span>
+              {hours("riding")}: {ridingMorning} · {ridingAfternoon}
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <CalendarOff aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
+            {hours("closed")}
+          </li>
+          <li className="flex items-start gap-3">
+            <MapPin aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
+            {t("place")}
+          </li>
         </ul>
-        <div className="flex flex-col gap-2 border-t border-sand/20 pt-5">
-          <p className="type-label-sm text-brass">{t("policyTitle")}</p>
-          <p className="text-sm text-sand/80">{t("policyText")}</p>
-        </div>
       </div>
 
-      <div className="flex flex-col gap-3 rounded-sm border border-espresso/10 bg-surface-mid p-8">
-        <p className="flex items-center gap-2 type-label-sm text-chestnut">
-          <MapPin aria-hidden className="size-4" />
-          {t("locationTag")}
-        </p>
-        <h3 className="type-headline-sm">{t("locationTitle")}</h3>
-        <p className="text-sm text-muted">{t("locationText")}</p>
-        <p className="mt-2 flex items-center justify-between gap-4 border-t border-espresso/10 pt-4 text-sm">
-          <span className="flex items-center gap-2 text-muted">
-            <CalendarClock aria-hidden className="size-4" />
-            {t("hoursLabel")}
-          </span>
-          <span className="font-semibold">{t("hoursValue", { open: siteConfig.hours.open, close: siteConfig.hours.close })}</span>
-        </p>
+      <div className="flex flex-col gap-4 rounded-sm border border-espresso/10 bg-surface-mid p-7">
+        <p className="type-label-sm text-chestnut">{t("contact")}</p>
+        <a href={siteConfig.phoneHref} className="flex items-center gap-3 font-semibold hover:text-chestnut">
+          <Phone aria-hidden className="size-5 text-brass-deep" />
+          {siteConfig.phone}
+        </a>
+        <a
+          href={siteConfig.zaloHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 font-semibold hover:text-chestnut"
+        >
+          <MessageCircle aria-hidden className="size-5 text-brass-deep" />
+          Zalo
+        </a>
       </div>
     </aside>
   );

@@ -1,0 +1,62 @@
+{
+  "tickets": {
+    "eyebrow": "Giá vé",
+    "title": "3 Gói Vé",
+    "note": "Giá dự kiến, tính theo người. Mọi hoạt động đã bao gồm trong vé.",
+    "perPerson": "/ người",
+    "book": "Đặt vé",
+    "popular": "Được chọn nhiều",
+    "names": {
+      "visit": "Tham quan trang trại",
+      "cowboy": "Gói Cao bồi",
+      "realCowboy": "Gói Cao bồi Thực thụ"
+    },
+    "include": {
+      "guide": "Tham quan có hướng dẫn viên (không cưỡi ngựa)",
+      "drink": "1 đồ uống tại Bách Mã Café",
+      "intro": "Lớp làm quen “Gặp gỡ những chú ngựa”",
+      "wagon": "Đi xe ngựa kéo 1 vòng quanh trang trại",
+      "lasso": "Học ném móng ngựa và thắt dây thừng",
+      "costume": "Thuê trang phục cao bồi",
+      "ride30": "Cưỡi ngựa 30 phút, huấn luyện viên kèm 1-1 (trên 5 tuổi)",
+      "ride40": "Cưỡi ngựa 40 phút, huấn luyện viên kèm 1-1 (trên 5 tuổi)",
+      "archery": "Bắn cung “Thợ săn tiền thưởng” 30 phút"
+    }
+  },
+  "zones": {
+    "welcome": "Quầy bán vé (lễ tân)",
+    "intro": "Lớp làm quen với ngựa",
+    "stables": "Chuồng ngựa",
+    "ring": "Sân cưỡi ngựa",
+    "wagon": "Xe ngựa kéo",
+    "archery": "Bắn cung Thợ săn tiền thưởng",
+    "lasso": "Lasso và ném móng ngựa",
+    "costume": "Thuê trang phục và phòng thử đồ",
+    "cafe": "Bách Mã Café phong cách Saloon",
+    "souvenirs": "Lưu niệm và mua sắm",
+    "photo": "Khu chụp ảnh Cowboy Town",
+    "parking": "Khu giữ xe"
+  },
+  "hours": {
+    "title": "Giờ mở cửa",
+    "open": "Mở cửa",
+    "openValue": "{open} – {close}, từ Thứ Ba đến Chủ Nhật",
+    "closed": "Nghỉ thứ Hai",
+    "cafe": "Café và khu trò chơi",
+    "cafeValue": "{open} – {close}",
+    "riding": "Cưỡi ngựa"
+  },
+  "rental": {
+    "eyebrow": "Cho thuê",
+    "title": "Thuê không gian chụp ảnh",
+    "text": "Khu Cowboy Town dành cho chụp ảnh, quay phim. Nhắn cho chúng tôi để nhận báo giá.",
+    "zalo": "Nhắn Zalo",
+    "call": "Gọi ngay"
+  },
+  "cafe": {
+    "eyebrow": "Café và lưu niệm",
+    "title": "Bách Mã Café",
+    "text": "Đồ uống gọi thêm tại quầy, cùng quà lưu niệm ở khu mua sắm.",
+    "action": "Xem thực đơn"
+  }
+}

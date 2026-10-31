@@ -4,18 +4,8 @@ import { Carousel } from "@/components/ui/Carousel";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
-const photos: ImageName[] = [
-  "stable-5",
-  "stable-2",
-  "stable-6",
-  "stable-4",
-  "safety-2",
-  "stable-1",
-  "brand-3",
-  "stable-3",
-  "brand-2",
-  "safety-3",
-];
+/** Photos not used elsewhere on the home page, so no picture repeats. */
+const photos: ImageName[] = ["stable-5", "stable-6", "stable-4", "safety-2", "stable-1", "brand-3", "stable-3", "brand-2", "safety-3"];
 
 /** Home-page photo carousel. Labels are resolved here because the carousel itself is a client component. */
 export function HomeGallery() {
@@ -35,14 +25,7 @@ export function HomeGallery() {
 
   return (
     <Section tone="dark" labelledBy="home-gallery-title" className="overflow-hidden">
-      <SectionHeader
-        id="home-gallery-title"
-        tone="dark"
-        align="split"
-        eyebrow={t("eyebrow")}
-        title={t("title")}
-        description={t("description")}
-      />
+      <SectionHeader id="home-gallery-title" tone="dark" align="center" eyebrow={t("eyebrow")} title={t("title")} />
       <Carousel slides={slides} labels={labels} />
     </Section>
   );

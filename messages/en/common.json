@@ -7,13 +7,12 @@
     "label": "Main navigation",
     "home": "Home",
     "about": "About Us",
-    "services": "Experiences",
+    "services": "Tickets & Services",
     "experience": "3D Experience",
-    "menu": "Menu",
-    "safety": "Safety Guide"
+    "menu": "Menu"
   },
   "cta": {
-    "book": "Book an Experience"
+    "book": "Book Tickets"
   },
   "menu": {
     "open": "Open navigation menu",
@@ -26,22 +25,19 @@
     "skipToContent": "Skip navigation, go to main content"
   },
   "footer": {
-    "about": "The free spirit of the Wild West prairie meets the calm of the Cổ Cò riverbank, linking Đà Nẵng and the ancient town of Hội An. A refined, humane and professional riding experience.",
-    "badgeWelfare": "Equine Welfare",
-    "badgeHeritage": "Cổ Cò Heritage",
+    "about": "Cowboy-style horse riding on the Cổ Cò river, between Đà Nẵng and Hội An.",
     "exploreTitle": "Explore",
     "links": {
       "home": "Home",
-      "about": "About Us & Leadership Team",
-      "services": "Riding Experiences & Packages",
-      "experience": "3D Experience: Scenes & Demo Video",
-      "menu": "Café & Refreshments Menu",
-      "safety": "Safety Guide",
-      "booking": "Book a Visit"
+      "about": "About Us",
+      "services": "Tickets & Services",
+      "experience": "3D Experience",
+      "menu": "Menu",
+      "booking": "Book Tickets"
     },
-    "contactTitle": "Contact Concierge",
-    "address": "Cổ Cò riverside, between Đà Nẵng and Hội An, Quảng Nam, Vietnam",
-    "hours": "Open daily {open} - {close}",
+    "contactTitle": "Contact",
+    "address": "Cổ Cò riverside, Đà Nẵng – Hội An",
+    "hours": "{open} – {close}, Tuesday to Sunday (closed Mondays)",
     "copyright": "© {year} {name}. All rights reserved · Wild West, Real Feel."
   },
   "notFound": {

@@ -1,146 +1,50 @@
 {
   "hero": {
-    "tag": "Hồ Sơ Đề Án · Group IB_13 · FPT University",
-    "year": "Dấu Ấn Khởi Sinh 2026",
-    "titleA": "Những Người Giữ Lửa",
-    "titleB": "Tinh Thần Viễn Tây",
-    "lead": "Khởi nguồn từ đồ án tốt nghiệp của nhóm sinh viên FPT University (Group IB_13), <strong>Bách Mã Viên</strong> được định hình như tổ hợp sinh thái và trang trại ngựa văn hóa tiên phong tại dải đất duyên hải miền Trung, tọa lạc ven dòng sông Cổ Cò nối liền Đà Nẵng và di sản Hội An.",
-    "stats": {
-      "feel": { "value": "100%", "label": "Cảm Quan Thực Tế" },
-      "members": { "value": "06", "label": "Thành Viên Sáng Lập" },
-      "launch": { "value": "12/2026", "label": "Dấu Mốc Trình Làng" }
+    "eyebrow": "Về chúng tôi",
+    "title": "Bách Mã Viên",
+    "accent": "Wild West, Real Feel",
+    "lead": "Trang trại trải nghiệm cưỡi ngựa phong cách cao bồi miền Tây, ven sông Cổ Cò giữa Đà Nẵng và Hội An."
+  },
+  "facts": {
+    "horses": {
+      "title": "Ngựa Việt Nam",
+      "text": "Dễ nuôi, thích nghi với khí hậu Đà Nẵng."
     },
-    "manifestoLabel": "Tuyên Ngôn Đội Ngũ",
-    "manifesto": "Chúng tôi không chỉ xây dựng một trang trại nuôi ngựa. Chúng tôi phục dựng một phong cách sống kiêu hãnh, tôn vinh tự do và sự giao hòa tuyệt đối giữa con người và thiên nhiên.",
-    "manifestoBy": "Hội Đồng Sáng Lập IB_13",
-    "manifestoPlace": "Đà Nẵng – Hội An",
-    "researchTitle": "Đề Án Khảo Cứu Thực Chiến",
-    "researchText": "Quy chuẩn chăn nuôi Equine Welfare và dịch vụ dã ngoại chuẩn quốc tế."
-  },
-  "collective": {
-    "eyebrow": "Đoàn Kết Khởi Tạo Chuẩn Mực",
-    "title": "Tập Thể Ban Lãnh Đạo",
-    "description": "Sức mạnh của Bách Mã Viên hội tụ từ đam mê chinh phục, tư duy pháp lý bài bản và khả năng quản trị tài chính, vận hành của thế hệ doanh nhân trẻ.",
-    "cards": {
-      "strategy": {
-        "tag": "Cánh Điều Phối Chiến Lược",
-        "title": "Tự Do và Bản Lĩnh Viễn Tây",
-        "text": "Đồng lòng kiến tạo không gian sống và du lịch sinh thái đậm tính nguyên bản giữa vùng di sản Cổ Cò."
-      },
-      "operations": {
-        "tag": "Cánh Quản Trị và Thực Thi",
-        "title": "Kỷ Luật và Đam Mê Nghề Ngựa",
-        "text": "Áp dụng tiêu chuẩn quốc tế về an toàn người chơi và quy trình chăm sóc ngựa nhân đạo chuẩn mực."
-      }
+    "place": {
+      "title": "Ven sông Cổ Cò",
+      "text": "Nằm giữa Đà Nẵng và phố cổ Hội An."
+    },
+    "style": {
+      "title": "Phong cách cao bồi",
+      "text": "Xe ngựa, ném lasso, bắn cung và café Saloon."
     }
-  },
-  "leaders": {
-    "eyebrow": "Hội Đồng Quản Trị và Vận Hành",
-    "title": "Các Nhà Sáng Lập và Ban Điều Hành",
-    "description": "Mỗi cá nhân mang trong mình một mảnh ghép chuyên môn then chốt, cùng chung chí hướng xây dựng thương hiệu du lịch cưỡi ngựa bền vững hàng đầu Việt Nam.",
-    "focusLabel": "Lĩnh vực trọng tâm",
-    "members": {
-      "uyenPhuong": {
-        "tag": "Trưởng Ban Điều Hành",
-        "role": "Project Manager",
-        "text": "Chịu trách nhiệm quản lý tổng thể dự án, hoạch định chiến lược phát triển dài hạn và điều phối nhịp nhàng toàn diện hoạt động vận hành trang trại Bách Mã Viên.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "Chiến Lược và Tổ Chức",
-        "focus2Label": "Kinh nghiệm",
-        "focus2": "Quản Trị Dự Án"
-      },
-      "khoaLe": {
-        "tag": "Nghiên Cứu và Phát Triển",
-        "role": "Research Manager",
-        "text": "Trưởng bộ phận Nghiên cứu và Phát triển giống ngựa, thiết lập chế độ phúc lợi sinh thái (Equine Welfare) và xây dựng các chương trình giáo dục tương tác dã ngoại.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "Equine Welfare và Di Truyền",
-        "focus2Label": "Chuyên đề",
-        "focus2": "Giáo Dục Tương Tác"
-      },
-      "hoangLam": {
-        "tag": "Pháp Lý và An Toàn",
-        "role": "Legal Manager",
-        "text": "Chuyên trách pháp lý, xây dựng bộ tiêu chuẩn an toàn trong du lịch mạo hiểm, bảo hộ thương hiệu Bách Mã Viên và thiết lập các mối quan hệ đối tác chiến lược.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "An Toàn và Khung Pháp Lý",
-        "focus2Label": "Tiêu chuẩn",
-        "focus2": "Cưỡi Ngựa Du Lịch"
-      },
-      "boiNgoc": {
-        "tag": "Tài Chính và Định Giá",
-        "role": "Finance Manager",
-        "text": "Đảm nhiệm hoạch định ngân sách đầu tư cơ sở hạ tầng chuồng trại, mô hình định giá các gói trải nghiệm cưỡi ngựa và tối ưu hóa nguồn lực dòng tiền.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "Kế Hoạch Tài Chính và ROI",
-        "focus2Label": "Mô hình",
-        "focus2": "Gói Dịch Vụ Cao Cấp"
-      },
-      "anhThuOps": {
-        "tag": "Vận Hành Dịch Vụ",
-        "role": "Operations Manager",
-        "text": "Chịu trách nhiệm điều phối vận hành dịch vụ khách hàng, quy trình đón tiếp thực địa và quản trị trải nghiệm an toàn tại trang trại.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "Trải Nghiệm Khách",
-        "focus2Label": "Quy trình",
-        "focus2": "Vận Hành Thực Địa"
-      },
-      "anhThuBrand": {
-        "tag": "Thương Hiệu và Truyền Thông",
-        "role": "Brand Manager",
-        "text": "Định vị thương hiệu Bách Mã Viên, xây dựng chiến lược truyền thông, nhận diện hình ảnh phong cách Western cao cấp và phát triển đối tác.",
-        "focus1Label": "Lĩnh vực",
-        "focus1": "Truyền Thông Thương Hiệu",
-        "focus2Label": "Định hướng",
-        "focus2": "Chiến Lược Hình Ảnh"
-      }
-    }
-  },
-  "thesis": {
-    "eyebrow": "Đề Án Tốt Nghiệp",
-    "title": "Từ Đồ Án Sinh Viên Đến Một Thương Hiệu",
-    "text": "Bách Mã Viên bắt đầu như một kế hoạch kinh doanh cho tổ hợp sinh thái và trang trại ngựa tại Đà Nẵng, được nhóm Group IB_13 thực hiện dưới sự hướng dẫn của các giảng viên FPT University và trình bày vào tháng 12/2026.",
-    "docTitle": "Business Plan for an Eco-Complex and Equestrian Farm in Da Nang",
-    "mentorsLabel": "Giảng viên hướng dẫn",
-    "mentors": "Ms. Ngô Hà Trang và Ms. Phạm Thụy Trang",
-    "preparedLabel": "Thực hiện bởi",
-    "prepared": "Group IB_13 · FPT University",
-    "dateLabel": "Thời điểm",
-    "date": "Tháng 12/2026",
-    "sealTitle": "FPT University",
-    "sealText": "Khóa Tốt Nghiệp 2026"
   },
   "name": {
-    "eyebrow": "Ý Nghĩa Tên Gọi",
-    "title": "Một Cái Tên, Một Lời Hứa",
-    "description": "Bách Mã là một trăm con ngựa, biểu tượng cho sức mạnh, sự tự do và lòng trung thành vượt thời gian. Viên là một khu vườn, một không gian được gìn giữ bằng tất cả sự chăm chút."
+    "title": "Ý nghĩa tên gọi",
+    "bach": {
+      "title": "Bách Mã",
+      "text": "Một trăm con ngựa: sức mạnh, tự do và lòng trung thành."
+    },
+    "vien": {
+      "title": "Viên",
+      "text": "Một khu vườn được gìn giữ bằng sự chăm chút."
+    }
   },
-  "vision": {
-    "eyebrow": "Tầm Nhìn và Sứ Mệnh",
-    "title": "Khát Vọng Định Danh Di Sản Mới",
-    "description": "Biến văn hóa cưỡi ngựa quý tộc và trải nghiệm tự do Wild West thành một cấu phần nghệ thuật đặc sắc, bổ sung mảnh ghép trải nghiệm dã ngoại thượng lưu cho cung đường du lịch Đà Nẵng – Hội An.",
-    "pillars": {
-      "welfare": {
-        "tag": "Tiêu Chuẩn Nhân Đạo",
-        "title": "Equine Welfare",
-        "text": "Ngựa không phải là công cụ giải trí mà là người bạn đồng hành. Chế độ dinh dưỡng, chuồng trại nhiệt đới hóa và thời gian vận động được kiểm soát khắt khe bởi bác sĩ thú y chuyên ngành."
-      },
-      "wildWest": {
-        "tag": "Chân Thực Từng Cảm Quan",
-        "title": "Wild West, Real Feel",
-        "text": "Mọi giác quan được đánh thức trọn vẹn: tiếng móng ngựa gõ nhịp trên nền cát, hương da yên ngựa thuộc thảo mộc, ánh lửa trại bập bùng và phong vị ẩm thực miền Tây mộc mạc."
-      },
-      "heritage": {
-        "tag": "Bảo Tồn Bản Địa",
-        "title": "Di Sản Ven Sông Cổ Cò",
-        "text": "Tôn trọng hệ sinh thái tự nhiên vùng hạ lưu Cổ Cò, phát triển mảng xanh bản địa và kết nối cộng đồng nghệ nhân thủ công địa phương vào chuỗi giá trị trang trại."
-      }
+  "team": {
+    "eyebrow": "Đội ngũ",
+    "title": "Những người đứng sau Bách Mã Viên",
+    "note": "Dự án của nhóm Group IB_13, FPT University.",
+    "roles": {
+      "uyenPhuong": "Project Manager",
+      "khoaLe": "Research Manager",
+      "hoangLam": "Legal Manager",
+      "boiNgoc": "Finance Manager",
+      "anhThuOps": "Operations Manager",
+      "anhThuBrand": "Brand Manager"
     }
   },
   "cta": {
-    "eyebrow": "Đón Tiếp Khách Thăm và Đối Tác",
-    "title": "Sẵn Sàng Cùng Chúng Tôi Khám Phá Thảo Nguyên Cổ Cò?",
-    "text": "Đăng ký lịch tham quan trang trại cùng Ban Quản Lý hoặc trao đổi cơ hội hợp tác chiến lược.",
-    "action": "Đặt Lịch Hẹn Với Concierge"
+    "title": "Ghé thăm Bách Mã Viên",
+    "action": "Đặt vé"
   }
 }

@@ -1,29 +1,25 @@
 {
-  "keywords": "Bách Mã Viên,cưỡi ngựa Đà Nẵng,cưỡi ngựa Hội An,trang trại ngựa,sông Cổ Cò,Wild West Real Feel,trải nghiệm cao bồi,Horse Basics Class,chụp ảnh cùng ngựa,cà phê dừa",
+  "keywords": "Bách Mã Viên,cưỡi ngựa Đà Nẵng,cưỡi ngựa Hội An,trang trại ngựa,sông Cổ Cò,Wild West Real Feel,cao bồi,vé cưỡi ngựa,thuê không gian chụp ảnh,café saloon",
   "ogImageAlt": "Bách Mã Viên - đàn ngựa phi nước đại bên sông Cổ Cò",
   "home": {
-    "title": "Bách Mã Viên - Trải nghiệm cưỡi ngựa Wild West bên sông Cổ Cò",
-    "description": "Bách Mã Viên là tổ hợp sinh thái và trang trại ngựa ven sông Cổ Cò, giữa Đà Nẵng và Hội An. Học cưỡi ngựa kèm 1:1, hóa thân cao bồi Viễn Tây, chụp ảnh điện ảnh và thưởng thức cà phê dừa."
+    "title": "Bách Mã Viên - Cưỡi ngựa phong cách cao bồi bên sông Cổ Cò",
+    "description": "Bách Mã Viên là trang trại trải nghiệm cưỡi ngựa phong cách cao bồi ven sông Cổ Cò, giữa Đà Nẵng và Hội An. 3 gói vé từ 199.000đ, café Saloon, khu chụp ảnh Cowboy Town."
   },
   "about": {
-    "title": "Về chúng tôi và đội ngũ sáng lập",
-    "description": "Gặp gỡ đội ngũ sáng lập Bách Mã Viên: câu chuyện thương hiệu, sứ mệnh Equine Welfare và tầm nhìn đưa văn hóa cưỡi ngựa Viễn Tây đến di sản Cổ Cò."
+    "title": "Về Bách Mã Viên và đội ngũ",
+    "description": "Bách Mã Viên là ai: trang trại cưỡi ngựa phong cách cao bồi ven sông Cổ Cò, ngựa Việt Nam, và đội ngũ đứng sau dự án."
   },
   "services": {
-    "title": "Dịch vụ và gói trải nghiệm cưỡi ngựa",
-    "description": "Bốn gói trải nghiệm tại Bách Mã Viên: Horse Basics Class 450.000đ, Cao Bồi Wild West 850.000đ, Cinematic Photo Tour 1.500.000đ và Workshop Chăm Sóc Chuồng Trại 300.000đ. Kèm bảng so sánh quyền lợi."
+    "title": "Giá vé và dịch vụ",
+    "description": "3 gói vé tại Bách Mã Viên: Tham quan trang trại 199.000đ, Gói Cao bồi 399.000đ, Gói Cao bồi Thực thụ 539.000đ. Mở cửa 08:00 – 19:00, nghỉ thứ Hai."
   },
   "menu": {
     "title": "Thực đơn Bách Mã Café và giải khát miền Tây",
     "description": "Thực đơn Ranch Bar: cà phê dừa Bách Mã, cà phê Cowboy, trà, soda Wild West Fizz, nước ép và đồ uống cổ điển, giá từ 10.000đ, phục vụ bên sông Cổ Cò."
   },
-  "safety": {
-    "title": "Hướng dẫn an toàn khi cưỡi ngựa",
-    "description": "Quy chuẩn an toàn tại Bách Mã Viên: trang phục, mũ bảo hộ chuẩn CE/ASTM, kèm cặp 1:1 và 4 bước chuẩn bị trước khi lên yên."
-  },
   "booking": {
-    "title": "Đặt lịch trải nghiệm cưỡi ngựa",
-    "description": "Giữ chỗ trải nghiệm cưỡi ngựa tại Bách Mã Viên: chọn ngày, khung giờ, gói dịch vụ và dịch vụ đi kèm. Concierge xác nhận lại nhanh chóng."
+    "title": "Đặt vé",
+    "description": "Đặt vé Bách Mã Viên: chọn ngày đến và số lượng vé, chúng tôi sẽ liên hệ xác nhận."
   },
   "experience": {
     "title": "Trải nghiệm 3D: tham quan Bách Mã Viên qua cảnh dựng và video",

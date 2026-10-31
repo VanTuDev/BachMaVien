@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/experien
 
 function ExperienceCta() {
   const t = useTranslations("experience.cta");
-  return <PageCta eyebrow={t("eyebrow")} title={t("title")} text={t("text")} action={t("action")} href={bookingHref} />;
+  return <PageCta title={t("title")} action={t("action")} href={bookingHref} />;
 }
 
 /** schema.org VideoObject so the demo can appear as a video result. */

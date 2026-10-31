@@ -12,18 +12,18 @@ npm run video      # nén video demo 3D (4K HEVC) thành MP4 1080p trong public/
 
 Sao chép `.env.example` thành `.env.local` và điền:
 
-| Biến | Công dụng |
-| --- | --- |
+| Biến                   | Công dụng                                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_SITE_URL` | Domain thật (bỏ trống thì tự dùng URL `*.vercel.app` trên Vercel). Dùng cho canonical, sitemap, Open Graph, JSON-LD |
-| `BOOKING_WEBHOOK_URL` | Nơi nhận yêu cầu đặt lịch (JSON). Không có thì production trả 503 |
+| `BOOKING_WEBHOOK_URL`  | Nơi nhận yêu cầu đặt lịch (JSON). Không có thì production trả 503                                                   |
 
 ## Cấu trúc
 
 ```
-messages/<locale>/*.json   Nội dung dịch, mỗi trang một file (common, home, about, services, experience, menu, safety, booking, seo, images)
+messages/<locale>/*.json   Nội dung dịch, mỗi trang một file (common, shared, home, about, services, experience, menu, booking, seo, images)
 src/i18n/                  routing (danh sách ngôn ngữ), navigation (Link locale-aware), request (nạp messages)
 src/proxy.ts               Chuyển "/" và đường dẫn không prefix sang ngôn ngữ phù hợp
-src/app/[locale]/          Các trang: /, about, services, experience, menu, safety, booking
+src/app/[locale]/          Các trang: /, about, services (vé + dịch vụ), experience (3D), menu, booking
 src/app/api/booking/       API nhận form đặt lịch (validate, honeypot, chuyển tiếp webhook)
 src/components/ui/         Thành phần dùng chung (Button, Photo, Section, PageHero...)
 src/components/sections/   Các khối của từng trang
@@ -34,7 +34,8 @@ scripts/                   optimize-images.mjs và images.manifest.json (kích t
 ## Việc thường làm
 
 - **Sửa chữ**: sửa trong `messages/vi/*.json` và `messages/en/*.json`. Khóa kiểu TypeScript, thiếu khóa sẽ báo lỗi khi `npm run typecheck`.
-- **Đổi giá gói**: `src/data/package-prices.ts` (tự cập nhật thẻ gói, bảng so sánh, form đặt lịch). Giá ghi trong `messages/*/seo.json` cần sửa tay.
+- **Đổi giá vé / nội dung vé**: `src/data/tickets.ts` (giá, ảnh vòng tay, mục bao gồm) và `messages/*/shared.json` (tên + mô tả). Giá ghi trong `messages/*/seo.json` cần sửa tay.
+- **Giờ mở cửa, số điện thoại, Zalo, email**: `src/data/site.ts` (đang là thông tin tạm, cần thay bằng thông tin thật).
 - **Đổi món / giá thực đơn**: `src/data/menu.ts` (cập nhật cả ảnh poster `menu.jpg` rồi chạy `npm run images`).
 - **Thêm ảnh**: thêm dòng vào `scripts/optimize-images.mjs`, chạy `npm run images`, thêm mô tả (alt) vào `messages/*/images.json`, dùng `<Photo name="..." sizes="..." />`.
 - **Thêm tiếng Trung / Hàn**: thêm `zh` / `ko` vào `src/i18n/routing.ts` (và `localeMeta`), sao chép `messages/en` thành `messages/zh`, dịch, thêm font CJK trong `src/lib/fonts.ts` (CSS `:lang(zh)` / `:lang(ko)` đã chuẩn bị sẵn).

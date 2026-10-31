@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { mainNav } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
-import { Chip } from "@/components/ui/Chip";
 import { Container } from "@/components/ui/Container";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -26,10 +25,6 @@ export function Footer() {
             </span>
           </Link>
           <p className="max-w-md text-sm text-sand/75">{t("footer.about")}</p>
-          <div className="flex flex-wrap gap-2">
-            <Chip tone="dark">{t("footer.badgeWelfare")}</Chip>
-            <Chip tone="dark">{t("footer.badgeHeritage")}</Chip>
-          </div>
         </div>
 
         <nav aria-label={t("footer.exploreTitle")} className="flex flex-col gap-4 lg:col-span-3">

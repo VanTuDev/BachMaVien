@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
     qualities: [75, 85],
   },
   poweredByHeader: false,
+  async redirects() {
+    // The safety page was folded into tickets and services.
+    return [{ source: "/:locale(vi|en)/safety", destination: "/:locale/services", permanent: true }];
+  },
   async headers() {
     return [
       {

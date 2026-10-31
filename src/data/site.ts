@@ -10,14 +10,27 @@ function siteUrl() {
   return "http://localhost:5062";
 }
 
+/**
+ * Business details. TODO(client): phone, email and address below are placeholders carried over from the
+ * generated design. Replace them with the real company details before launch.
+ */
 export const siteConfig = {
   name: "Bách Mã Viên",
   url: siteUrl(),
   phone: "(+84) 905 888 234",
   phoneHref: "tel:+84905888234",
+  zaloHref: "https://zalo.me/0905888234",
   email: "concierge@bachmavien.vn",
-  hours: { open: "07:00", close: "18:00" },
   copyrightYear: 2026,
+  /** Open Tuesday to Sunday, closed Monday. */
+  hours: {
+    open: "08:00",
+    close: "19:00",
+    ridingMorning: "08:30 – 12:00",
+    ridingAfternoon: "14:00 – 17:30",
+    /** Date#getDay(): 1 = Monday. */
+    closedWeekday: 1,
+  },
   /** Approximate location of the Cổ Cò river corridor between Đà Nẵng and Hội An. */
   geo: { latitude: 15.9, longitude: 108.3 },
 } as const;

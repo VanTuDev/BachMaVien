@@ -43,7 +43,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
     <html lang={locale} className={`${fontSans.variable} ${fontSerif.variable}`}>
       <body className="flex min-h-dvh flex-col">
         <div aria-hidden className="scroll-progress fixed inset-x-0 top-0 z-[60] h-0.5 origin-left bg-brass" />
-        <NextIntlClientProvider locale={locale} messages={{ common: messages.common, booking: messages.booking }}>
+        <NextIntlClientProvider locale={locale} messages={{ common: messages.common, booking: messages.booking, shared: messages.shared }}>
           <a
             href="#main"
             className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-sm focus:bg-espresso focus:px-4 focus:py-2 focus:text-cream"
@@ -81,7 +81,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             geo: { "@type": "GeoCoordinates", ...siteConfig.geo },
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
               opens: siteConfig.hours.open,
               closes: siteConfig.hours.close,
             },

@@ -1,36 +1,40 @@
 {
   "hero": {
     "tag": "Ẩm Thực và Giải Khát Thảo Nguyên",
-    "place": "Quầy Ranch Bar · Mở cửa {open} – {close}",
-    "titleA": "Thực Đơn Bách Mã Café",
-    "titleB": "và Giải Khát Miền Tây",
-    "lead": "Thưởng thức hương vị cà phê dừa đặc sản, trà trái cây và soda mát lạnh bên bờ sông Cổ Cò sau những giờ phút trên lưng ngựa.",
+    "place": "Mở cửa {open} – {close}",
+    "titleA": "Thực Đơn",
+    "titleB": "Bách Mã Café",
+    "lead": "Đồ uống gọi thêm tại quầy Bách Mã Café.",
     "bestSeller": "Món Bán Chạy Nhất",
     "signatureName": "Cà Phê Dừa Bách Mã",
     "signatureText": "Cà phê đậm đà hòa quyện lớp kem dừa béo mịn, món quà giải nhiệt hoàn hảo sau mỗi vòng cưỡi ngựa."
   },
   "categories": {
-    "cafe": { "title": "Bách Mã Café", "tag": "Ranch Style" },
-    "tea": { "title": "Trà | Western Tea", "tag": "Thảo Mộc" },
-    "soda": { "title": "Soda | Wild West Fizz", "tag": "Sảng Khoái" },
-    "juice": { "title": "Nước Ép | Fresh Juice", "tag": "Tự Nhiên" },
-    "classic": { "title": "Classic", "tag": "Quen Thuộc" }
-  },
-  "sunset": {
-    "title": "Góc Ngắm Hoàng Hôn Bên Bờ Sông Cổ Cò",
-    "text": "Vừa nhâm nhi ly cà phê dừa mát lạnh, vừa lắng nghe tiếng vó ngựa thong dong và đón ngọn gió mát lành từ dòng sông.",
-    "action": "Đặt Chỗ Ngắm Hoàng Hôn"
+    "cafe": {
+      "title": "Bách Mã Café",
+      "tag": "Ranch Style"
+    },
+    "tea": {
+      "title": "Trà | Western Tea",
+      "tag": "Thảo Mộc"
+    },
+    "soda": {
+      "title": "Soda | Wild West Fizz",
+      "tag": "Sảng Khoái"
+    },
+    "juice": {
+      "title": "Nước Ép | Fresh Juice",
+      "tag": "Tự Nhiên"
+    },
+    "classic": {
+      "title": "Classic",
+      "tag": "Quen Thuộc"
+    }
   },
   "poster": {
     "eyebrow": "Thực Đơn Đầy Đủ",
     "title": "Poster Thực Đơn Bách Mã Café",
     "description": "Bản thực đơn in tại quầy Ranch Bar. Giá tính bằng nghìn đồng.",
     "open": "Mở ảnh gốc"
-  },
-  "cta": {
-    "eyebrow": "Sau Chuyến Cưỡi Ngựa",
-    "title": "Kết Hợp Trải Nghiệm Cưỡi Ngựa và Một Ly Đồ Uống Signature",
-    "text": "Gói Cao Bồi Wild West đã bao gồm một món đồ uống Bách Mã Signature.",
-    "action": "Xem Các Gói Trải Nghiệm"
   }
 }
