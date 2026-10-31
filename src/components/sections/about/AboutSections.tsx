@@ -84,16 +84,21 @@ export function AboutTeam() {
     <Section labelledBy="about-team-title">
       <SectionHeader id="about-team-title" align="center" eyebrow={t("eyebrow")} title={t("title")} description={t("note")} />
       <Photo name="team-banner" sizes="(min-width: 1280px) 1216px, 100vw" className="shadow-warm-lg" />
-      <ul className="reveal-stagger mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {teamMembers.map(({ key, name, icon: Icon }) => (
-          <li key={key} className="flex items-center gap-4 rounded-sm border border-espresso/10 bg-surface p-4">
-            <span className="grid size-11 shrink-0 place-items-center rounded-full bg-sand text-chestnut">
-              <Icon aria-hidden className="size-5" />
-            </span>
-            <div>
-              <p className="type-title">{name}</p>
-              <p className="type-label-sm text-chestnut">{t(`roles.${key}`)}</p>
-            </div>
+      <ul className="reveal-stagger mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
+        {teamMembers.map(({ key, name, image, icon: Icon }) => (
+          <li key={key}>
+            <article className="flex h-full flex-col overflow-hidden rounded-sm bg-surface shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-warm-lg">
+              <Photo name={image} framed={false} sizes="(min-width: 1280px) 384px, (min-width: 1024px) 33vw, 50vw" />
+              <div className="flex items-center gap-3 p-4">
+                <span className="hidden size-10 shrink-0 place-items-center rounded-full bg-sand text-chestnut sm:grid">
+                  <Icon aria-hidden className="size-5" />
+                </span>
+                <div>
+                  <p className="type-title">{name}</p>
+                  <p className="type-label-sm text-chestnut">{t(`roles.${key}`)}</p>
+                </div>
+              </div>
+            </article>
           </li>
         ))}
       </ul>
