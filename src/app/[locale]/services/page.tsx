@@ -8,6 +8,7 @@ import { Zones } from "@/components/sections/Zones";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PageCta } from "@/components/ui/PageCta";
 import { PageHero } from "@/components/ui/PageHero";
+import { Photo } from "@/components/ui/Photo";
 import { bookingHref } from "@/data/navigation";
 import { ticketKeys, ticketPrices } from "@/data/tickets";
 import { routing, type Locale } from "@/i18n/routing";
@@ -21,7 +22,26 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/services
 
 function ServicesHero() {
   const t = useTranslations("services.hero");
-  return <PageHero eyebrow={<span className="type-label-sm text-chestnut">{t("eyebrow")}</span>} title={t("title")} lead={t("lead")} />;
+
+  return (
+    <PageHero
+      eyebrow={<span className="type-label-sm text-chestnut">{t("eyebrow")}</span>}
+      title={t("title")}
+      lead={t("lead")}
+      aside={
+        <div className="grid grid-cols-2 gap-3 sm:gap-4">
+          <Photo
+            name="scene-riding-ring"
+            priority
+            sizes="(min-width: 1280px) 480px, (min-width: 1024px) 40vw, 100vw"
+            className="col-span-2 shadow-warm-lg"
+          />
+          <Photo name="scene-costume" sizes="(min-width: 1280px) 236px, (min-width: 1024px) 20vw, 50vw" />
+          <Photo name="scene-archery-lane" sizes="(min-width: 1280px) 236px, (min-width: 1024px) 20vw, 50vw" />
+        </div>
+      }
+    />
+  );
 }
 
 function ServicesZones() {
