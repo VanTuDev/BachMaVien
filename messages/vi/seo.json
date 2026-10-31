@@ -1,13 +1,13 @@
 {
-  "keywords": "Bách Mã Viên,cưỡi ngựa Đà Nẵng,cưỡi ngựa Hội An,trang trại ngựa,sông Cổ Cò,Wild West Real Feel,cao bồi,vé cưỡi ngựa,thuê không gian chụp ảnh,café saloon",
-  "ogImageAlt": "Bách Mã Viên - đàn ngựa phi nước đại bên sông Cổ Cò",
+  "keywords": "Bách Mã Viên,cưỡi ngựa Đà Nẵng,trang trại ngựa,Wild West Real Feel,cao bồi,vé cưỡi ngựa,thuê không gian chụp ảnh,café saloon",
+  "ogImageAlt": "Bách Mã Viên - đàn ngựa phi nước đại trên thảo nguyên",
   "home": {
-    "title": "Bách Mã Viên - Cưỡi ngựa phong cách cao bồi bên sông Cổ Cò",
-    "description": "Bách Mã Viên là trang trại trải nghiệm cưỡi ngựa phong cách cao bồi ven sông Cổ Cò, giữa Đà Nẵng và Hội An. 3 gói vé từ 199.000đ, café Saloon, khu chụp ảnh Cowboy Town."
+    "title": "Bách Mã Viên - Cưỡi ngựa phong cách cao bồi tại Hòa Bắc, Đà Nẵng",
+    "description": "Bách Mã Viên là trang trại trải nghiệm cưỡi ngựa phong cách cao bồi tại Hòa Bắc, Đà Nẵng. 3 gói vé từ 199.000đ, café Saloon, khu chụp ảnh Cowboy Town."
   },
   "about": {
     "title": "Về Bách Mã Viên và đội ngũ",
-    "description": "Bách Mã Viên là ai: trang trại cưỡi ngựa phong cách cao bồi ven sông Cổ Cò, ngựa Việt Nam, và đội ngũ đứng sau dự án."
+    "description": "Bách Mã Viên là ai: trang trại cưỡi ngựa phong cách cao bồi ven  ngựa Việt Nam, và đội ngũ đứng sau dự án."
   },
   "services": {
     "title": "Giá vé và dịch vụ",
@@ -15,7 +15,7 @@
   },
   "menu": {
     "title": "Thực đơn Bách Mã Café và giải khát miền Tây",
-    "description": "Thực đơn Ranch Bar: cà phê dừa Bách Mã, cà phê Cowboy, trà, soda Wild West Fizz, nước ép và đồ uống cổ điển, giá từ 10.000đ, phục vụ bên sông Cổ Cò."
+    "description": "Thực đơn Ranch Bar: cà phê dừa Bách Mã, cà phê Cowboy, trà, soda Wild West Fizz, nước ép và đồ uống cổ điển, giá từ 10.000đ, phục vụ tại Hòa Bắc, Đà Nẵng."
   },
   "booking": {
     "title": "Đặt vé",

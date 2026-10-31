@@ -1,10 +1,10 @@
 {
   "hero": {
-    "badge": "Cổ Cò River · Đà Nẵng – Hội An",
+    "badge": "Hòa Bắc · Đà Nẵng",
     "srTitle": "Bách Mã Viên:",
     "titleA": "Wild West,",
     "titleB": "Real Feel",
-    "lead": "Cowboy-style horse riding on the Cổ Cò river.",
+    "lead": "Cowboy-style horse riding in Hòa Bắc, Đà Nẵng.",
     "ctaPrimary": "Book tickets",
     "ctaSecondary": "See ticket prices"
   },
@@ -13,12 +13,12 @@
     "openValue": "{open} – {close} · closed Mondays",
     "riding": "Horse riding",
     "place": "Location",
-    "placeValue": "Cổ Cò riverside, Đà Nẵng – Hội An"
+    "placeValue": "Hòa Bắc, Đà Nẵng"
   },
   "about": {
     "eyebrow": "About us",
     "title": "Who is Bách Mã Viên?",
-    "text": "A Wild West-style riding ranch on the Cổ Cò river, between Đà Nẵng and Hội An. Our horses are Vietnamese horses, easy to keep and well suited to Đà Nẵng's climate.",
+    "text": "A Wild West-style riding ranch in Hòa Bắc, Đà Nẵng. Our horses are Vietnamese horses, easy to keep and well suited to Đà Nẵng's climate.",
     "more": "Learn more"
   },
   "services": {

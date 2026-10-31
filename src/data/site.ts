@@ -31,6 +31,4 @@ export const siteConfig = {
     /** Date#getDay(): 1 = Monday. */
     closedWeekday: 1,
   },
-  /** Approximate location of the Cổ Cò river corridor between Đà Nẵng and Hội An. */
-  geo: { latitude: 15.9, longitude: 108.3 },
 } as const;

@@ -74,11 +74,10 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             inLanguage: locale,
             address: {
               "@type": "PostalAddress",
-              addressLocality: "Đà Nẵng",
-              addressRegion: "Quảng Nam",
+              addressLocality: "Hòa Bắc",
+              addressRegion: "Đà Nẵng",
               addressCountry: "VN",
             },
-            geo: { "@type": "GeoCoordinates", ...siteConfig.geo },
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
               dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

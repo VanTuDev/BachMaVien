@@ -1,10 +1,10 @@
 {
   "hero": {
-    "badge": "Sông Cổ Cò · Đà Nẵng – Hội An",
+    "badge": "Hòa Bắc · Đà Nẵng",
     "srTitle": "Bách Mã Viên:",
     "titleA": "Wild West,",
     "titleB": "Real Feel",
-    "lead": "Trải nghiệm cưỡi ngựa phong cách cao bồi bên sông Cổ Cò.",
+    "lead": "Trải nghiệm cưỡi ngựa phong cách cao bồi tại Hòa Bắc, Đà Nẵng.",
     "ctaPrimary": "Đặt vé",
     "ctaSecondary": "Xem giá vé"
   },
@@ -13,12 +13,12 @@
     "openValue": "{open} – {close} · nghỉ thứ Hai",
     "riding": "Cưỡi ngựa",
     "place": "Địa điểm",
-    "placeValue": "Ven sông Cổ Cò, Đà Nẵng – Hội An"
+    "placeValue": "Hòa Bắc, Đà Nẵng"
   },
   "about": {
     "eyebrow": "Về chúng tôi",
     "title": "Bách Mã Viên là ai?",
-    "text": "Trang trại trải nghiệm phong cách cao bồi miền Tây, ven sông Cổ Cò giữa Đà Nẵng và Hội An. Ngựa của chúng tôi là ngựa Việt Nam, dễ nuôi và thích nghi với khí hậu Đà Nẵng.",
+    "text": "Trang trại trải nghiệm phong cách cao bồi miền Tây, tại Hòa Bắc, Đà Nẵng. Ngựa của chúng tôi là ngựa Việt Nam, dễ nuôi và thích nghi với khí hậu Đà Nẵng.",
     "more": "Tìm hiểu thêm"
   },
   "services": {
