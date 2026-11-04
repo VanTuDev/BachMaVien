@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/data/site";
 import { routing } from "@/i18n/routing";
-import { fontSans, fontSerif } from "@/lib/fonts";
+import { fontSans } from "@/lib/fonts";
 import { localizedUrl } from "@/lib/seo";
 import "../globals.css";
 
@@ -41,7 +41,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   const t = await getTranslations({ locale, namespace: "seo" });
 
   return (
-    <html lang={locale} className={`${fontSans.variable} ${fontSerif.variable}`}>
+    <html lang={locale} className={fontSans.variable}>
       <body className="flex min-h-dvh flex-col">
         <div aria-hidden className="scroll-progress fixed inset-x-0 top-0 z-[60] h-0.5 origin-left bg-brass" />
         <NextIntlClientProvider locale={locale} messages={{ common: messages.common, booking: messages.booking, shared: messages.shared }}>

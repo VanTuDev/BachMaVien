@@ -20,7 +20,7 @@ export function Footer() {
           <Link href="/" className="flex items-center gap-4" aria-label={t("brand.homeLabel")}>
             <Image src="/images/logo-white.png" alt="" width={72} height={72} className="size-[4.5rem] shrink-0 object-contain" />
             <span className="flex flex-col leading-tight">
-              <span className="font-serif text-xl font-bold text-cream">{siteConfig.name}</span>
+              <span className="text-xl font-bold text-cream">{siteConfig.name}</span>
               <span className="type-label-sm text-brass">{t("brand.tagline")}</span>
             </span>
           </Link>

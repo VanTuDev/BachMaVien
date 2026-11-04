@@ -75,7 +75,7 @@ export function ExperienceHero() {
           <dl className="grid grid-cols-3 gap-4 py-7 sm:gap-10 sm:py-8">
             {metricKeys.map((key) => (
               <div key={key} className="flex flex-col gap-1 border-l border-brass/40 pl-4">
-                <dd className="order-1 font-serif text-2xl text-cream sm:text-3xl">
+                <dd className="order-1 text-2xl font-bold text-cream sm:text-3xl">
                   {t(`metrics.${key}.value`, { count: metricCount[key] })}
                 </dd>
                 <dt className="order-2 type-label-sm text-brass">{t(`metrics.${key}.label`)}</dt>

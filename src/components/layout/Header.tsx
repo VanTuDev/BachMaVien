@@ -20,7 +20,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3" aria-label={t("brand.homeLabel")}>
           <Image src="/images/logo.png" alt="" width={48} height={48} priority className="size-11 shrink-0 object-contain sm:size-12" />
           <span className="flex flex-col leading-tight">
-            <span className="whitespace-nowrap font-serif text-base font-bold text-espresso sm:text-lg">{siteConfig.name}</span>
+            <span className="whitespace-nowrap text-base font-bold text-espresso sm:text-lg">{siteConfig.name}</span>
             <span className="hidden whitespace-nowrap type-label-sm text-chestnut 2xl:block">{t("brand.tagline")}</span>
           </span>
         </Link>

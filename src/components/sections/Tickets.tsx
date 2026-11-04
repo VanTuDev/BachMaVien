@@ -37,7 +37,7 @@ export function Tickets() {
                   )}
                   <h3 className="type-headline-sm">{t(`names.${key}`)}</h3>
                   <p className="flex flex-wrap items-baseline gap-x-2">
-                    <Price amount={ticketPrices[key]} className="font-serif text-3xl text-espresso" />
+                    <Price amount={ticketPrices[key]} className="text-3xl font-bold text-espresso" />
                     <span className="text-sm text-muted">{t("perPerson")}</span>
                   </p>
                 </div>

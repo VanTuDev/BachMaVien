@@ -377,7 +377,7 @@ export function TourViewer({ stops, zones, labels }: Props) {
 
           <div className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 bg-gradient-to-t from-ink/85 via-ink/40 to-transparent px-4 pt-14 pb-4 sm:px-5 sm:pb-5">
             <div className="min-w-0">
-              <p className="truncate font-serif text-base font-bold text-cream sm:text-xl">{stop.title}</p>
+              <p className="truncate text-base font-bold text-cream sm:text-xl">{stop.title}</p>
               <p className="truncate text-xs text-sand/85 sm:text-sm">
                 {stop.subtitle}
                 {stop.views.length > 1 && <span className="text-brass"> · {current.scene.label}</span>}
@@ -481,7 +481,7 @@ export function TourViewer({ stops, zones, labels }: Props) {
 
           <div key={stop.key} className="scene-in flex flex-col gap-3">
             <h3 className="type-headline-md text-espresso">{stop.title}</h3>
-            <p className="font-serif text-chestnut italic">{stop.subtitle}</p>
+            <p className="text-chestnut italic">{stop.subtitle}</p>
             <p className="text-muted">{stop.text}</p>
           </div>
 

@@ -215,7 +215,7 @@ export function BookingForm() {
         <FieldError id="tickets-error" message={message("tickets")} />
         <p className="mt-4 flex items-baseline justify-between gap-4 border-t border-espresso/10 pt-4">
           <span className="type-label-sm text-chestnut">{t("form.total")}</span>
-          <span className="font-serif text-2xl text-espresso tabular-nums">{formatVnd(total, locale)}</span>
+          <span className="text-2xl font-bold text-espresso tabular-nums">{formatVnd(total, locale)}</span>
         </p>
       </fieldset>
 

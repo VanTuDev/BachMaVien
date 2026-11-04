@@ -112,7 +112,7 @@ export function Carousel({ slides, labels, className }: Props) {
         </div>
 
         <div className="flex items-center gap-4">
-          <p aria-hidden className="font-serif text-sm tabular-nums text-sand/70">
+          <p aria-hidden className="text-sm font-semibold tabular-nums text-sand/70">
             {String(selected + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
           </p>
           <div className="flex items-center gap-1.5">
