@@ -16,6 +16,8 @@ type Props = {
 /** Filter chips for the herd. Cards are rendered on the server and passed in, so only the chips are client code. */
 export function HorseFilter({ items, filters, filterLabel, countTemplate }: Props) {
   const [active, setActive] = useState("all");
+  // The first render is revealed by <ScrollReveal>; after the visitor filters, the new grid fades in instead.
+  const [filtered, setFiltered] = useState(false);
   const visible = active === "all" ? items : items.filter((item) => item.purposes.includes(active));
 
   return (
@@ -29,7 +31,10 @@ export function HorseFilter({ items, filters, filterLabel, countTemplate }: Prop
                 key={value}
                 type="button"
                 aria-pressed={selected}
-                onClick={() => setActive(value)}
+                onClick={() => {
+                  setActive(value);
+                  setFiltered(true);
+                }}
                 className={cn(
                   "rounded-full border px-5 py-2.5 type-label transition-colors",
                   selected
@@ -47,11 +52,9 @@ export function HorseFilter({ items, filters, filterLabel, countTemplate }: Prop
         </p>
       </div>
 
-      <ul className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <ul key={active} className={cn("grid gap-8 md:grid-cols-2 xl:grid-cols-3", filtered ? "page-enter" : "reveal-stagger")}>
         {visible.map((item) => (
-          <li key={item.key} className="page-enter">
-            {item.node}
-          </li>
+          <li key={item.key}>{item.node}</li>
         ))}
       </ul>
     </div>

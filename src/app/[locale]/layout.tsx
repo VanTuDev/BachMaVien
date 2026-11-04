@@ -40,9 +40,11 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: "seo" });
 
+  // suppressHydrationWarning: translation and accessibility browser extensions add attributes to <html> and <body>
+  // before React hydrates, which would otherwise log a (harmless) hydration mismatch.
   return (
-    <html lang={locale} className={fontSans.variable}>
-      <body className="flex min-h-dvh flex-col">
+    <html lang={locale} className={fontSans.variable} suppressHydrationWarning>
+      <body className="flex min-h-dvh flex-col" suppressHydrationWarning>
         <div aria-hidden className="scroll-progress fixed inset-x-0 top-0 z-[60] h-0.5 origin-left bg-brass" />
         <NextIntlClientProvider locale={locale} messages={{ common: messages.common, booking: messages.booking, shared: messages.shared }}>
           <a
