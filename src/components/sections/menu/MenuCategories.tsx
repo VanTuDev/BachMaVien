@@ -22,7 +22,7 @@ export function MenuCategories() {
             <article aria-labelledby={`menu-${key}`} className="flex h-full flex-col overflow-hidden rounded-sm bg-surface shadow-sm">
               <Photo name={image} framed={false} sizes="(min-width: 1280px) 384px, (min-width: 768px) 45vw, 100vw" className="bg-white" />
               <div className="flex flex-1 flex-col gap-5 p-7">
-                <header className="flex items-start justify-between gap-4">
+                <header className="flex flex-col items-start gap-3">
                   <div className="flex items-center gap-3">
                     <Icon aria-hidden className="size-6 shrink-0 text-chestnut" />
                     <h3 id={`menu-${key}`} className="type-headline-sm">

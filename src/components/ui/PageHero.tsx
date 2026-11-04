@@ -24,9 +24,9 @@ export function PageHero({ eyebrow, title, accent, lead, aside, children, classN
       <div aria-hidden className="pointer-events-none absolute -bottom-40 -left-24 size-96 rounded-full bg-brass/10 blur-3xl" />
 
       <Container className="relative">
-        {eyebrow && <div className="mb-8 flex flex-wrap items-center gap-x-4 gap-y-2">{eyebrow}</div>}
         <div className={cn("grid gap-12 lg:gap-16", !!aside && "lg:grid-cols-12 lg:items-center")}>
           <div className={cn("enter flex flex-col gap-6", !!aside && "lg:col-span-7")}>
+            {eyebrow && <div className="flex flex-wrap items-center gap-x-4 gap-y-2">{eyebrow}</div>}
             <h1 className="type-display text-espresso">
               {title}
               {accent && (

@@ -44,12 +44,7 @@ export function Extras() {
         </article>
 
         <article className="flex flex-col overflow-hidden rounded-sm bg-surface shadow-sm">
-          <Photo
-            name="drink-coconut-coffee"
-            framed={false}
-            sizes="(min-width: 1280px) 580px, (min-width: 1024px) 45vw, 100vw"
-            className="bg-white"
-          />
+          <Photo name="scene-cafe-front" framed={false} sizes="(min-width: 1280px) 580px, (min-width: 1024px) 45vw, 100vw" />
           <div className="flex flex-1 flex-col items-start gap-4 p-7">
             <Eyebrow>{cafe("eyebrow")}</Eyebrow>
             <h2 className="type-headline-md">{cafe("title")}</h2>

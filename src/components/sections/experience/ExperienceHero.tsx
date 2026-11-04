@@ -46,7 +46,7 @@ export function ExperienceHero() {
           <Container className="flex flex-col items-start gap-6 pt-10 pb-14 lg:pb-16">
             <p
               style={{ "--d": 2 } as CSSProperties}
-              className="enter flex items-center gap-3 type-label text-brass [text-shadow:0_1px_10px_rgb(26_17_11/0.8)]"
+              className="enter flex items-center gap-3 type-label text-brass-light [text-shadow:0_1px_10px_rgb(26_17_11/0.8)]"
             >
               <span aria-hidden className="h-0.5 w-10 bg-brass" />
               {t("eyebrow")}
@@ -54,7 +54,7 @@ export function ExperienceHero() {
             <div style={{ "--d": 3 } as CSSProperties} className="enter max-w-4xl">
               <h1 id="experience-title" className="type-display text-cream [text-shadow:0_2px_24px_rgb(26_17_11/0.55)]">
                 <span className="sr-only">{t("srTitle")} </span>
-                {t("titleA")} <em className="text-brass">{t("titleB")}</em>
+                {t("titleA")} <em className="text-brass-light">{t("titleB")}</em>
               </h1>
               <p className="type-lead mt-5 max-w-2xl text-sand [text-shadow:0_1px_12px_rgb(26_17_11/0.6)]">{t("lead")}</p>
             </div>
