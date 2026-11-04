@@ -16,7 +16,7 @@ export function Hours() {
   ];
 
   return (
-    <Section tone="dark" className="py-12 sm:py-14 lg:py-16" labelledBy="hours-title">
+    <Section tone="dark" size="compact" labelledBy="hours-title">
       <h2 id="hours-title" className="type-headline-md mb-8 text-cream">
         {t("title")}
       </h2>

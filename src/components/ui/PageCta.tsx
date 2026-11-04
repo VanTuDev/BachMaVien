@@ -11,7 +11,7 @@ type Props = {
 /** Compact dark call-to-action band that closes an inner page. */
 export function PageCta({ title, action, href }: Props) {
   return (
-    <Section tone="dark" className="py-14 sm:py-16">
+    <Section tone="dark" size="slim">
       <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
         <h2 className="type-headline-md text-cream">{title}</h2>
         <ButtonLink href={href} variant="brass" className="shrink-0">
