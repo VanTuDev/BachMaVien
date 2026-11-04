@@ -1,18 +1,22 @@
 import type { CSSProperties } from "react";
+import Image from "next/image";
 import { Clock, MapPin, Route } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { getImage } from "@/data/images";
 import { bookingHref } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
 import { ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { Photo } from "@/components/ui/Photo";
 
 /**
- * The brand cover banner is the hero. It is shown whole at its own ratio and its brick-red ground
- * flows straight into the call-to-action band below, so the two read as one poster.
+ * Cinematic cover: an aerial view of the ranch with the brand mark, slogan and booking buttons laid over it.
+ * On phones the photo sits on top at its own ratio and the copy follows on the brand-red band.
  */
 export function HomeHero() {
   const t = useTranslations("home");
+  const tImg = useTranslations("images");
+  const cover = getImage("scene-aerial-wide");
+  const logo = getImage("logo-white");
   const { open, close, ridingMorning, ridingAfternoon } = siteConfig.hours;
 
   const info = [
@@ -23,26 +27,54 @@ export function HomeHero() {
 
   return (
     <section aria-labelledby="home-title" className="bg-brick text-cream">
-      <h1 id="home-title" className="sr-only">
-        {t("hero.srTitle")} {t("hero.titleA")} {t("hero.titleB")}
-      </h1>
+      <div className="relative overflow-hidden lg:h-[min(52vw,calc(100svh-5rem))] lg:min-h-[30rem]">
+        <Image
+          src={cover.src}
+          width={cover.width}
+          height={cover.height}
+          alt={tImg("scene-aerial-wide")}
+          priority
+          sizes="100vw"
+          className="kenburns block h-auto w-full lg:h-full lg:object-cover lg:object-[50%_60%]"
+        />
+        <div aria-hidden className="absolute inset-0 hidden bg-linear-to-r from-ink/85 via-ink/45 via-45% to-transparent lg:block" />
+        <div aria-hidden className="absolute inset-0 hidden bg-linear-to-t from-brick/90 via-transparent via-40% to-transparent lg:block" />
 
-      <Photo name="banner-slogan" framed={false} priority sizes="100vw" />
+        <p className="absolute top-3 right-3 rounded-xs bg-ink/60 px-2.5 py-1 text-[0.6875rem] font-medium text-cream/90 backdrop-blur-sm lg:top-5 lg:right-6">
+          {t("hero.renderNote")}
+        </p>
 
-      <Container className="flex flex-col items-start justify-between gap-6 py-8 lg:flex-row lg:items-center lg:py-10">
-        <div style={{ "--d": 1 } as CSSProperties} className="enter flex max-w-xl flex-col gap-3">
-          <p className="type-label-sm text-brass-light">{t("hero.badge")}</p>
-          <p className="type-lead text-cream">{t("hero.lead")}</p>
+        <div className="lg:absolute lg:inset-0 lg:flex lg:items-center">
+          <Container className="flex flex-col items-start gap-5 py-10 lg:py-0">
+            <div style={{ "--d": 1 } as CSSProperties} className="enter flex items-center gap-4">
+              <Image src={logo.src} width={logo.width} height={logo.height} alt="" className="size-16 shrink-0 object-contain lg:size-20" />
+              <p className="type-label-sm text-brass-light">{t("hero.badge")}</p>
+            </div>
+            <h1
+              id="home-title"
+              style={{ "--d": 2 } as CSSProperties}
+              className="enter type-display max-w-2xl text-cream [text-shadow:0_2px_24px_rgb(26_17_11/0.55)]"
+            >
+              <span className="sr-only">{t("hero.srTitle")} </span>
+              {t("hero.titleA")} <em className="text-brass-light not-italic">{t("hero.titleB")}</em>
+            </h1>
+            <p
+              style={{ "--d": 3 } as CSSProperties}
+              className="enter type-lead max-w-md text-balance text-cream [text-shadow:0_1px_12px_rgb(26_17_11/0.6)]"
+            >
+              {t("hero.lead")}
+            </p>
+            <div style={{ "--d": 4 } as CSSProperties} className="enter flex flex-wrap gap-4 pt-1">
+              <ButtonLink href={bookingHref} variant="brass">
+                {t("hero.ctaPrimary")}
+              </ButtonLink>
+              <ButtonLink href="#tickets" variant="outline-light" icon={false}>
+                {t("hero.ctaSecondary")}
+              </ButtonLink>
+            </div>
+          </Container>
         </div>
-        <div style={{ "--d": 2 } as CSSProperties} className="enter flex flex-wrap gap-4">
-          <ButtonLink href={bookingHref} variant="brass">
-            {t("hero.ctaPrimary")}
-          </ButtonLink>
-          <ButtonLink href="#tickets" variant="outline-light" icon={false}>
-            {t("hero.ctaSecondary")}
-          </ButtonLink>
-        </div>
-      </Container>
+      </div>
 
       <div className="border-t border-cream/15 bg-brick-deep">
         <Container>
