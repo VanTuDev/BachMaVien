@@ -1,10 +1,10 @@
 {
   "hero": {
-    "badge": "Hòa Bắc · Đà Nẵng",
+    "badge": "Hoa Bac · Da Nang",
     "srTitle": "Bách Mã Viên:",
     "titleA": "Wild West,",
     "titleB": "Real Feel",
-    "lead": "Cowboy-style horse riding in Hòa Bắc, Đà Nẵng.",
+    "lead": "Cowboy-style horse riding in Hoa Bac, Da Nang.",
     "ctaPrimary": "Book tickets",
     "ctaSecondary": "See ticket prices"
   },
@@ -13,12 +13,12 @@
     "openValue": "{open} – {close} · closed Mondays",
     "riding": "Horse riding",
     "place": "Location",
-    "placeValue": "Hòa Bắc, Đà Nẵng"
+    "placeValue": "Hoa Bac, Da Nang"
   },
   "about": {
     "eyebrow": "About us",
     "title": "Who is Bách Mã Viên?",
-    "text": "A Wild West-style riding ranch in Hòa Bắc, Đà Nẵng. Our horses are Vietnamese horses, easy to keep and well suited to Đà Nẵng's climate.",
+    "text": "A Wild West-style riding ranch in Hoa Bac, Da Nang. Our horses are Vietnamese horses, easy to keep and well suited to Da Nang's climate.",
     "more": "Learn more"
   },
   "services": {

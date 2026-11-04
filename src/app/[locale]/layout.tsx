@@ -76,8 +76,8 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             inLanguage: locale,
             address: {
               "@type": "PostalAddress",
-              addressLocality: "Hòa Bắc",
-              addressRegion: "Đà Nẵng",
+              addressLocality: locale === "vi" ? "Hòa Bắc" : "Hoa Bac",
+              addressRegion: locale === "vi" ? "Đà Nẵng" : "Da Nang",
               addressCountry: "VN",
             },
             openingHoursSpecification: {

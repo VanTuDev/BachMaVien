@@ -26,7 +26,7 @@
     "skipToContent": "Skip navigation, go to main content"
   },
   "footer": {
-    "about": "Cowboy-style horse riding in Hòa Bắc, Đà Nẵng.",
+    "about": "Cowboy-style horse riding in Hoa Bac, Da Nang.",
     "exploreTitle": "Explore",
     "links": {
       "home": "Home",
@@ -38,7 +38,7 @@
       "horses": "Our Horses"
     },
     "contactTitle": "Contact",
-    "address": "Hòa Bắc, Đà Nẵng",
+    "address": "Hoa Bac, Da Nang",
     "hours": "{open} – {close}, Tuesday to Sunday (closed Mondays)",
     "copyright": "© {year} {name}. All rights reserved · Wild West, Real Feel."
   },
