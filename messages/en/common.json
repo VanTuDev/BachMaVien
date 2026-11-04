@@ -9,7 +9,8 @@
     "about": "About Us",
     "services": "Tickets & Services",
     "experience": "3D Experience",
-    "menu": "Menu"
+    "menu": "Menu",
+    "horses": "Our Horses"
   },
   "cta": {
     "book": "Book Tickets"
@@ -33,7 +34,8 @@
       "services": "Tickets & Services",
       "experience": "3D Experience",
       "menu": "Menu",
-      "booking": "Book Tickets"
+      "booking": "Book Tickets",
+      "horses": "Our Horses"
     },
     "contactTitle": "Contact",
     "address": "Hòa Bắc, Đà Nẵng",

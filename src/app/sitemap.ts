@@ -7,6 +7,7 @@ const pages: { key: PageKey; path: string; priority: number }[] = [
   { key: "services", path: "/services", priority: 0.9 },
   { key: "booking", path: "/booking", priority: 0.9 },
   { key: "experience", path: "/experience", priority: 0.8 },
+  { key: "horses", path: "/horses", priority: 0.8 },
   { key: "about", path: "/about", priority: 0.7 },
   { key: "menu", path: "/menu", priority: 0.7 },
 ];

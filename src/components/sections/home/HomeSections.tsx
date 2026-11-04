@@ -1,4 +1,8 @@
-import { useTranslations } from "next-intl";
+import { useMessages, useTranslations } from "next-intl";
+import { horses } from "@/data/horses";
+import { Link } from "@/i18n/navigation";
+import { HorsePortrait } from "@/components/horses/HorsePortrait";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import { ButtonLink, TextLink } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Photo } from "@/components/ui/Photo";
@@ -67,6 +71,48 @@ export function HomeExperience() {
           <p className="text-muted">{t("text")}</p>
           <ButtonLink href="/experience">{t("action")}</ButtonLink>
         </div>
+      </div>
+    </Section>
+  );
+}
+
+/** The whole herd as a row of coat-colored portraits, each linking to its profile. */
+export function HomeHorses() {
+  const t = useTranslations("horses");
+  const profiles = useMessages().horses.horses;
+
+  return (
+    <Section tone="low" labelledBy="home-horses-title">
+      <SectionHeader
+        id="home-horses-title"
+        align="center"
+        eyebrow={t("teaser.eyebrow")}
+        title={t("teaser.title")}
+        description={t("teaser.text")}
+      />
+      <ul className="reveal-stagger grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        {horses.map((horse) => (
+          <li key={horse.key}>
+            <Link
+              href={{ pathname: "/horses", hash: horse.key }}
+              className="group flex flex-col overflow-hidden rounded-sm bg-surface shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-warm-lg"
+            >
+              <HorsePortrait
+                horse={horse}
+                variant="mini"
+                sizes="(min-width: 1024px) 230px, (min-width: 640px) 30vw, 45vw"
+                className="transition-transform duration-500 group-hover:scale-[1.03]"
+              />
+              <span className="flex flex-col gap-0.5 p-4">
+                <span className="type-title">{horse.name}</span>
+                <span className="text-xs text-muted">{profiles[horse.key].breed}</span>
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <div className="mt-10 flex justify-center">
+        <ButtonLink href="/horses">{t("teaser.action")}</ButtonLink>
       </div>
     </Section>
   );

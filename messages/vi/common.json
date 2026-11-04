@@ -9,7 +9,8 @@
     "about": "Về Chúng Tôi",
     "services": "Vé và Dịch Vụ",
     "experience": "Trải Nghiệm 3D",
-    "menu": "Thực Đơn"
+    "menu": "Thực Đơn",
+    "horses": "Đàn Ngựa"
   },
   "cta": {
     "book": "Đặt Vé"
@@ -33,7 +34,8 @@
       "services": "Vé và Dịch Vụ",
       "experience": "Trải Nghiệm 3D",
       "menu": "Thực Đơn",
-      "booking": "Đặt Vé"
+      "booking": "Đặt Vé",
+      "horses": "Đàn Ngựa"
     },
     "contactTitle": "Liên Hệ",
     "address": "Hòa Bắc, Đà Nẵng",

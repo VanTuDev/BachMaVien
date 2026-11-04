@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "eyebrow": "Đàn ngựa",
+    "title": "Gặp gỡ đàn ngựa",
+    "accent": "của Bách Mã Viên",
+    "lead": "10 chú ngựa Việt Nam, mỗi chú một tính cách và một vai trò riêng."
+  },
+  "mascot": {
+    "eyebrow": "Linh vật",
+    "title": "Bông, gương mặt đại diện của trại"
+  },
+  "filters": {
+    "label": "Lọc theo mục đích",
+    "all": "Tất cả",
+    "beginner": "Người mới",
+    "family": "Trẻ em và gia đình",
+    "experienced": "Có kinh nghiệm",
+    "photo": "Chụp ảnh và quay phim"
+  },
+  "facts": {
+    "height": "Cao",
+    "weight": "Nặng",
+    "born": "Sinh"
+  },
+  "sex": {
+    "mare": "Cái",
+    "gelding": "Đực (đã thiến)"
+  },
+  "sources": {
+    "bavan": "Trang trại ngựa Bá Vân",
+    "vifarm": "Trại ngựa giống Vifarm"
+  },
+  "fields": {
+    "breed": "Giống",
+    "source": "Nguồn nhập",
+    "sex": "Giới tính",
+    "color": "Màu sắc",
+    "marks": "Đặc điểm nhận dạng",
+    "appearance": "Ngoại hình",
+    "temperament": "Tính cách",
+    "health": "Sức khỏe",
+    "training": "Huấn luyện",
+    "role": "Vai trò",
+    "suitable": "Phù hợp với"
+  },
+  "details": {
+    "open": "Xem hồ sơ đầy đủ",
+    "close": "Thu gọn hồ sơ"
+  },
+  "photoSoon": "Ảnh sắp cập nhật",
+  "teaser": {
+    "eyebrow": "Đàn ngựa",
+    "title": "Làm quen với từng chú ngựa",
+    "text": "Mỗi chú có tên, tính cách và vai trò riêng.",
+    "action": "Gặp cả đàn"
+  },
+  "cta": {
+    "title": "Đặt vé để gặp họ ngoài đời",
+    "action": "Đặt vé"
+  },
+  "horses": {
+    "bong": {
+      "breed": "Ngựa bạch nội địa",
+      "tagline": "Linh vật của trại, hiền lành và quen chụp ảnh.",
+      "color": "Trắng kem toàn thân. Bờm và đuôi màu vàng kem nhạt. Da hồng, nhất là quanh mõm và móng. Mắt màu xanh nhạt.",
+      "appearance": "Nhỏ, thân tròn và đầy đặn, chân ngắn, móng sáng màu, bờm dày rủ xuống trán trông rất bông xù.",
+      "temperament": "Hiền lành, thích nằm nghỉ dưới bóng cây, không sợ người lạ. Có thể ngồi yên cho khách vuốt ve và chụp ảnh lâu.",
+      "health": "Đã tiêm phòng và tẩy giun định kỳ. Vì da hồng và mắt nhạt màu nên Bông rất nhạy cảm với nắng gắt: cần chuồng có mái che, tránh hoạt động ngoài trời từ 11h-15h, và bôi kem chống nắng chuyên dụng lên mõm khi trời nắng.",
+      "training": "Có người dắt đi bộ chậm. Quen với việc đứng tạo dáng, chụp hình.",
+      "role": "Linh vật và gương mặt đại diện của Bách Mã Viên, phụ trách chụp ảnh check-in, concept cưới và sự kiện.",
+      "suitable": "Khách nữ, cặp đôi, trẻ em, khách lần đầu tiếp xúc với ngựa."
+    },
+    "bo": {
+      "breed": "Ngựa Ta (ngựa nội Bắc Bộ)",
+      "tagline": "Con ngựa an toàn nhất của trại, rất điềm đạm.",
+      "color": "Trắng xám. Da sẫm màu quanh mõm, mắt và đầu gối, bờm và đuôi trắng ngà.",
+      "appearance": "Chân dài, cổ thẳng, dáng cao so với ngựa nội. Lúc mới nhập Bơ hơi gầy (lộ sườn và xương hông) nên đang được bồi dưỡng bằng cỏ tươi, cám và bổ sung khoáng.",
+      "temperament": "Lớn tuổi nhất đàn nên rất điềm đạm, chậm rãi, gần như không phản ứng với tiếng động lạ. Đây là con ngựa an toàn nhất của trại.",
+      "health": "Được theo dõi răng và móng định kỳ vì đã lớn tuổi. Chỉ làm việc nhẹ như chụp hình, tạo dáng.",
+      "training": "Rất thuần, đã quen dây dắt và đeo yên nhiều năm.",
+      "role": "Cưỡi có người dắt quanh sân cho người mới, người lớn tuổi và khách sợ ngựa. Ngoài ra chụp hình đứng cạnh ngựa.",
+      "suitable": "Người mới, người lớn tuổi, trẻ em."
+    },
+    "bach": {
+      "breed": "Ngựa Bắc Hà",
+      "tagline": "Nhanh nhẹn, bền bỉ, quen đường mòn.",
+      "color": "Hồng mã sẫm (nâu đỏ). Bờm, đuôi và bốn chân màu đen.",
+      "appearance": "Nhỏ gọn, thân săn, chân thẳng và chắc, móng cứng. Đây là dáng ngựa thồ vùng núi điển hình.",
+      "temperament": "Nhanh nhẹn, bền bỉ, biết đi theo đàn. Ngoan với người quen, nhưng với người lạ thì hơi dè chừng lúc đầu.",
+      "health": "Ít bệnh, chịu nóng và chịu kham khổ tốt, leo dốc khỏe.",
+      "training": "Thành thạo walk và trot, quen đi đường mòn và địa hình gồ ghề.",
+      "role": "Cưỡi tự do trong sân tập cho khách đã qua phần hướng dẫn cơ bản, có huấn luyện viên đi kèm.",
+      "suitable": "Khách trưởng thành, khách đã từng cưỡi ngựa."
+    },
+    "bin": {
+      "breed": "Ngựa Bắc Hà",
+      "tagline": "Trẻ, hiếu động, ngôi sao của video TikTok/Reels.",
+      "color": "Hồng mã (nâu đỏ sáng), bờm và đuôi đen.",
+      "marks": "Vệt trắng dài chạy dọc giữa mặt (sọc trán) và hai cổ chân sau trắng.",
+      "appearance": "Trẻ, thân thon, chân dài, tai luôn dựng lên, ánh mắt lanh lợi.",
+      "temperament": "Hiếu động, tò mò, học lệnh nhanh. Đôi lúc hơi nghịch nên cần người huấn luyện có kinh nghiệm.",
+      "health": "Đang tuổi sung sức, thể lực rất tốt.",
+      "training": "Đã thuần. Đang được luyện thêm canter (phi nước đại nhẹ) và các bài biểu diễn.",
+      "role": "Ngựa cho khóa học cưỡi ngựa từ cơ bản đến nâng cao, đồng thời là ngôi sao của các video TikTok/Reels.",
+      "suitable": "Khách trẻ 18-35 tuổi, khách thích thử thách."
+    },
+    "bolai": {
+      "breed": "Ngựa lai (nội × ngoại)",
+      "tagline": "Đầu đàn to khỏe, kéo xe ngựa của trại.",
+      "color": "Hạt dẻ đỏ (đỏ đồng bóng). Bờm cùng màu thân, đuôi đậm hơn một tông.",
+      "marks": "Đốm trắng nhỏ trên trán, hai cổ chân sau trắng (vớ trắng thấp), một vết bớt sẫm màu tròn ở mông trái, đây là dấu hiệu dễ nhận ra nhất.",
+      "appearance": "To khỏe nhất đàn. Ngực sâu, vai và mông nở, cơ đùi rất phát triển, lông bóng mượt.",
+      "temperament": "Điềm tĩnh, tự tin, có vai trò đầu đàn nên các con khác thường đi theo. Không sợ đám đông, tiếng nhạc hay tiếng vỗ tay.",
+      "health": "Thể lực bền, chịu tải được người lớn đến khoảng 85 kg. Vì là ngựa lai nên cần chuồng thông thoáng và tắm mát vào những ngày nắng nóng.",
+      "training": "Thành thạo walk, trot và canter. Quen các động tác cowboy như quay đầu, dừng gấp và chạy vòng thùng (barrel).",
+      "role": "Kéo xe ngựa là chính (xe chở khách tham quan quanh trang trại, xe hoa cưới). Ngoài ra còn chụp hình concept cowboy.",
+      "suitable": "Khách nam trưởng thành, khách có kinh nghiệm, các buổi biểu diễn."
+    },
+    "bi": {
+      "breed": "Ngựa Bắc Hà (ngựa Mông)",
+      "tagline": "Bờm đen dài bay đẹp khi phi, chuyên quay slow-motion.",
+      "color": "Vàng da bò (vàng sẫm). Bờm, đuôi và bốn chân màu đen.",
+      "marks": "Bờm đen rất dài và dày, gợn sóng. Có lông dài phủ quanh móng chân. Có một sọc sẫm chạy dọc sống lưng.",
+      "appearance": "Cổ dày và cong, ngực nở, thân chắc, xương vững, cơ bắp rõ. Khi phi, bờm và đuôi bay rất đẹp.",
+      "temperament": "Thân thiện, dễ thương, thích quấn người. Trung thành và ít khi giật mình.",
+      "health": "Khỏe, dẻo dai, leo dốc tốt, chịu lạnh tốt và ít bệnh. Vì lông chân dày nên cần vệ sinh móng thường xuyên để tránh nấm trong mùa mưa ở Đà Nẵng.",
+      "training": "Thành thạo walk và trot, đã quen chạy tự do trong sân để quay phim.",
+      "role": "Ngựa chuyên quay video phi ngựa (slow-motion) và chụp ảnh concept cowboy. Bi cũng được dùng cho cưỡi trải nghiệm và trekking.",
+      "suitable": "Khách trưởng thành, nhóm bạn trẻ, các buổi quay quảng cáo."
+    },
+    "bap": {
+      "breed": "Ngựa Bắc Hà (ngựa Mông)",
+      "tagline": "Hoạt bát, quý trẻ em, ngựa của các gia đình.",
+      "color": "Hồng mã (nâu đỏ). Bờm và đuôi đen, cẳng chân đen từ đầu gối trở xuống.",
+      "marks": "Bờm đen dài rủ sang một bên, trên trán có một vệt sẫm màu.",
+      "appearance": "Thân gọn, lưng thẳng, chân chắc và móng cứng. Đây là dáng ngựa thồ vùng núi điển hình.",
+      "temperament": "Hoạt bát, thông minh, đặc biệt thích trẻ con. Trung thành, dẻo dai, bản năng sinh tồn mạnh.",
+      "health": "Chịu sương giá và khí hậu khắc nghiệt tốt, thích nghi nhanh với nắng nóng miền Trung.",
+      "training": "Rất thuần, quen có người dắt và quen đi theo đàn.",
+      "role": "Ngựa cho trẻ em và gia đình. Bắp tham gia các chương trình học sinh tham quan, cho ăn và chải lông.",
+      "suitable": "Trẻ em, gia đình, nhóm trường học."
+    },
+    "bisam": {
+      "breed": "Ngựa Bắc Hà (Lào Cai)",
+      "tagline": "Ngựa chính của trải nghiệm “Một ngày làm cowboy”.",
+      "color": "Hồng mã sẫm. Bờm, đuôi và chân màu đen.",
+      "marks": "Đuôi dày, dài gần chạm khuỷu chân sau. Đây là con đã quen đeo yên cowboy (western saddle) và chăn lót màu vàng.",
+      "appearance": "Thân thon, chân dài và thẳng, dáng đi nhẹ nhàng.",
+      "temperament": "Ngoan, điềm tĩnh, rất kiên nhẫn. Đứng yên khi khách lên xuống ngựa và chỉ cúi gặm cỏ khi được cho nghỉ.",
+      "health": "Tốt, móng chắc, đã đóng móng sắt để đi đường mòn.",
+      "training": "Thành thạo yên western, walk, trot và đi đường dài.",
+      "role": "Ngựa chính cho trải nghiệm “Một ngày làm cowboy”. Khách được tự thắng yên, cưỡi ngựa và chụp ảnh với bộ yên cương western đầy đủ.",
+      "suitable": "Khách trưởng thành, người mới đã qua buổi hướng dẫn cơ bản."
+    },
+    "bun": {
+      "breed": "Ngựa lai (nội × ngoại)",
+      "tagline": "Dáng thể thao nhất đàn, ngựa của huấn luyện viên.",
+      "color": "Hồng mã (nâu đỏ bóng). Bờm và đuôi đen, cẳng chân sẫm màu.",
+      "marks": "Lông bóng nổi rõ từng thớ cơ dưới nắng. Bờm dày, dựng nhẹ khi phi.",
+      "appearance": "Cao lớn, cổ dài và cong, vai và mông rất phát triển. Bún là con có dáng thể thao nhất đàn.",
+      "temperament": "Năng động, ham chạy, phản ứng nhanh. Cần người cưỡi có kinh nghiệm.",
+      "health": "Thể lực và sức bền tốt nhất đàn. Cần được vận động hằng ngày để xả năng lượng.",
+      "training": "Thành thạo walk, trot và canter, được luyện phi nước đại.",
+      "role": "Ngựa của huấn luyện viên. Bún được dùng để chụp và quay cảnh phi ngựa (do nhân viên cưỡi) và cho khách có kinh nghiệm cưỡi trong sân.",
+      "suitable": "Khách có kinh nghiệm, học viên khóa nâng cao."
+    },
+    "bao": {
+      "breed": "Ngựa lai (nội × ngoại)",
+      "tagline": "Hiền, kiên nhẫn, hợp cặp đôi và chụp ảnh lãng mạn.",
+      "color": "Hạt dẻ (nâu đỏ đồng), bờm và đuôi cùng tông.",
+      "marks": "Ngôi sao trắng nhỏ trên trán và một cổ chân sau màu trắng.",
+      "appearance": "Chân dài, lưng dài, thân hơi thon. Dáng thanh và cao.",
+      "temperament": "Hiền, điềm đạm, thích gặm cỏ thong thả. Rất kiên nhẫn với người mới.",
+      "health": "Lúc mới nhập Bao hơi gầy nên đang được bổ sung khẩu phần. Đã quen với khí hậu nắng nóng và gió biển nhờ được nuôi ở vùng ven biển.",
+      "training": "Thuần, quen đi trên cát và nước nông.",
+      "role": "Cưỡi có người dắt cho người mới (luân phiên với Bơ), và chụp hình concept nhẹ nhàng, lãng mạn.",
+      "suitable": "Cặp đôi, khách du lịch, khách muốn trải nghiệm nhẹ nhàng."
+    }
+  },
+  "listing": {
+    "eyebrow": "Cả đàn",
+    "title": "Chọn một chú để tìm hiểu",
+    "count": "{shown} / {total} chú ngựa"
+  }
+}

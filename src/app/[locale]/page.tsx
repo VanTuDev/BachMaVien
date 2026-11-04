@@ -6,7 +6,7 @@ import { Extras } from "@/components/sections/Extras";
 import { Tickets } from "@/components/sections/Tickets";
 import { HomeGallery } from "@/components/sections/home/HomeGallery";
 import { HomeHero } from "@/components/sections/home/HomeHero";
-import { HomeAbout, HomeExperience, HomeServices } from "@/components/sections/home/HomeSections";
+import { HomeAbout, HomeExperience, HomeHorses, HomeServices } from "@/components/sections/home/HomeSections";
 import { routing } from "@/i18n/routing";
 import { buildMetadata } from "@/lib/seo";
 
@@ -25,6 +25,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     <>
       <HomeHero />
       <HomeAbout />
+      <HomeHorses />
       <HomeServices />
       <Tickets />
       <HomeExperience />
