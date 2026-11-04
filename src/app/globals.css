@@ -13,6 +13,9 @@
   --color-brass: #b79260;
   --color-brass-deep: #8a6a3f;
   --color-brass-light: #ecc994;
+  /* Sampled from the ground of the cover banner so the hero blends into the page. */
+  --color-brick: #692321;
+  --color-brick-deep: #4d1715;
   --color-surface: #fcf9f3;
   --color-surface-low: #f6f3ed;
   --color-surface-mid: #f0eee8;

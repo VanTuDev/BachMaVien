@@ -3,7 +3,6 @@ import { useTranslations } from "next-intl";
 import { bookingHref } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
 import { ButtonLink } from "@/components/ui/Button";
-import { Photo } from "@/components/ui/Photo";
 import { Section } from "@/components/ui/Section";
 
 /** Closing call-to-action on the home page. */
@@ -13,12 +12,12 @@ export function CtaBand() {
 
   return (
     <>
-      <Section tone="dark" labelledBy="cta-title" className="overflow-hidden">
-        <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
-          <h2 id="cta-title" className="type-display text-cream">
+      <Section tone="dark" labelledBy="cta-title" className="overflow-hidden py-12 sm:py-14 lg:py-16">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 text-center">
+          <h2 id="cta-title" className="type-headline-lg text-cream">
             {t("title")}
           </h2>
-          <p className="type-lead text-sand/85">{t("text")}</p>
+          <p className="text-sand/85">{t("text")}</p>
           <ButtonLink href={bookingHref} variant="brass">
             {t("action")}
           </ButtonLink>
@@ -36,9 +35,6 @@ export function CtaBand() {
           </ul>
         </div>
       </Section>
-
-      {/* Full-width illustrated horizon, shown at its natural ratio. */}
-      <Photo name="banner-slogan" framed={false} sizes="100vw" className="bg-cream" />
     </>
   );
 }
