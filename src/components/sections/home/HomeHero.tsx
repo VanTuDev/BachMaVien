@@ -9,13 +9,13 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 
 /**
- * Cinematic cover: an aerial view of the ranch with the brand mark, slogan and booking buttons laid over it.
+ * Cinematic cover: the galloping herd at sunrise with the brand mark, slogan and booking buttons laid over it.
  * On phones the photo sits on top at its own ratio and the copy follows on the brand-red band.
  */
 export function HomeHero() {
   const t = useTranslations("home");
   const tImg = useTranslations("images");
-  const cover = getImage("scene-aerial-wide");
+  const cover = getImage("hero");
   const logo = getImage("logo-white");
   const { open, close, ridingMorning, ridingAfternoon } = siteConfig.hours;
 
@@ -32,17 +32,13 @@ export function HomeHero() {
           src={cover.src}
           width={cover.width}
           height={cover.height}
-          alt={tImg("scene-aerial-wide")}
+          alt={tImg("hero")}
           priority
           sizes="100vw"
-          className="kenburns block h-auto w-full lg:h-full lg:object-cover lg:object-[50%_60%]"
+          className="kenburns block h-auto w-full lg:h-full lg:object-cover lg:object-[50%_55%]"
         />
         <div aria-hidden className="absolute inset-0 hidden bg-linear-to-r from-ink/85 via-ink/45 via-45% to-transparent lg:block" />
         <div aria-hidden className="absolute inset-0 hidden bg-linear-to-t from-brick/90 via-transparent via-40% to-transparent lg:block" />
-
-        <p className="absolute top-3 right-3 rounded-xs bg-ink/60 px-2.5 py-1 text-[0.6875rem] font-medium text-cream/90 backdrop-blur-sm lg:top-5 lg:right-6">
-          {t("hero.renderNote")}
-        </p>
 
         <div className="lg:absolute lg:inset-0 lg:flex lg:items-center">
           <Container className="flex flex-col items-start gap-5 py-10 lg:py-0">
@@ -53,7 +49,7 @@ export function HomeHero() {
             <h1
               id="home-title"
               style={{ "--d": 2 } as CSSProperties}
-              className="enter type-display max-w-2xl text-cream [text-shadow:0_2px_24px_rgb(26_17_11/0.55)]"
+              className="enter type-display max-w-4xl text-cream [text-shadow:0_2px_24px_rgb(26_17_11/0.55)]"
             >
               <span className="sr-only">{t("hero.srTitle")} </span>
               {t("hero.titleA")} <em className="text-brass-light not-italic">{t("hero.titleB")}</em>
