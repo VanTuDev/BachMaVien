@@ -65,21 +65,22 @@
       "color": "Creamy white all over. Light cream mane and tail. Pink skin, especially around the muzzle and hooves. Pale blue eyes.",
       "appearance": "Small, with a round and plump body, short legs, light-colored hooves, and a thick mane that falls over the forehead, giving her a very fluffy look.",
       "temperament": "Gentle. Likes to rest in the shade of a tree and is not afraid of strangers. She can stand still for a long time while guests pet her and take photos.",
-      "health": "Vaccinated and dewormed regularly. Because of her pink skin and pale eyes, Bông is very sensitive to strong sun. She needs a covered stall, should avoid outdoor activity from 11:00 to 15:00, and needs special sunscreen applied to her muzzle on sunny days.",
+      "health": "Vaccinated and dewormed regularly. Because of her pink skin and pale eyes, Bong is very sensitive to strong sun. She needs a covered stall, should avoid outdoor activity from 11:00 to 15:00, and needs special sunscreen applied to her muzzle on sunny days.",
       "training": "Walks slowly with a handler. Used to standing still for posing and photos.",
-      "role": "Mascot and brand face of Bách Mã Viên, in charge of check-in photos, wedding photo concepts, and events.",
+      "role": "Mascot and brand face of Bach Ma Vien, in charge of check-in photos, wedding photo concepts, and events.",
       "suitable": "Female guests, couples, children, and first-time guests who are new to horses."
     },
     "bo": {
       "breed": "Ngựa Ta, a native horse of the northern midlands",
       "tagline": "The safest horse on the farm, calm and unhurried.",
       "color": "Grayish white. Darker skin around the muzzle, eyes, and knees. Ivory-white mane and tail.",
-      "appearance": "Long legs, a straight neck, and a tall build for a native horse. Bơ was slightly thin on arrival, with ribs and hip bones showing, so he is being built up with fresh grass, bran feed, and mineral supplements.",
+      "appearance": "Long legs, a straight neck, and a tall build for a native horse. Bo was slightly thin on arrival, with ribs and hip bones showing, so he is being built up with fresh grass, bran feed, and mineral supplements.",
       "temperament": "The oldest horse in the herd, so he is very calm and unhurried. He barely reacts to unfamiliar noises. He is the safest horse on the farm.",
       "health": "His teeth and hooves are checked regularly because of his age. He does light work only, such as photo sessions and posing.",
       "training": "Very well-trained. He has been used to the lead rope and saddle for many years.",
       "role": "Handler-led rides around the yard for first-timers, older guests, and guests who are afraid of horses. Also used for photos standing beside guests.",
-      "suitable": "First-timers, older guests, and children."
+      "suitable": "First-timers, older guests, and children.",
+      "breedDetail": "Ngua Ta (Vietnamese native horse), a domestic horse from the northern midlands of Vietnam"
     },
     "bach": {
       "breed": "Bac Ha horse",
@@ -114,7 +115,8 @@
       "health": "Strong endurance, able to carry adults up to about 85 kg. Because he is a crossbreed, he needs a well-ventilated stall and a cooling bath on hot, sunny days.",
       "training": "Skilled at walk, trot, and canter. Used to cowboy maneuvers such as turning, sudden stops, and barrel racing.",
       "role": "Mainly pulls the carriage (the sightseeing carriage around the farm and the wedding carriage). Also used for cowboy-concept photos.",
-      "suitable": "Adult male guests, experienced guests, and performances."
+      "suitable": "Adult male guests, experienced guests, and performances.",
+      "breedDetail": "Crossbreed between a Vietnamese native horse and a foreign horse, born and raised in Vietnam"
     },
     "bi": {
       "breed": "Bac Ha horse (Mong horse)",
@@ -126,7 +128,8 @@
       "health": "Strong, resilient, good at climbing slopes, tolerant of cold, and rarely sick. Because of his thick leg feathering, his hooves need regular cleaning to prevent fungus during Da Nang's rainy season.",
       "training": "Skilled at walk and trot. Used to running free in the yard for filming.",
       "role": "The farm's specialist for galloping videos (slow-motion) and cowboy-concept photos. Bi is also used for experience rides and trekking.",
-      "suitable": "Adult guests, groups of young friends, and commercial shoots."
+      "suitable": "Adult guests, groups of young friends, and commercial shoots.",
+      "breedDetail": "Bac Ha horse (also called the Mong horse), a native breed of Vietnam’s northwest"
     },
     "bap": {
       "breed": "Bac Ha horse (Mong horse)",
@@ -137,7 +140,7 @@
       "temperament": "Lively and intelligent, and especially fond of children. Loyal and resilient, with strong survival instincts.",
       "health": "Tolerates frost and harsh climates well, and adapts quickly to the hot sun of central Vietnam.",
       "training": "Very well-trained, used to being led by a handler and to following the herd.",
-      "role": "Horse for children and families. Bắp takes part in school visit programs, feeding, and grooming activities.",
+      "role": "Horse for children and families. Bap takes part in school visit programs, feeding, and grooming activities.",
       "suitable": "Children, families, and school groups."
     },
     "bisam": {
@@ -157,12 +160,13 @@
       "tagline": "The most athletic horse in the herd, the trainers' mount.",
       "color": "Bay (glossy reddish brown). Black mane and tail, with darker lower legs.",
       "marks": "A shiny coat that shows every muscle clearly in the sun. A thick mane that lifts slightly when he gallops.",
-      "appearance": "Tall and large, with a long arched neck and very well-developed shoulders and hindquarters. Bún has the most athletic build in the herd.",
+      "appearance": "Tall and large, with a long arched neck and very well-developed shoulders and hindquarters. Bun has the most athletic build in the herd.",
       "temperament": "Energetic, loves to run, and reacts quickly. He needs an experienced rider.",
       "health": "The best stamina and endurance in the herd. He needs daily exercise to burn off energy.",
       "training": "Skilled at walk, trot, and canter, and trained for galloping.",
-      "role": "The trainers' horse. Bún is used for filming and photographing galloping scenes (ridden by staff) and for experienced guests to ride in the yard.",
-      "suitable": "Experienced guests and advanced course students."
+      "role": "The trainers' horse. Bun is used for filming and photographing galloping scenes (ridden by staff) and for experienced guests to ride in the yard.",
+      "suitable": "Experienced guests and advanced course students.",
+      "breedDetail": "Crossbreed between a Vietnamese native horse and a foreign horse, born and raised in Vietnam"
     },
     "bao": {
       "breed": "Crossbred horse (native × foreign)",
@@ -173,8 +177,9 @@
       "temperament": "Gentle and calm, and likes to graze slowly. Very patient with beginners.",
       "health": "Bao was slightly thin on arrival, so she is receiving a supplemented diet. She is used to hot sun and sea wind because she was raised in a coastal area.",
       "training": "Well-trained and used to walking on sand and in shallow water.",
-      "role": "Handler-led rides for beginners (alternating with Bơ), and light, romantic concept photos.",
-      "suitable": "Couples, tourists, and guests who want a gentle experience."
+      "role": "Handler-led rides for beginners (alternating with Bo), and light, romantic concept photos.",
+      "suitable": "Couples, tourists, and guests who want a gentle experience.",
+      "breedDetail": "Crossbreed, born and raised in Vietnam"
     }
   },
   "listing": {

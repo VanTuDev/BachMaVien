@@ -22,6 +22,7 @@ export function HorseProfile({ horse }: { horse: Horse }) {
   ];
 
   const rows = [
+    ...(profile.breedDetail ? [{ label: t("fields.breed"), value: profile.breedDetail }] : []),
     { label: t("fields.source"), value: t(`sources.${horse.source}`) },
     { label: t("fields.sex"), value: t(`sex.${horse.sex}`) },
     ...detailFields.filter((field) => profile[field]).map((field) => ({ label: t(`fields.${field}`), value: profile[field]! })),

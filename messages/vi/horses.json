@@ -79,7 +79,8 @@
       "health": "Được theo dõi răng và móng định kỳ vì đã lớn tuổi. Chỉ làm việc nhẹ như chụp hình, tạo dáng.",
       "training": "Rất thuần, đã quen dây dắt và đeo yên nhiều năm.",
       "role": "Cưỡi có người dắt quanh sân cho người mới, người lớn tuổi và khách sợ ngựa. Ngoài ra chụp hình đứng cạnh ngựa.",
-      "suitable": "Người mới, người lớn tuổi, trẻ em."
+      "suitable": "Người mới, người lớn tuổi, trẻ em.",
+      "breedDetail": "Ngựa Ta, ngựa nội vùng trung du Bắc Bộ"
     },
     "bach": {
       "breed": "Ngựa Bắc Hà",
@@ -114,7 +115,8 @@
       "health": "Thể lực bền, chịu tải được người lớn đến khoảng 85 kg. Vì là ngựa lai nên cần chuồng thông thoáng và tắm mát vào những ngày nắng nóng.",
       "training": "Thành thạo walk, trot và canter. Quen các động tác cowboy như quay đầu, dừng gấp và chạy vòng thùng (barrel).",
       "role": "Kéo xe ngựa là chính (xe chở khách tham quan quanh trang trại, xe hoa cưới). Ngoài ra còn chụp hình concept cowboy.",
-      "suitable": "Khách nam trưởng thành, khách có kinh nghiệm, các buổi biểu diễn."
+      "suitable": "Khách nam trưởng thành, khách có kinh nghiệm, các buổi biểu diễn.",
+      "breedDetail": "Ngựa lai giữa ngựa nội Việt Nam và ngựa ngoại, sinh và nuôi tại Việt Nam"
     },
     "bi": {
       "breed": "Ngựa Bắc Hà (ngựa Mông)",
@@ -126,7 +128,8 @@
       "health": "Khỏe, dẻo dai, leo dốc tốt, chịu lạnh tốt và ít bệnh. Vì lông chân dày nên cần vệ sinh móng thường xuyên để tránh nấm trong mùa mưa ở Đà Nẵng.",
       "training": "Thành thạo walk và trot, đã quen chạy tự do trong sân để quay phim.",
       "role": "Ngựa chuyên quay video phi ngựa (slow-motion) và chụp ảnh concept cowboy. Bi cũng được dùng cho cưỡi trải nghiệm và trekking.",
-      "suitable": "Khách trưởng thành, nhóm bạn trẻ, các buổi quay quảng cáo."
+      "suitable": "Khách trưởng thành, nhóm bạn trẻ, các buổi quay quảng cáo.",
+      "breedDetail": "Ngựa Bắc Hà (ngựa Mông), giống bản địa vùng Tây Bắc"
     },
     "bap": {
       "breed": "Ngựa Bắc Hà (ngựa Mông)",
@@ -162,7 +165,8 @@
       "health": "Thể lực và sức bền tốt nhất đàn. Cần được vận động hằng ngày để xả năng lượng.",
       "training": "Thành thạo walk, trot và canter, được luyện phi nước đại.",
       "role": "Ngựa của huấn luyện viên. Bún được dùng để chụp và quay cảnh phi ngựa (do nhân viên cưỡi) và cho khách có kinh nghiệm cưỡi trong sân.",
-      "suitable": "Khách có kinh nghiệm, học viên khóa nâng cao."
+      "suitable": "Khách có kinh nghiệm, học viên khóa nâng cao.",
+      "breedDetail": "Ngựa lai giữa ngựa nội Việt Nam và ngựa ngoại, sinh và nuôi tại Việt Nam"
     },
     "bao": {
       "breed": "Ngựa lai (nội × ngoại)",
@@ -174,7 +178,8 @@
       "health": "Lúc mới nhập Bao hơi gầy nên đang được bổ sung khẩu phần. Đã quen với khí hậu nắng nóng và gió biển nhờ được nuôi ở vùng ven biển.",
       "training": "Thuần, quen đi trên cát và nước nông.",
       "role": "Cưỡi có người dắt cho người mới (luân phiên với Bơ), và chụp hình concept nhẹ nhàng, lãng mạn.",
-      "suitable": "Cặp đôi, khách du lịch, khách muốn trải nghiệm nhẹ nhàng."
+      "suitable": "Cặp đôi, khách du lịch, khách muốn trải nghiệm nhẹ nhàng.",
+      "breedDetail": "Ngựa lai, sinh và nuôi tại Việt Nam"
     }
   },
   "listing": {
