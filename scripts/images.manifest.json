@@ -269,6 +269,21 @@
     "width": 2560,
     "height": 1705
   },
+  "horse-bong": {
+    "src": "/images/horse-bong.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "horse-bo": {
+    "src": "/images/horse-bo.jpg",
+    "width": 600,
+    "height": 503
+  },
+  "horse-bach": {
+    "src": "/images/horse-bach.jpg",
+    "width": 960,
+    "height": 720
+  },
   "ticket-visit-the-farm": {
     "src": "/images/ticket-visit-the-farm.jpg",
     "width": 1181,

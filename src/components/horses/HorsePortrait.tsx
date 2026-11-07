@@ -17,15 +17,30 @@ const ratio = { card: "aspect-[4/3]", feature: "aspect-[4/5]", mini: "aspect-squ
 
 /**
  * Real photo when the ranch has one, otherwise a portrait panel in the horse's own coat colors
- * with the initial, the mane tone and a faint brand mark, so every horse still has a face.
+ * with the mane tone and the brand mark, so every horse still has a face.
  */
 export function HorsePortrait({ horse, variant = "card", sizes, className }: Props) {
   const t = useTranslations("horses");
+  const tImg = useTranslations("images");
   const light = horse.ink === "light";
   const logo = getImage(light ? "logo-white" : "logo");
 
   if (horse.image) {
-    return <Photo name={horse.image} framed={false} sizes={sizes} className={className} />;
+    // The spotlight shows the photo whole. Cards and tiles use a fixed frame so rows line up, and keep the horse in view.
+    if (variant === "feature") return <Photo name={horse.image} framed={false} sizes={sizes} className={className} />;
+    const photo = getImage(horse.image);
+    return (
+      <div className={cn("photo relative overflow-hidden bg-sand", ratio[variant], className)}>
+        <Image
+          src={photo.src}
+          alt={tImg(horse.image)}
+          fill
+          sizes={sizes}
+          className="object-cover"
+          style={{ objectPosition: horse.focus ?? "50% 50%" }}
+        />
+      </div>
+    );
   }
 
   return (

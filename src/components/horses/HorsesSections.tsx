@@ -10,8 +10,8 @@ import { HorseCard } from "./HorseCard";
 import { HorseFilter } from "./HorseFilter";
 import { HorsePortrait } from "./HorsePortrait";
 
-/** A palette of the herd for the hero: four very different coats. */
-const previews = ["bong", "bi", "bach", "bao"].map((key) => horses.find((horse) => horse.key === key)!);
+/** A palette of the herd for the hero: three real photos and one coat panel. */
+const previews = ["bong", "bo", "bach", "bao"].map((key) => horses.find((horse) => horse.key === key)!);
 
 export function HorsesHero() {
   const t = useTranslations("horses.hero");

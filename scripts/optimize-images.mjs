@@ -81,6 +81,11 @@ const jobs = [
     ["Riding Ring.png", "scene-riding-ring"],
   ].map(([file, name]) => [path.join(data, "3D Images", file), name, 2560, "jpg"]),
 
+  // Horses (photos supplied by the ranch)
+  [path.join(data, "NGỰA", "bong.png"), "horse-bong", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bo.png"), "horse-bo", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bach.png"), "horse-bach", 1600, "jpg"],
+
   // Wristband tickets
   [path.join(data, "VÉ", "visit the farm.jpg"), "ticket-visit-the-farm", 1181, "jpg"],
   [path.join(data, "VÉ", "cowboy package.jpg"), "ticket-cowboy", 1181, "jpg"],

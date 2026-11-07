@@ -3,7 +3,7 @@ import type { ImageName } from "./images";
 export type HorseKey = "bong" | "bo" | "bach" | "bin" | "bolai" | "bi" | "bap" | "bisam" | "bun" | "bao";
 
 /** What a visitor can filter the herd by. Labels live in horses.filters.* */
-export type HorsePurpose = "beginner" | "family" | "experienced" | "photo";
+export type HorsePurpose = "beginner" | "family" | "experienced" | "wagon" | "photo";
 
 export type Horse = {
   key: HorseKey;
@@ -23,6 +23,8 @@ export type Horse = {
   mascot?: boolean;
   /** A real photo. Until one exists the card shows a coat-colored portrait panel. */
   image?: ImageName;
+  /** Where the subject sits in the photo (CSS object-position), used when a card crops it to fit. */
+  focus?: string;
 };
 
 /** Profiles supplied by the ranch. Written copy lives in messages/<locale>/horses.json. */
@@ -39,6 +41,8 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["beginner", "family", "photo"],
     mascot: true,
+    image: "horse-bong",
+    focus: "60% 50%",
   },
   {
     key: "bo",
@@ -51,6 +55,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "bavan",
     purposes: ["beginner", "family"],
+    image: "horse-bo",
+    focus: "40% 50%",
   },
   {
     key: "bach",
@@ -62,7 +68,9 @@ export const horses: readonly Horse[] = [
     born: 2018,
     sex: "mare",
     source: "bavan",
-    purposes: ["experienced"],
+    purposes: ["wagon"],
+    image: "horse-bach",
+    focus: "35% 50%",
   },
   {
     key: "bin",
@@ -86,7 +94,7 @@ export const horses: readonly Horse[] = [
     born: 2017,
     sex: "gelding",
     source: "bavan",
-    purposes: ["experienced", "photo"],
+    purposes: ["experienced", "wagon", "photo"],
   },
   {
     key: "bi",
@@ -134,7 +142,7 @@ export const horses: readonly Horse[] = [
     born: 2019,
     sex: "gelding",
     source: "bavan",
-    purposes: ["experienced"],
+    purposes: ["experienced", "photo"],
   },
   {
     key: "bao",
@@ -150,6 +158,6 @@ export const horses: readonly Horse[] = [
   },
 ];
 
-export const purposes = ["beginner", "family", "experienced", "photo"] as const satisfies readonly HorsePurpose[];
+export const purposes = ["beginner", "family", "experienced", "wagon", "photo"] as const satisfies readonly HorsePurpose[];
 
 export const mascot = horses.find((horse) => horse.mascot)!;
