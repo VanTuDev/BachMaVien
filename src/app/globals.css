@@ -411,3 +411,18 @@
     animation: scene-in 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
   }
 }
+
+/* Horse profile dialog. */
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+dialog.horse-dialog[open] {
+  animation: dialog-in 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}

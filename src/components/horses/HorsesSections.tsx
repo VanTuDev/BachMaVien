@@ -1,12 +1,13 @@
 import { useMessages, useTranslations } from "next-intl";
 import { horses, mascot, purposes } from "@/data/horses";
-import { ButtonLink } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { PageHero } from "@/components/ui/PageHero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { HorseCard } from "./HorseCard";
+import { HorseDialog } from "./HorseDialog";
+import { HorseProfile } from "./HorseProfile";
 import { HorseFilter } from "./HorseFilter";
 import { HorsePortrait } from "./HorsePortrait";
 
@@ -63,9 +64,14 @@ export function MascotSpotlight() {
               </li>
             ))}
           </ul>
-          <ButtonLink href={{ pathname: "/horses", hash: mascot.key }} variant="outline">
-            {t("details.open")}
-          </ButtonLink>
+          <HorseDialog
+            label={mascot.name}
+            closeLabel={t("details.dismiss")}
+            triggerClassName="btn-shine inline-flex cursor-pointer items-center gap-2.5 rounded-sm border border-brass px-6 py-3.5 type-label text-espresso transition-colors hover:bg-sand/50"
+            trigger={<span>{t("details.open")}</span>}
+          >
+            <HorseProfile horse={mascot} />
+          </HorseDialog>
         </div>
       </div>
     </Section>

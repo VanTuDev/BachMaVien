@@ -1,12 +1,12 @@
-import { CalendarDays, ChevronDown, Ruler, Weight } from "lucide-react";
+import { ArrowUpRight, CalendarDays, Ruler, Weight } from "lucide-react";
 import { useMessages, useTranslations } from "next-intl";
 import type { Horse } from "@/data/horses";
 import { Chip } from "@/components/ui/Chip";
+import { HorseDialog } from "./HorseDialog";
 import { HorsePortrait } from "./HorsePortrait";
+import { HorseProfile } from "./HorseProfile";
 
-const detailFields = ["color", "marks", "appearance", "temperament", "health", "training", "role", "suitable"] as const;
-
-/** One horse: portrait, three key numbers, purposes, and the full profile tucked into a native <details>. */
+/** One horse: portrait, three key numbers, purposes, and a button that opens the full profile in a dialog. */
 export function HorseCard({ horse }: { horse: Horse }) {
   const t = useTranslations("horses");
   const profile: Record<string, string | undefined> = useMessages().horses.horses[horse.key];
@@ -55,31 +55,22 @@ export function HorseCard({ horse }: { horse: Horse }) {
           </ul>
         )}
 
-        <details className="group/details mt-auto border-t border-espresso/10 pt-4">
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-3 type-label text-chestnut transition-colors hover:text-espresso [&::-webkit-details-marker]:hidden">
-            <span className="group-open/details:hidden">{t("details.open")}</span>
-            <span className="hidden group-open/details:inline">{t("details.close")}</span>
-            <ChevronDown aria-hidden className="size-4 transition-transform duration-300 group-open/details:rotate-180" />
-          </summary>
-
-          <dl className="mt-4 flex flex-col gap-4 text-sm">
-            <ProfileRow label={t("fields.source")} value={t(`sources.${horse.source}`)} />
-            <ProfileRow label={t("fields.sex")} value={t(`sex.${horse.sex}`)} />
-            {detailFields.map((field) =>
-              profile[field] ? <ProfileRow key={field} label={t(`fields.${field}`)} value={profile[field]!} /> : null,
-            )}
-          </dl>
-        </details>
+        <div className="mt-auto border-t border-espresso/10 pt-4">
+          <HorseDialog
+            label={horse.name}
+            closeLabel={t("details.dismiss")}
+            triggerClassName="flex w-full cursor-pointer items-center justify-between gap-3 type-label text-chestnut transition-colors hover:text-espresso"
+            trigger={
+              <>
+                <span>{t("details.open")}</span>
+                <ArrowUpRight aria-hidden className="size-4" />
+              </>
+            }
+          >
+            <HorseProfile horse={horse} />
+          </HorseDialog>
+        </div>
       </div>
     </article>
-  );
-}
-
-function ProfileRow({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="flex flex-col gap-1">
-      <dt className="type-label-sm text-chestnut">{label}</dt>
-      <dd className="text-muted">{value}</dd>
-    </div>
   );
 }

@@ -45,7 +45,7 @@
   },
   "details": {
     "open": "View full profile",
-    "close": "Hide profile"
+    "dismiss": "Close profile"
   },
   "photoSoon": "Photo coming soon",
   "teaser": {
