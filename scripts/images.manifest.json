@@ -314,6 +314,11 @@
     "width": 736,
     "height": 1104
   },
+  "horse-bao": {
+    "src": "/images/horse-bao.jpg",
+    "width": 960,
+    "height": 640
+  },
   "ticket-visit-the-farm": {
     "src": "/images/ticket-visit-the-farm.jpg",
     "width": 1181,

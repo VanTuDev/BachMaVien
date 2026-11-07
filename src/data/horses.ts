@@ -167,6 +167,8 @@ export const horses: readonly Horse[] = [
     sex: "mare",
     source: "bavan",
     purposes: ["beginner", "photo"],
+    image: "horse-bao",
+    focus: "45% 50%",
   },
 ];
 

@@ -91,6 +91,7 @@ const jobs = [
   [path.join(data, "NGỰA", "bap.png"), "horse-bap", 1600, "jpg"],
   [path.join(data, "NGỰA", "bisam.png"), "horse-bisam", 1600, "jpg"],
   [path.join(data, "NGỰA", "bun.png"), "horse-bun", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bao.png"), "horse-bao", 1600, "jpg"],
 
   // Wristband tickets
   [path.join(data, "VÉ", "visit the farm.jpg"), "ticket-visit-the-farm", 1181, "jpg"],
