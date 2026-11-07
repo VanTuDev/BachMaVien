@@ -45,13 +45,15 @@ export function HorseCard({ horse }: { horse: Horse }) {
           ))}
         </dl>
 
-        <ul className="flex flex-wrap gap-2">
-          {horse.purposes.map((purpose) => (
-            <li key={purpose}>
-              <Chip>{t(`filters.${purpose}`)}</Chip>
-            </li>
-          ))}
-        </ul>
+        {horse.purposes.length > 0 && (
+          <ul className="flex flex-wrap gap-2">
+            {horse.purposes.map((purpose) => (
+              <li key={purpose}>
+                <Chip>{t(`filters.${purpose}`)}</Chip>
+              </li>
+            ))}
+          </ul>
+        )}
 
         <details className="group/details mt-auto border-t border-espresso/10 pt-4">
           <summary className="flex cursor-pointer list-none items-center justify-between gap-3 type-label text-chestnut transition-colors hover:text-espresso [&::-webkit-details-marker]:hidden">

@@ -3,7 +3,7 @@ import type { ImageName } from "./images";
 export type HorseKey = "bong" | "bo" | "bach" | "bin" | "bolai" | "bi" | "bap" | "bisam" | "bun" | "bao";
 
 /** What a visitor can filter the herd by. Labels live in horses.filters.* */
-export type HorsePurpose = "beginner" | "family" | "experienced" | "wagon" | "photo";
+export type HorsePurpose = "beginner" | "family" | "wagon" | "photo";
 
 export type Horse = {
   key: HorseKey;
@@ -82,7 +82,7 @@ export const horses: readonly Horse[] = [
     born: 2021,
     sex: "gelding",
     source: "bavan",
-    purposes: ["experienced"],
+    purposes: [],
     image: "horse-bin",
     focus: "40% 50%",
   },
@@ -96,7 +96,7 @@ export const horses: readonly Horse[] = [
     born: 2017,
     sex: "gelding",
     source: "bavan",
-    purposes: ["experienced", "wagon", "photo"],
+    purposes: ["wagon", "photo"],
     image: "horse-bolai",
     focus: "45% 50%",
   },
@@ -110,7 +110,7 @@ export const horses: readonly Horse[] = [
     born: 2020,
     sex: "gelding",
     source: "vifarm",
-    purposes: ["experienced", "photo"],
+    purposes: ["photo"],
     image: "horse-bi",
     focus: "50% 50%",
   },
@@ -152,7 +152,7 @@ export const horses: readonly Horse[] = [
     born: 2019,
     sex: "gelding",
     source: "bavan",
-    purposes: ["experienced", "photo"],
+    purposes: ["photo"],
     image: "horse-bun",
     focus: "50% 30%",
   },
@@ -170,6 +170,6 @@ export const horses: readonly Horse[] = [
   },
 ];
 
-export const purposes = ["beginner", "family", "experienced", "wagon", "photo"] as const satisfies readonly HorsePurpose[];
+export const purposes = ["beginner", "family", "wagon", "photo"] as const satisfies readonly HorsePurpose[];
 
 export const mascot = horses.find((horse) => horse.mascot)!;
