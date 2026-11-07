@@ -284,6 +284,36 @@
     "width": 960,
     "height": 720
   },
+  "horse-bin": {
+    "src": "/images/horse-bin.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  "horse-bolai": {
+    "src": "/images/horse-bolai.jpg",
+    "width": 531,
+    "height": 376
+  },
+  "horse-bi": {
+    "src": "/images/horse-bi.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  "horse-bap": {
+    "src": "/images/horse-bap.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  "horse-bisam": {
+    "src": "/images/horse-bisam.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  "horse-bun": {
+    "src": "/images/horse-bun.jpg",
+    "width": 736,
+    "height": 1104
+  },
   "ticket-visit-the-farm": {
     "src": "/images/ticket-visit-the-farm.jpg",
     "width": 1181,

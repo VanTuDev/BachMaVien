@@ -83,6 +83,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "bavan",
     purposes: ["experienced"],
+    image: "horse-bin",
+    focus: "40% 50%",
   },
   {
     key: "bolai",
@@ -95,6 +97,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "bavan",
     purposes: ["experienced", "wagon", "photo"],
+    image: "horse-bolai",
+    focus: "45% 50%",
   },
   {
     key: "bi",
@@ -107,6 +111,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "vifarm",
     purposes: ["experienced", "photo"],
+    image: "horse-bi",
+    focus: "50% 50%",
   },
   {
     key: "bap",
@@ -119,6 +125,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "bavan",
     purposes: ["family"],
+    image: "horse-bap",
+    focus: "50% 58%",
   },
   {
     key: "bisam",
@@ -131,6 +139,8 @@ export const horses: readonly Horse[] = [
     sex: "mare",
     source: "bavan",
     purposes: ["beginner"],
+    image: "horse-bisam",
+    focus: "50% 58%",
   },
   {
     key: "bun",
@@ -143,6 +153,8 @@ export const horses: readonly Horse[] = [
     sex: "gelding",
     source: "bavan",
     purposes: ["experienced", "photo"],
+    image: "horse-bun",
+    focus: "50% 30%",
   },
   {
     key: "bao",

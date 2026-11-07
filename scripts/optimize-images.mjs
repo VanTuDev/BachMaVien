@@ -85,6 +85,12 @@ const jobs = [
   [path.join(data, "NGỰA", "bong.png"), "horse-bong", 1600, "jpg"],
   [path.join(data, "NGỰA", "bo.png"), "horse-bo", 1600, "jpg"],
   [path.join(data, "NGỰA", "bach.png"), "horse-bach", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bin.png"), "horse-bin", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bolai.png"), "horse-bolai", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bi.png"), "horse-bi", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bap.png"), "horse-bap", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bisam.png"), "horse-bisam", 1600, "jpg"],
+  [path.join(data, "NGỰA", "bun.png"), "horse-bun", 1600, "jpg"],
 
   // Wristband tickets
   [path.join(data, "VÉ", "visit the farm.jpg"), "ticket-visit-the-farm", 1181, "jpg"],
