@@ -11,8 +11,8 @@ import { HorseProfile } from "./HorseProfile";
 import { HorseFilter } from "./HorseFilter";
 import { HorsePortrait } from "./HorsePortrait";
 
-/** A palette of the herd for the hero: three real photos and one coat panel. */
-const previews = ["bong", "bo", "bach", "bao"].map((key) => horses.find((horse) => horse.key === key)!);
+/** A palette of the herd for the hero: the four photos closest to square, so little is cropped. */
+const previews = ["bi", "bo", "bap", "bisam"].map((key) => horses.find((horse) => horse.key === key)!);
 
 export function HorsesHero() {
   const t = useTranslations("horses.hero");

@@ -13,7 +13,7 @@ type Props = {
   className?: string;
 };
 
-const ratio = { card: "aspect-[4/3]", feature: "aspect-[4/5]", mini: "aspect-square" } as const;
+const ratio = { card: "aspect-[5/4]", feature: "aspect-[4/5]", mini: "aspect-square" } as const;
 
 /**
  * Real photo when the ranch has one, otherwise a portrait panel in the horse's own coat colors
@@ -26,21 +26,18 @@ export function HorsePortrait({ horse, variant = "card", sizes, className }: Pro
   const logo = getImage(light ? "logo-white" : "logo");
 
   if (horse.image) {
-    // Every photo is shown whole, never cropped. Frames keep a fixed ratio so grid rows line up; any spare
-    // space is filled with a blurred copy of the same photo instead of a flat bar.
+    // The spotlight shows the photo whole. Cards and tiles fill a fixed frame so rows line up; `focus` keeps the head in view.
     if (variant === "feature") return <Photo name={horse.image} framed={false} sizes={sizes} className={className} />;
-    const photo = getImage(horse.image);
     return (
-      <div className={cn("photo relative isolate overflow-hidden bg-sand", ratio[variant], className)}>
+      <div className={cn("photo relative overflow-hidden bg-sand", ratio[variant], className)}>
         <Image
-          src={photo.src}
-          alt=""
+          src={getImage(horse.image).src}
+          alt={tImg(horse.image)}
           fill
-          sizes="120px"
-          aria-hidden
-          className="-z-10 scale-125 object-cover opacity-60 blur-xl saturate-125"
+          sizes={sizes}
+          className="object-cover"
+          style={{ objectPosition: horse.focus ?? "50% 50%" }}
         />
-        <Image src={photo.src} alt={tImg(horse.image)} fill sizes={sizes} className="object-contain" />
       </div>
     );
   }

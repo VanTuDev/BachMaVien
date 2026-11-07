@@ -42,7 +42,7 @@ export const horses: readonly Horse[] = [
     purposes: ["beginner", "family", "photo"],
     mascot: true,
     image: "horse-bong",
-    focus: "60% 50%",
+    focus: "65% 50%",
   },
   {
     key: "bo",
@@ -56,7 +56,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["beginner", "family"],
     image: "horse-bo",
-    focus: "40% 50%",
+    focus: "30% 50%",
   },
   {
     key: "bach",
@@ -70,7 +70,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["wagon"],
     image: "horse-bach",
-    focus: "35% 50%",
+    focus: "35% 55%",
   },
   {
     key: "bin",
@@ -84,7 +84,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["experienced", "photo"],
     image: "horse-bin",
-    focus: "40% 50%",
+    focus: "30% 50%",
   },
   {
     key: "bolai",
@@ -98,7 +98,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["wagon", "photo"],
     image: "horse-bolai",
-    focus: "45% 50%",
+    focus: "35% 50%",
   },
   {
     key: "bi",
@@ -112,7 +112,7 @@ export const horses: readonly Horse[] = [
     source: "vifarm",
     purposes: ["photo"],
     image: "horse-bi",
-    focus: "50% 50%",
+    focus: "50% 40%",
   },
   {
     key: "bap",
@@ -126,7 +126,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["family"],
     image: "horse-bap",
-    focus: "50% 58%",
+    focus: "60% 50%",
   },
   {
     key: "bisam",
@@ -140,7 +140,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["beginner"],
     image: "horse-bisam",
-    focus: "50% 58%",
+    focus: "50% 92%",
   },
   {
     key: "bun",
@@ -154,7 +154,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["experienced", "photo"],
     image: "horse-bun",
-    focus: "50% 30%",
+    focus: "50% 25%",
   },
   {
     key: "bao",
@@ -168,7 +168,7 @@ export const horses: readonly Horse[] = [
     source: "bavan",
     purposes: ["beginner", "photo"],
     image: "horse-bao",
-    focus: "45% 50%",
+    focus: "35% 60%",
   },
 ];
 
