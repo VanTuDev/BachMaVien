@@ -45,13 +45,13 @@ export function HorseDialog({ trigger, triggerClassName, label, closeLabel, chil
         onClick={(event) => {
           if (event.target === ref.current) ref.current?.close();
         }}
-        className="horse-dialog m-auto max-h-[92dvh] w-[min(64rem,calc(100%-1.5rem))] overflow-hidden rounded-sm bg-surface p-0 text-espresso shadow-warm-lg backdrop:bg-ink/75 backdrop:backdrop-blur-sm"
+        className="horse-dialog m-auto max-h-[92dvh] w-[min(64rem,calc(100%-1.5rem))] overflow-hidden rounded-3xl bg-surface p-0 text-espresso shadow-[0_32px_80px_-16px_rgb(26_17_11/0.55)] backdrop:bg-ink/60 backdrop:backdrop-blur-md"
       >
         <button
           type="button"
           onClick={() => ref.current?.close()}
           aria-label={closeLabel}
-          className="absolute top-3 right-3 z-10 grid size-10 place-items-center rounded-full bg-espresso/85 text-cream backdrop-blur-sm transition-colors hover:bg-brass hover:text-espresso"
+          className="absolute top-3 right-3 z-10 grid size-10 place-items-center rounded-full bg-white/85 text-espresso shadow-md backdrop-blur-sm transition-colors hover:bg-espresso hover:text-cream"
         >
           <X aria-hidden className="size-5" />
         </button>
