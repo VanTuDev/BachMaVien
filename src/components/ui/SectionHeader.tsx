@@ -21,7 +21,7 @@ export function SectionHeader({ id, eyebrow, title, description, tone = "light",
   return (
     <div
       className={cn(
-        "mb-7 flex flex-col gap-4 sm:mb-14 sm:gap-6",
+        "mb-7 flex flex-col gap-4 sm:mb-10 sm:gap-5",
         align === "split" && "lg:flex-row lg:items-end lg:justify-between lg:gap-16",
         center && "mx-auto max-w-3xl items-center text-center",
         className,

@@ -26,19 +26,21 @@ export function HorsePortrait({ horse, variant = "card", sizes, className }: Pro
   const logo = getImage(light ? "logo-white" : "logo");
 
   if (horse.image) {
-    // The spotlight shows the photo whole. Cards and tiles use a fixed frame so rows line up, and keep the horse in view.
+    // Every photo is shown whole, never cropped. Frames keep a fixed ratio so grid rows line up; any spare
+    // space is filled with a blurred copy of the same photo instead of a flat bar.
     if (variant === "feature") return <Photo name={horse.image} framed={false} sizes={sizes} className={className} />;
     const photo = getImage(horse.image);
     return (
-      <div className={cn("photo relative overflow-hidden bg-sand", ratio[variant], className)}>
+      <div className={cn("photo relative isolate overflow-hidden bg-sand", ratio[variant], className)}>
         <Image
           src={photo.src}
-          alt={tImg(horse.image)}
+          alt=""
           fill
-          sizes={sizes}
-          className="object-cover"
-          style={{ objectPosition: horse.focus ?? "50% 50%" }}
+          sizes="120px"
+          aria-hidden
+          className="-z-10 scale-125 object-cover opacity-60 blur-xl saturate-125"
         />
+        <Image src={photo.src} alt={tImg(horse.image)} fill sizes={sizes} className="object-contain" />
       </div>
     );
   }
