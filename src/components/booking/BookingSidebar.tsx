@@ -2,13 +2,14 @@ import { CalendarOff, Clock, MapPin, MessageCircle, Phone, Route, TicketCheck } 
 import { useTranslations } from "next-intl";
 import { siteConfig } from "@/data/site";
 
-export function BookingSidebar() {
+/** Opening hours and limited-tickets note. On phones it sits above the form so guests see the hours before choosing a slot. */
+export function BookingInfo({ className }: { className?: string }) {
   const t = useTranslations("booking.sidebar");
   const hours = useTranslations("shared.hours");
   const { open, close, ridingMorning, ridingAfternoon } = siteConfig.hours;
 
   return (
-    <aside className="flex flex-col gap-6">
+    <aside className={className}>
       <div className="flex flex-col gap-5 rounded-sm bg-espresso p-7 text-cream">
         <p className="flex items-start gap-3 text-sm text-sand/90">
           <TicketCheck aria-hidden className="mt-0.5 size-5 shrink-0 text-brass" />
@@ -35,7 +36,15 @@ export function BookingSidebar() {
           </li>
         </ul>
       </div>
+    </aside>
+  );
+}
 
+export function BookingContact() {
+  const t = useTranslations("booking.sidebar");
+
+  return (
+    <aside>
       <div className="flex flex-col gap-4 rounded-sm border border-espresso/10 bg-surface-mid p-7">
         <p className="type-label-sm text-chestnut">{t("contact")}</p>
         <a href={siteConfig.phoneHref} className="flex items-center gap-3 font-semibold hover:text-chestnut">

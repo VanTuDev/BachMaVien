@@ -1,6 +1,5 @@
 {
   "hero": {
-    "tag": "Ẩm Thực và Giải Khát Thảo Nguyên",
     "place": "Mở cửa {open} – {close}",
     "titleA": "Thực Đơn",
     "titleB": "Bách Mã Café",
@@ -16,7 +15,7 @@
     },
     "tea": {
       "title": "Trà | Western Tea",
-      "tag": "Thảo Mộc"
+      "tag": "Thanh Mát"
     },
     "soda": {
       "title": "Soda | Wild West Fizz",

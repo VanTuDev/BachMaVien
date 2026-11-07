@@ -12,8 +12,6 @@ export function MenuHero() {
     <PageHero
       eyebrow={
         <>
-          <span className="type-label-sm text-chestnut">{t("tag")}</span>
-          <span aria-hidden className="hidden h-px w-8 bg-chestnut/40 sm:block" />
           <span className="flex items-center gap-2 type-label-sm text-muted">
             <Clock aria-hidden className="size-4" />
             {t("place", { open: siteConfig.hours.open, close: siteConfig.hours.close })}

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { BookingForm } from "@/components/booking/BookingForm";
-import { BookingSidebar } from "@/components/booking/BookingSidebar";
+import { BookingContact, BookingInfo } from "@/components/booking/BookingSidebar";
 import { Container } from "@/components/ui/Container";
 import { routing } from "@/i18n/routing";
 import { buildMetadata } from "@/lib/seo";
@@ -33,6 +33,7 @@ export default async function BookingPage({ params }: PageProps<"/[locale]/booki
   return (
     <section className="bg-cream py-14 sm:py-20">
       <Container>
+        <BookingInfo className="mb-8 lg:hidden" />
         <BookingIntro />
         <div className="grid items-start gap-10 lg:grid-cols-12 lg:gap-12">
           <div className="lg:col-span-8">
@@ -41,8 +42,9 @@ export default async function BookingPage({ params }: PageProps<"/[locale]/booki
               <BookingForm />
             </Suspense>
           </div>
-          <div className="lg:sticky lg:top-28 lg:col-span-4">
-            <BookingSidebar />
+          <div className="flex flex-col gap-6 lg:sticky lg:top-28 lg:col-span-4">
+            <BookingInfo className="hidden lg:block" />
+            <BookingContact />
           </div>
         </div>
       </Container>

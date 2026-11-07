@@ -1,6 +1,5 @@
 {
   "hero": {
-    "tag": "Food and Refreshments",
     "place": "Open {open} – {close}",
     "titleA": "Café Menu",
     "titleB": "Bach Ma Saloon Café",
@@ -16,11 +15,11 @@
     },
     "tea": {
       "title": "Tea | Western Tea",
-      "tag": "Herbal"
+      "tag": "Refreshing"
     },
     "soda": {
       "title": "Soda | Wild West Fizz",
-      "tag": "Refreshing"
+      "tag": "Invigorating"
     },
     "juice": {
       "title": "Fresh Juice",

@@ -13,9 +13,9 @@ const toneClass: Record<Tone, string> = {
 
 const sizeClass = {
   /** Full-height content sections. */
-  default: "py-16 sm:py-20 lg:py-28",
+  default: "py-10 sm:py-20 lg:py-28",
   /** Shorter bands such as opening hours. */
-  compact: "py-12 sm:py-14 lg:py-16",
+  compact: "py-10 sm:py-14 lg:py-16",
   /** Slim call-to-action rows. */
   slim: "py-8 sm:py-10",
 } as const;
