@@ -416,24 +416,13 @@
 @keyframes dialog-in {
   from {
     opacity: 0;
-    transform: translateY(2rem) scale(0.96);
+    transform: translateY(1.5rem) scale(0.98);
   }
   to {
     opacity: 1;
     transform: none;
   }
 }
-@keyframes backdrop-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 dialog.horse-dialog[open] {
-  animation: dialog-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-dialog.horse-dialog[open]::backdrop {
-  animation: backdrop-in 0.4s ease both;
+  animation: dialog-in 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
