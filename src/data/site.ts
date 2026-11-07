@@ -11,16 +11,16 @@ function siteUrl() {
 }
 
 /**
- * Business details. TODO(client): phone, email and address below are placeholders carried over from the
- * generated design. Replace them with the real company details before launch.
+ * Business details. Phone and email are the real ones supplied by the ranch.
+ * TODO(client): the address is still only "Hòa Bắc, Đà Nẵng"; add the street/hamlet when known.
  */
 export const siteConfig = {
   name: "Bách Mã Viên",
   url: siteUrl(),
-  phone: "(+84) 905 888 234",
-  phoneHref: "tel:+84905888234",
-  zaloHref: "https://zalo.me/0905888234",
-  email: "concierge@bachmavien.vn",
+  phone: "0905.888.999",
+  phoneHref: "tel:+84905888999",
+  zaloHref: "https://zalo.me/0905888999",
+  email: "bmv.bachmavien@gmail.com",
   copyrightYear: 2026,
   /** Open Tuesday to Sunday, closed Monday. */
   hours: {

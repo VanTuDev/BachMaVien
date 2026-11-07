@@ -72,7 +72,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             url: localizedUrl(locale),
             logo: `${siteConfig.url}/images/logo.png`,
             image: `${siteConfig.url}/og-default.jpg`,
-            telephone: "+84905888234",
+            telephone: "+84905888999",
             email: siteConfig.email,
             slogan: "Wild West, Real Feel",
             inLanguage: locale,

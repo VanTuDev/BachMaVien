@@ -14,8 +14,9 @@
     "all": "Tất cả",
     "beginner": "Người mới",
     "family": "Trẻ em và gia đình",
-    "photo": "Chụp ảnh và quay phim",
-    "wagon": "Kéo xe ngựa"
+    "experienced": "Có kinh nghiệm",
+    "wagon": "Kéo xe ngựa",
+    "photo": "Chụp ảnh và quay phim"
   },
   "facts": {
     "height": "Cao",

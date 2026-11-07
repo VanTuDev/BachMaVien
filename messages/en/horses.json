@@ -14,8 +14,9 @@
     "all": "All",
     "beginner": "Beginners",
     "family": "Kids and families",
-    "photo": "Photo and film",
-    "wagon": "Carriage rides"
+    "experienced": "Experienced riders",
+    "wagon": "Carriage rides",
+    "photo": "Photo and film"
   },
   "facts": {
     "height": "Height",
