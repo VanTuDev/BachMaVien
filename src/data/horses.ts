@@ -1,6 +1,6 @@
 import type { ImageName } from "./images";
 
-export type HorseKey = "bong" | "bo" | "bach" | "bin" | "bolai" | "bi" | "bap" | "bisam" | "bun" | "bao";
+export type HorseKey = "bong" | "bo" | "bin" | "bolai" | "bi" | "bisam" | "bun" | "bao";
 
 /** What a visitor can filter the herd by. Labels live in horses.filters.* */
 export type HorsePurpose = "beginner" | "family" | "experienced" | "wagon" | "photo";
@@ -59,20 +59,6 @@ export const horses: readonly Horse[] = [
     focus: "30% 50%",
   },
   {
-    key: "bach",
-    name: "Bách",
-    coat: { from: "#7a3f28", to: "#4d2616", mane: "#17110d" },
-    ink: "light",
-    heightCm: 125,
-    weightKg: 220,
-    born: 2018,
-    sex: "mare",
-    source: "bavan",
-    purposes: ["wagon"],
-    image: "horse-bach",
-    focus: "35% 55%",
-  },
-  {
     key: "bin",
     name: "Bin",
     coat: { from: "#a05a34", to: "#6e3720", mane: "#17110d" },
@@ -113,20 +99,6 @@ export const horses: readonly Horse[] = [
     purposes: ["photo"],
     image: "horse-bi",
     focus: "50% 40%",
-  },
-  {
-    key: "bap",
-    name: "Bắp",
-    coat: { from: "#94502f", to: "#5f2f1b", mane: "#17110d" },
-    ink: "light",
-    heightCm: 128,
-    weightKg: 230,
-    born: 2017,
-    sex: "gelding",
-    source: "bavan",
-    purposes: ["family"],
-    image: "horse-bap",
-    focus: "60% 50%",
   },
   {
     key: "bisam",

@@ -87,8 +87,8 @@
       "text": "Cửa hàng mái hiên gỗ với cửa kính lớn, nằm sát quán café. Một điểm dừng để chọn quà mang về sau chuyến đi."
     },
     "costume": {
-      "title": "Costume Rental",
-      "subtitle": "Thuê trang phục cao bồi",
+      "title": "Costume Area",
+      "subtitle": "Khu vực trang phục cao bồi",
       "text": "Gian trang phục ấm áp với giá treo áo da và váy tua rua, bàn trưng bày mũ cao bồi, hàng ủng da phía dưới. Chọn một bộ để hóa thân trước khi ra sân."
     },
     "cafe": {
@@ -149,7 +149,7 @@
       "archery": "Bounty Hunter Archery",
       "photoZone": "Cowboy Town Photo Zone",
       "souvenirs": "Souvenirs & Shopping",
-      "costume": "Costume Rental",
+      "costume": "Costume Area",
       "cafe": "Bách Mã Saloon Café",
       "horseClass": "Horse Basics Class",
       "lasso": "Lasso & Horseshoe Corner",

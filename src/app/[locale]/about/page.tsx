@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { hasLocale, useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { AboutHero, AboutName, AboutTeam } from "@/components/sections/about/AboutSections";
+import { AboutHero, AboutName, AboutStory, AboutTeam } from "@/components/sections/about/AboutSections";
 import { PageCta } from "@/components/ui/PageCta";
 import { bookingHref } from "@/data/navigation";
 import { routing } from "@/i18n/routing";
@@ -26,6 +26,7 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
   return (
     <>
       <AboutHero />
+      <AboutStory />
       <AboutName />
       <AboutTeam />
       <AboutCta />

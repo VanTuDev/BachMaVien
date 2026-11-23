@@ -3,7 +3,7 @@
     "eyebrow": "Our horses",
     "title": "Meet the herd",
     "accent": "of Bách Mã Viên",
-    "lead": "10 Vietnamese horses, each with their own temperament and role."
+    "lead": "8 Vietnamese horses, each with their own temperament and role."
   },
   "mascot": {
     "eyebrow": "Mascot",
@@ -83,17 +83,6 @@
       "suitable": "First-timers, older guests, and children.",
       "breedDetail": "Ngua Ta (Vietnamese native horse), a domestic horse from the northern midlands of Vietnam"
     },
-    "bach": {
-      "breed": "Bac Ha horse",
-      "tagline": "Agile, enduring and used to trails.",
-      "color": "Dark bay (reddish brown). Black mane, tail, and legs.",
-      "appearance": "Compact and lean, with straight, sturdy legs and hard hooves. This is the typical build of a mountain pack horse.",
-      "temperament": "Agile and enduring, and she follows the herd well. She is obedient with people she knows but slightly wary of strangers at first.",
-      "health": "Rarely sick. She tolerates heat and hardship well and climbs slopes strongly.",
-      "training": "Skilled at walk and trot, and used to trails and rough terrain.",
-      "role": "Free riding in the practice ring for guests who have completed the basic instruction, accompanied by an instructor.",
-      "suitable": "Adult guests and guests who have ridden before."
-    },
     "bin": {
       "breed": "Bac Ha horse",
       "tagline": "Young, energetic, the star of the farm's TikTok/Reels.",
@@ -131,18 +120,6 @@
       "role": "The farm's specialist for galloping videos (slow-motion) and cowboy-concept photos. Bi is also used for experience rides and trekking.",
       "suitable": "Adult guests, groups of young friends, and commercial shoots.",
       "breedDetail": "Bac Ha horse (also called the Mong horse), a native breed of Vietnam’s northwest"
-    },
-    "bap": {
-      "breed": "Bac Ha horse (Mong horse)",
-      "tagline": "Lively, loves children, the family favorite.",
-      "color": "Bay (reddish brown). Black mane and tail, with black legs from the knees down.",
-      "marks": "A long black mane that falls to one side, and a dark mark on the forehead.",
-      "appearance": "Compact body, straight back, sturdy legs, and hard hooves. This is the typical build of a mountain pack horse.",
-      "temperament": "Lively and intelligent, and especially fond of children. Loyal and resilient, with strong survival instincts.",
-      "health": "Tolerates frost and harsh climates well, and adapts quickly to the hot sun of central Vietnam.",
-      "training": "Very well-trained, used to being led by a handler and to following the herd.",
-      "role": "Horse for children and families. Bap takes part in school visit programs, feeding, and grooming activities.",
-      "suitable": "Children, families, and school groups."
     },
     "bisam": {
       "breed": "Bac Ha horse (Lao Cai)",

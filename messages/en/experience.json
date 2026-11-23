@@ -87,8 +87,8 @@
       "text": "A timber-porch shop with large glass windows, right beside the café. A place to pick out something to take home after your visit."
     },
     "costume": {
-      "title": "Costume Rental",
-      "subtitle": "Cowboy outfit rental",
+      "title": "Costume Area",
+      "subtitle": "Cowboy costume area",
       "text": "A warm fitting room with racks of leather jackets and fringed skirts, a display table of cowboy hats and a row of leather boots below. Choose an outfit before heading to the arena."
     },
     "cafe": {
@@ -149,7 +149,7 @@
       "archery": "Bounty Hunter Archery",
       "photoZone": "Cowboy Town Photo Zone",
       "souvenirs": "Souvenirs & Shopping",
-      "costume": "Costume Rental",
+      "costume": "Costume Area",
       "cafe": "Bách Mã Saloon Café",
       "horseClass": "Horse Basics Class",
       "lasso": "Lasso & Horseshoe Corner",

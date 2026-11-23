@@ -279,11 +279,6 @@
     "width": 600,
     "height": 503
   },
-  "horse-bach": {
-    "src": "/images/horse-bach.jpg",
-    "width": 960,
-    "height": 720
-  },
   "horse-bin": {
     "src": "/images/horse-bin.jpg",
     "width": 1024,
@@ -296,11 +291,6 @@
   },
   "horse-bi": {
     "src": "/images/horse-bi.jpg",
-    "width": 1000,
-    "height": 1000
-  },
-  "horse-bap": {
-    "src": "/images/horse-bap.jpg",
     "width": 1000,
     "height": 1000
   },

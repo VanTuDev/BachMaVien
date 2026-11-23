@@ -11,7 +11,7 @@
   },
   "services": {
     "title": "Ticket prices and services",
-    "description": "3 tickets at Bách Mã Viên: Visit the Farm 199,000 VND, Cowboy Package 399,000 VND, Real Cowboy Package 539,000 VND. Open 08:00 – 19:00, closed Mondays."
+    "description": "3 tickets at Bách Mã Viên: Visit the Farm 199,000 VND, Cowboy Package 439,000 VND, Real Cowboy Package 579,000 VND. Open 08:00 – 19:00, closed Mondays."
   },
   "menu": {
     "title": "Bách Mã Café Menu and Western Refreshments",
@@ -27,6 +27,6 @@
   },
   "horses": {
     "title": "Meet the horses of Bách Mã Viên",
-    "description": "Meet the 10 Vietnamese horses of Bách Mã Viên: Bông, Bơ, Bách, Bin, Bo, Bi, Bắp, Bí, Bún and Bao. Their temperaments, roles and which horse suits you."
+    "description": "Meet the 8 Vietnamese horses of Bách Mã Viên: Bông, Bơ, Bin, Bo, Bi, Bí, Bún and Bao. Their temperaments, roles and which horse suits you."
   }
 }

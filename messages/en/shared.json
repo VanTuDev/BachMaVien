@@ -12,12 +12,12 @@
       "realCowboy": "Real Cowboy Package"
     },
     "include": {
-      "guide": "Guided tour of the ranch (no horse riding)",
+      "explore": "Guests may explore the entire Bach Ma Vien farm on their own (horseback riding not included)",
       "drink": "1 drink at Bach Ma Saloon Café",
       "intro": "Short “Meet the Horses” intro class",
       "wagon": "Wagon ride around the ranch (1 lap)",
       "lasso": "Horseshoe tossing and rope-tying lesson",
-      "costume": "Cowboy costume rental",
+      "costume": "Cowboy costume area",
       "ride30": "30-minute horse ride, private 1-on-1 instructor (age 5+)",
       "ride40": "40-minute horse ride, private 1-on-1 instructor (age 5+)",
       "archery": "“Bounty Hunter” archery, 30 minutes"
@@ -31,7 +31,7 @@
     "wagon": "Wagon Ride",
     "archery": "Bounty Hunter Archery",
     "lasso": "Lasso and Horseshoe Corner",
-    "costume": "Costume Rental and Changing Room",
+    "costume": "Costume Area and Changing Room",
     "cafe": "Bach Ma Saloon Café",
     "souvenirs": "Souvenirs and Shopping",
     "photo": "Cowboy Town Photo Zone",

@@ -12,12 +12,12 @@
       "realCowboy": "Gói Cao bồi Thực thụ"
     },
     "include": {
-      "guide": "Tham quan có hướng dẫn viên (không cưỡi ngựa)",
+      "explore": "Du khách có thể tự mình khám phá toàn bộ trang trại Bách Mã Viên (không bao gồm hoạt động cưỡi ngựa)",
       "drink": "1 đồ uống tại Bách Mã Café",
       "intro": "Lớp làm quen “Gặp gỡ những chú ngựa”",
       "wagon": "Đi xe ngựa kéo 1 vòng quanh trang trại",
       "lasso": "Học ném móng ngựa và thắt dây thừng",
-      "costume": "Thuê trang phục cao bồi",
+      "costume": "Khu vực trang phục cao bồi",
       "ride30": "Cưỡi ngựa 30 phút, huấn luyện viên kèm 1-1 (trên 5 tuổi)",
       "ride40": "Cưỡi ngựa 40 phút, huấn luyện viên kèm 1-1 (trên 5 tuổi)",
       "archery": "Bắn cung “Thợ săn tiền thưởng” 30 phút"
@@ -31,7 +31,7 @@
     "wagon": "Xe ngựa kéo",
     "archery": "Bắn cung Thợ săn tiền thưởng",
     "lasso": "Lasso và ném móng ngựa",
-    "costume": "Thuê trang phục và phòng thử đồ",
+    "costume": "Khu vực trang phục và phòng thử đồ",
     "cafe": "Bách Mã Café phong cách Saloon",
     "souvenirs": "Lưu niệm và mua sắm",
     "photo": "Khu chụp ảnh Cowboy Town",

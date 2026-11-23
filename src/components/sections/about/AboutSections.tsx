@@ -46,6 +46,22 @@ function AboutFacts() {
   );
 }
 
+/** The ranch story: an invitation paragraph and the slogan as a closing line. */
+export function AboutStory() {
+  const t = useTranslations("about.story");
+
+  return (
+    <Section tone="mid" labelledBy="about-story-title">
+      <div className="mx-auto flex max-w-3xl flex-col gap-6 text-center">
+        <p className="type-lead text-muted">{t("text")}</p>
+        <h2 id="about-story-title" className="type-headline-sm text-chestnut">
+          {t("closing")}
+        </h2>
+      </div>
+    </Section>
+  );
+}
+
 /** The two halves of the brand name, with the original brand artwork shown once. */
 export function AboutName() {
   const t = useTranslations("about.name");
